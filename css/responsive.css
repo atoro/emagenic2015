@@ -1,5 +1,15 @@
 @media only screen and (min-width: 768px) { 
 	
+	#contacto .formulario {
+		width: 40%;
+		float: left;
+		display: block;
+	}
+	#contacto .mapa {
+		width: 60%;
+		float: left;
+		display: block;
+	}
 	.crear .web {	
 		width: 60%; 
 		margin: 0;

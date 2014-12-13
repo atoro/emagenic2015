@@ -12,8 +12,12 @@ header {
 	position: fixed;
 	background: white;
 	width: 100%;
-	top:0;
+	top: 0;
 	height: 60px;
+}
+#contacto .formulario {
+	background: #222b31;
+	height: 650px;
 }
 .crear {
 	background-attachment: fixed;
