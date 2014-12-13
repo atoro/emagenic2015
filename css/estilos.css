@@ -7,13 +7,20 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
+footer {
+	background: #222b31;
+	height: 450px;
+	display: block;
+	float: left;
+	width: 100%;
+}
 header {
 	background: white;
-	position: fixed;
 	background: white;
-	width: 100%;
-	top: 0;
 	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 #contacto .formulario {
 	background: #222b31;
@@ -28,6 +35,7 @@ header {
   	-o-background-size: cover;
   	-webkit-background-size: cover;
   	width: 100%;
+  	background-position: center;
 }
 .crear .web {
 	background-attachment: fixed;
@@ -40,6 +48,7 @@ header {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	-webkit-background-size: cover;
+  	background-position: center;
 }
 .crear .web h2 {
 	font-size: 30px;
@@ -53,6 +62,13 @@ header {
 	margin: 10px auto;
 	width: 90%;
 	padding-bottom: 10%;
+}
+.pagos {
+	background: white;
+	height: 500px;
+	width: 100%;
+	display: block;
+	float: left;
 }
 .servicios {
 	margin-top: 60px;

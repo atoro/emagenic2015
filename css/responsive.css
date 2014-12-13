@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 1000px) { 
 	
 	#contacto .formulario {
 		width: 40%;
@@ -11,7 +11,7 @@
 		display: block;
 	}
 	.crear .web {	
-		width: 60%; 
+		width:80%; 
 		margin: 0;
 	}
 	.crear .web h2 {
@@ -35,6 +35,13 @@
 		padding-top: 20%;
 	}
 	.servicios .servicio p { 
-		width: 60%;
+		width: 80%;
 	}
 }
+@media only screen and (min-width: 1280px) { 
+
+	.crear .web { 
+		width: 60%;
+	}
+
+} 
