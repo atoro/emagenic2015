@@ -71,7 +71,6 @@ header {
 	float: left;
 }
 .servicios {
-	margin-top: 60px;
 	background: #ff284a;
 	overflow: hidden;
 }
@@ -116,4 +115,15 @@ header {
 	height: 30px;
 	margin: 0 auto 2% auto;
 	width: 33px;
+}
+.slide {
+	background-position: center;
+	margin-top: 60px;
+	width: 100%;
+	height: 670px;
+	background-image: url(../imagenes/slide.jpg); 
+	background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
 }
