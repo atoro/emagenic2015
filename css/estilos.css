@@ -1,0 +1,57 @@
+body {
+	color: #222b31;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+header {
+	background: white;
+}
+.crear {
+	background: white;
+}
+.servicios {
+	overflow: hidden;
+	background: #ff284a;
+}
+.servicios .servicio {
+	background: #222b31;
+	border-bottom: 1px solid #2b353b;
+	color: white;
+	display: block;
+	float: left;
+	padding: 3% 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+.servicios .servicio:hover {
+	background: #1f2326;
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+.servicios .servicio h2 {
+	color: #ff284a;
+	font-size: 18px;
+	font-weight: 400;
+}
+.servicios .servicio p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 23px;
+	margin: 10px auto;
+	width: 90%;
+}
+.servicios .servicio .vermas,
+.servicios .servicio .vermas img {
+	height: 30px;
+	margin: 0 auto 2% auto;
+	width: 33px;
+}
