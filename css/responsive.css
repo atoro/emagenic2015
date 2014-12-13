@@ -1,23 +1,25 @@
 @media only screen and (min-width: 768px) { 
-
+	
+	.crear .web {	
+		width: 60%; 
+		margin: 0;
+	}
+	.crear .web h2 {
+		padding-top: 5%;
+	}
+	.crear .web p {	
+		padding-bottom: 5%;
+		width: 70%;
+	}
 	.servicios .servicio {
 		width: 20%;	
 		padding: 0;
 		height: 350px;
-		-webkit-transition: all 0.1s ease-in;
-    	-moz-transition: all 0.1s ease-in;
-    	-ms-transition: all 0.1s ease-in;
-    	-o-transition: all 0.1s ease-in;
-    	transition: all 0.1s ease-in;
+		border-bottom: none;
 	}
 	.servicios .servicio:hover {
 		background: #1f2326;
 		margin-top: -10px;
-		-webkit-transition: all 0.1s ease-in;
-    	-moz-transition: all 0.1s ease-in;
-    	-ms-transition: all 0.1s ease-in;
-    	-o-transition: all 0.1s ease-in;
-    	transition: all 0.1s ease-in;
 	}
 	.servicios .servicio h2 {
 		padding-top: 20%;
