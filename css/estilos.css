@@ -9,10 +9,131 @@ body {
 }
 footer {
 	background: #222b31;
-	height: 450px;
+	padding: 60px 0;
 	display: block;
 	float: left;
 	width: 100%;
+}
+footer .centro_footer {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+footer .centro_footer .contacto_emagenic {
+	color: white;
+	margin: 30px 0;
+}
+footer .centro_footer .contacto_emagenic p {
+	margin: 0;
+	line-height: 23px;
+	font-weight: 300;
+}
+footer .centro_footer .menu_footer {
+	margin: 0;
+	padding: 0;
+}
+footer .centro_footer .menu_footer li {
+	font-size: 18px;
+	font-weight: 300;
+	list-style: none;
+	text-align: center;
+	border-bottom: solid 1px #2b353b;
+	padding: 10px 0;
+}
+footer .centro_footer .menu_footer li a { 
+	color: #ff284a;
+	text-decoration: none;
+	text-align: center;
+}
+footer .centro_footer .pie {
+	color: white;
+	font-weight: 300;
+	line-height: 23px;
+}
+footer .centro_footer .social {
+	margin: 30px 0;
+}
+footer .centro_footer .social a {
+	color: #222b31;
+}
+footer .centro_footer .social .blogger,
+footer .centro_footer .social .blogger:hover,
+footer .centro_footer .social .facebook, 
+footer .centro_footer .social .facebook:hover,
+footer .centro_footer .social .google,
+footer .centro_footer .social .google:hover,
+footer .centro_footer .social .linkein,
+footer .centro_footer .social .linkein:hover,
+footer .centro_footer .social .skype,
+footer .centro_footer .social .skype:hover,
+footer .centro_footer .social .twitter,
+footer .centro_footer .social .twitter:hover,
+footer .centro_footer .social .youtube,
+footer .centro_footer .social .youtube:hover {
+	display: inline-block;
+	height: 25px;
+	margin: 0 5px;
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+footer .centro_footer .social .blogger {
+	background: url(../imagenes/social/blogger.png);
+	width: 26px;
+}
+footer .centro_footer .social .blogger:hover {
+	background: url(../imagenes/social/blogger_hover.png);
+	width: 26px;
+}
+footer .centro_footer .social .facebook { 
+	background: url(../imagenes/social/facebook.png);
+	width: 15px;
+}
+footer .centro_footer .social .facebook:hover { 
+	background: url(../imagenes/social/facebook_hover.png);
+	width: 15px;
+}
+footer .centro_footer .social .google { 
+	background: url(../imagenes/social/google.png);
+	width: 26px;
+}
+footer .centro_footer .social .google:hover { 
+	background: url(../imagenes/social/google_hover.png);
+	width: 26px;
+}
+footer .centro_footer .social .linkein { 
+	background: url(../imagenes/social/linkein.png);
+	width: 28px;
+}
+footer .centro_footer .social .linkein:hover { 
+	background: url(../imagenes/social/linkein_hover.png);
+	width: 28px;
+}
+footer .centro_footer .social .skype { 
+	background: url(../imagenes/social/skype.png);
+	width: 27px;
+}
+footer .centro_footer .social .skype:hover { 
+	background: url(../imagenes/social/skype_hover.png);
+	width: 27px;
+}
+footer .centro_footer .social .twitter { 
+	background: url(../imagenes/social/twitter.png);
+	width: 32px;
+}
+footer .centro_footer .social .twitter:hover { 
+	background: url(../imagenes/social/twitter_hover.png);
+	width: 32px;
+}
+footer .centro_footer .social .youtube {
+	background: url(../imagenes/social/youtube.png);
+	width: 22px;
+}
+footer .centro_footer .social .youtube:hover {
+	background: url(../imagenes/social/youtube_hover.png);
+	width: 22px;
 }
 header {
 	background: white;
@@ -24,7 +145,68 @@ header {
 }
 #contacto .formulario {
 	background: #222b31;
-	height: 650px;
+	height: 700px;
+}
+#contacto .formulario form {
+	width: 90%;
+	margin: 0 auto;
+}
+#contacto .formulario form .enviar:focus,
+#contacto .formulario form .input:focus,
+#contacto .formulario form .mensaje:focus {
+    border-color: transparent;
+    outline: transparent;
+}
+#contacto .formulario form .enviar {
+	background: #ff284a;
+	border: none;
+	color: white;
+	padding: 15px;
+	width: 120px;
+	margin: 20px auto 0 auto;
+	display: block;
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+#contacto .formulario form .enviar:hover {
+	background: #1f2326;
+	color: #ff284a;
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    border-bottom: solid 5px #ff284a;
+}
+#contacto .formulario form .input {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 25px;
+}
+#contacto .formulario form .mensaje {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 25px 0;
+	height: 100px;
+}
+#contacto .formulario h3 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 60px 0 30px 0;
+	color: #ff284a;
+	text-align: center;
+	margin: 0;
+}
+#contacto .mapa {
+	width: 100%;
+	float: left;
+	display: block;
 }
 .crear {
 	background-attachment: fixed;
@@ -65,10 +247,44 @@ header {
 }
 .pagos {
 	background: white;
-	height: 500px;
 	width: 100%;
 	display: block;
 	float: left;
+	padding: 50px 0;
+}
+.pagos .contenido_pagos {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.pagos .contenido_pagos h3 { 
+	font-size: 30px;
+	font-weight: 300;
+	margin: 0;
+}
+.pagos .contenido_pagos p { 
+	padding: 0;
+}
+.pagos .contenido_pagos .pago {
+	display: block;
+	vertical-align: top;
+	border-top: solid 1px #e6e6e6; 
+	padding: 20px 0;
+}
+.pagos .contenido_pagos .pago .bancoestado {
+	width: 200px;
+}
+.pagos .contenido_pagos .pago .dineromail {
+	width: 200px;
+	display: block;
+	margin: auto;
+}
+.pagos .contenido_pagos .pago p {
+	color: #707980;
+	font-weight: 300;
+}
+.pagos .contenido_pagos .pago .webpay {
+	width: 200px;
 }
 .servicios {
 	background: #ff284a;
@@ -100,8 +316,8 @@ header {
 }
 .servicios .servicio h2 {
 	color: #ff284a;
-	font-size: 18px;
-	font-weight: 400;
+	font-size: 25px;
+	font-weight: 300;
 }
 .servicios .servicio p {
 	font-size: 16px;
