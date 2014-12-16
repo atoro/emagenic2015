@@ -1,26 +1,29 @@
 @media only screen and (min-width: 1000px) { 
 	
 	footer .centro_footer .menu_footer li {
-		display: inline-block;
 		border-bottom: none;
+		display: inline-block;
 		margin: 0 20px;
 	}
+	footer .centro_footer .social a{
+		margin: 30px 10px;
+	} 
 	#contacto .formulario {
-		width: 40%;
-		float: left;
 		display: block;
+		float: left;
+		width: 40%;
 	}
 	#contacto .formulario form {
 		width: 80%;
 	}
 	#contacto .mapa {
-		width: 60%;
-		float: left;
 		display: block;
+		float: left;
+		width: 60%;
 	}
 	.crear .web {	
-		width:80%; 
 		margin: 0;
+		width: 80%; 
 	}
 	.crear .web h2 {
 		padding-top: 5%;
@@ -33,10 +36,10 @@
 		width: 80%;
 	}
 	.pagos .contenido_pagos .pago {
-		display: inline-block;
-		width: 25%;
-		margin: 0 3%; 
 		border-top: none;
+		display: inline-block;
+		margin: 0 3%; 
+		width: 25%;
 	}
 	.pagos .contenido_pagos .pago .bancoestado,
 	.pagos .contenido_pagos .pago .dineromail,
@@ -44,10 +47,10 @@
 		width: 100%;
 	}
 	.servicios .servicio {
-		width: 20%;	
-		padding: 0;
-		height: 350px;
 		border-bottom: none;
+		height: 350px;
+		padding: 0;
+		width: 20%;	
 	}
 	.servicios .servicio:hover {
 		background: #1f2326;
@@ -73,5 +76,7 @@
 	.pagos .contenido_pagos .pago .webpay {
 		width: 250px;
 	}
-
+	.servicios .servicio h2 {
+		font-size: 25px;
+	}
 } 

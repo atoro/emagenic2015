@@ -11,9 +11,24 @@
 	<link rel="shortcut icon" href="imagenes/icon.png">
 </head>
 <body>
-	<header>Header Emagenic</header>
+	<header>
+		<figure class="logo">
+			<a href="http://www.emagenic.cl">
+				<img src="imagenes/logo.png" alt="logo emagenic">
+			</a>
+		</figure>
+		<div class="carro">
+			
+		</div>
+	</header>
 	<section class="slide">
-		slide
+		<div class="texto_slide">
+			<h1>Desarrollamos Sitios Web en Rancagua</h1>
+			<h2>Desarrollo de Sitios Web, a medida, en HTML5 y sin Plantillas desde Rancagua para Chile y el Mundo.</h2>
+			<h3>Contenido Autoadministrable y seguro para garantizar la presecia de su empresa en la web</h3>
+			<p>Vamos a Trabajar Juntos</p>
+			<a href="contacto" class="comencemos">COMENCEMOS</a>
+		</div>
 	</section>
 	<section class="servicios">
 		<a class="servicio" href="desarrolloweb">
@@ -62,7 +77,7 @@
 			</figure>
 		</a>
 	</section>
-	<section class="crear">
+	<section class="crear bounce">
 		<article class="web">
 			<h2>Crear una Página Web</h2>
 			<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo. Estamos ubicados en la sexta region, pero contamos con un sistema de venta y soporte nacional que nos permite atender cualquier requerimiento de otras regiones. <br>
@@ -148,5 +163,35 @@
 			<p class="pie">© 2015 Todos los derechos reservados a Ingenieria y Desarrollo Emagenic Ltda</p>
 		</div>	
 	</footer>
+
+	<!-- Parallax Background -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+	    $(function() {
+	        $.fn.parallax = function(options){
+	            var $$ = $(this);
+	            offset = $$.offset();
+	            var defaults = {
+	                "start": 0,
+	                "stop": offset.top + $$.height(),
+	                "coeff": 0.5
+	            };
+	            var opts = $.extend(defaults, options);
+	            return this.each(function(){
+	                $(window).bind('scroll', function() {
+	                    windowTop = $(window).scrollTop();  
+	                    if((windowTop >= opts.start) && (windowTop <= opts.stop)) {
+	                        newCoord = windowTop * opts.coeff;
+	                         
+	                        $$.css({
+	                            "background-position": "50% "+ newCoord + "px"
+	                        });
+	                    } 
+	                });
+	            });
+	        };
+	        $('.slide').parallax({ "coeff":0.5 });
+	    })
+	</script>
 </body>
 </html>
