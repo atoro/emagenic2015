@@ -13,9 +13,6 @@ footer {
 	float: left;
 	padding: 60px 0 100px 0;
 	width: 100%;
-	position: fixed;
-	bottom: 0;
-	z-index: -1;
 }
 footer .centro_footer {
 	margin: 0 auto;
@@ -284,7 +281,6 @@ header .logo img {
 	padding: 50px 0;
 	width: 100%;
 	margin-top: -5px;
-	margin-bottom: 450px;
 }
 .pagos .contenido_pagos {
 	margin: 0 auto;
@@ -380,9 +376,27 @@ header .logo img {
 .slide .texto_slide {
 	text-align: center;
 	color: white;
-	padding-top: 200px;
+	padding-top: 25%;
 	width: 90%;
 	margin: 0 auto;
+}
+.slide .texto_slide .baja {
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    margin: 50px auto 0 auto;
+    display: block;
+    width: 80px;
+}
+.slide .texto_slide .baja:hover {
+	-webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    margin: 60px auto 0 auto;
 }
 .slide .texto_slide .comencemos {
 	background: #ff284a;
@@ -410,23 +424,32 @@ header .logo img {
     -webkit-transition: all 0.1s ease-in;
 }
 .slide .texto_slide h1 {
-	font-size: 48px;
+	font-size: 30px;
 }
 .slide .texto_slide h2 {
-	font-size: 20px;
+	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
 }
 .slide .texto_slide h3 {
-	font-size: 18px;
-	margin: 5px 0 0 0;
+	font-size: 16px;
+	margin: 20px 0 0 0;
 	font-weight: 300;
 }
 .slide .texto_slide p {
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 20px;
+	margin-top: 50px;
 }
-
+.zclientes {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #ff284a;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px ;
+}
 
 
 
