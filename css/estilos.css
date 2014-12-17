@@ -2,6 +2,9 @@
     background-color: #a3bfc6;
     color: white;
 }
+a {
+	text-decoration: none;
+}
 body {
 	color: #222b31;
 	font-family: 'Raleway', sans-serif;
@@ -331,165 +334,168 @@ header .logo img {
 .pagos .contenido_pagos .pago .webpay {
 	width: 200px;
 }
+
+
+
+
+
 .planes {
 	background: #fff;
+	overflow: hidden; 
+}
+.planes .plan1,
+.planes .plan1responsive,
+.planes .plan2,
+.planes .plan2responsive,
+.planes .plan3,
+.planes .plan3responsive {
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 500px;
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes .plan1:hover,
+.planes .plan1responsive:hover,
+.planes .plan2:hover,
+.planes .plan2responsive:hover,
+.planes .plan3:hover,
+.planes .plan3responsive:hover {
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
 }
 .planes .plan1 {
-	background-attachment: fixed;
-	background-image: url(../imagenes/planes/pla1.jpg); 
+	background-image: url(../imagenes/planes/plan1.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan1 .desenfoque {
-	background-attachment: fixed;
-	background-image: url(../imagenes/planes/pla1_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+.planes .plan1:hover {
+	background-image: url(../imagenes/planes/plan1_desenfoque.jpg); 
+	color: white;
 }
 .planes .plan1responsive {
-	background-attachment: fixed;
 	background-image: url(../imagenes/planes/plan1responsive.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan1responsive .desenfoque {
-	background-attachment: fixed;
+.planes .plan1responsive:hover {
 	background-image: url(../imagenes/planes/plan1responsive_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+	color: white;
 }
 .planes .plan2 {
-	background-attachment: fixed;
 	background-image: url(../imagenes/planes/plan2.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan2 .desenfoque {
-	background-attachment: fixed;
+.planes .plan2:hover {
 	background-image: url(../imagenes/planes/plan2_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+	color: white;
 }
 .planes .plan2responsive {
-	background-attachment: fixed;
 	background-image: url(../imagenes/planes/plan2responsive.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan2responsive .desenfoque {
-	background-attachment: fixed;
+.planes .plan2responsive:hover {
 	background-image: url(../imagenes/planes/plan2responsive_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+	color: white;
 }
 .planes .plan3 {
-	background-attachment: fixed;
 	background-image: url(../imagenes/planes/plan3.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan3 .desenfoque {
-	background-attachment: fixed;
+.planes .plan3:hover {
 	background-image: url(../imagenes/planes/plan3_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+	color: white;
 }
 .planes .plan3responsive {
-	background-attachment: fixed;
 	background-image: url(../imagenes/planes/plan3responsive.jpg); 
 	color: white;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	background-size: cover;
-  	width: 100%;
-  	height: 400px;
 }
-.planes .plan3responsive .desenfoque {
-	background-attachment: fixed;
+.planes .plan3responsive:hover {
 	background-image: url(../imagenes/planes/plan3responsive_desenfoque.jpg); 
-	background-size: cover;
-	border: 0px solid transparent;
-	margin: auto; 
-	text-align: center;
-	width: 90%; 
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	-webkit-background-size: cover;
-  	background-position: center;
-  	height: 400px;
+	color: white;
 }
+.planes .plan1 .contenido,
+.planes .plan1 .nombre,
+.planes .plan1responsive .contenido,
+.planes .plan1responsive .nombre,
+.planes .plan2 .contenido,
+.planes .plan2 .nombre,
+.planes .plan2responsive .contenido,
+.planes .plan2responsive .nombre,
+.planes .plan3 .contenido,
+.planes .plan3 .nombre,
+.planes .plan3responsive .contenido,
+.planes .plan3responsive .nombre {
+	text-align: center;
+}
+.planes .plan1 .contenido p,
+.planes .plan1responsive .contenido p,
+.planes .plan2 .contenido p,
+.planes .plan2responsive .contenido p,
+.planes .plan3 .contenido p,
+.planes .plan3responsive .contenido p {
+	margin: 10px 0;
+	font-weight: 300;
+}
+.planes .plan1 .contenido .vermas,
+.planes .plan1 .contenido .vermas img,
+.planes .plan1responsive .contenido .vermas,
+.planes .plan1responsive .contenido .vermas img,
+.planes .plan2 .contenido .vermas,
+.planes .plan2 .contenido .vermas img,
+.planes .plan2responsive .contenido .vermas,
+.planes .plan2responsive .contenido .vermas img,
+.planes .plan3 .contenido .vermas,
+.planes .plan3 .contenido .vermas img,
+.planes .plan3responsive .contenido .vermas,
+.planes .plan3responsive .contenido .vermas img {
+	height: 30px;
+	margin: 0 auto 2% auto;
+	width: 33px;
+}
+.planes .plan1 .nombre h3,
+.planes .plan1responsive .nombre h3,
+.planes .plan2 .nombre h3,
+.planes .plan2responsive .nombre h3,
+.planes .plan3 .nombre h3,
+.planes .plan3responsive .nombre h3 {
+	margin: 0;
+	padding-top: 50px;
+	font-size: 25px;
+	font-weight: 300;
+}
+.planes .plan1 .nombre .valor,
+.planes .plan1responsive .nombre .valor,
+.planes .plan2 .nombre .valor,
+.planes .plan2responsive .nombre .valor,
+.planes .plan3 .nombre .valor,
+.planes .plan3responsive .nombre .valor  {
+	margin: 0;
+	color: #ff284a;
+	font-size: 25px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .servicios {
 	background: #ff284a;
 	overflow: hidden;

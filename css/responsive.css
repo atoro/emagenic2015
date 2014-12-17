@@ -62,15 +62,28 @@
 	.planes .plan3responsive {
 		width: 50%;
 		float: left;
+		height: 400px;
+		display: block;
 	}
-	.planes .plan1 .desenfoque,
-	.planes .plan1responsive .desenfoque,
-	.planes .plan2 .desenfoque,
-	.planes .plan2responsive .desenfoque,
-	.planes .plan3 .desenfoque,
-	.planes .plan3responsive .desenfoque {
+	.planes .plan1 .contenido,
+	.planes .plan1responsive .contenido,
+	.planes .plan2 .contenido,
+	.planes .plan2responsive .contenido,
+	.planes .plan3 .contenido,
+	.planes .plan3responsive .contenido {
 		width: 50%;
 		float: right;
+		margin-top: 80px;
+	}
+	.planes .plan1 .nombre,
+	.planes .plan1responsive .nombre,
+	.planes .plan2 .nombre,
+	.planes .plan2responsive .nombre,
+	.planes .plan3 .nombre,
+	.planes .plan3responsive .nombre {
+		width: 50%;
+		float: left;
+		margin-top: 100px;
 	}
 	.servicios .servicio {
 		border-bottom: none;
@@ -163,6 +176,22 @@
 	.pagos .contenido_pagos .pago .dineromail,
 	.pagos .contenido_pagos .pago .webpay {
 		width: 250px;
+	}
+	.planes .plan1 .nombre h3,
+	.planes .plan1responsive .nombre h3,
+	.planes .plan2 .nombre h3,
+	.planes .plan2responsive .nombre h3,
+	.planes .plan3 .nombre h3,
+	.planes .plan3responsive .nombre h3 {
+		font-size: 30px;
+	}
+	.planes .plan1 .nombre .valor,
+	.planes .plan1responsive .nombre .valor,
+	.planes .plan2 .nombre .valor,
+	.planes .plan2responsive .nombre .valor,
+	.planes .plan3 .nombre .valor,
+	.planes .plan3responsive .nombre .valor  {
+		font-size: 30px;
 	}
 	.servicios .servicio h2 {
 		font-size: 25px;
