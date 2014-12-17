@@ -27,6 +27,7 @@ footer .centro_footer .contacto_emagenic p {
 	font-weight: 300;
 	line-height: 23px;
 	margin: 0;
+	color: #7a848b;
 }
 footer .centro_footer .menu_footer {
 	margin: 0;
@@ -41,7 +42,7 @@ footer .centro_footer .menu_footer .lipie {
 	text-align: center;
 }
 footer .centro_footer .menu_footer .lipie a { 
-	color: #ff284a;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all 0.1s ease-in;
@@ -51,7 +52,7 @@ footer .centro_footer .menu_footer .lipie a {
     transition: all 0.1s ease-in;
 }
 footer .centro_footer .menu_footer .lipie a:hover { 
-	color: white;
+	color: #ff284a;
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -164,6 +165,13 @@ header .carro {
 	right: 0;
 	top: 0;
 }
+header .carro .numero {
+	color: white;
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	font-size: 14px;
+}
 header .carro .imgcarro {
 	background-image: url(../imagenes/carro.png);
 	width: 60px;
@@ -229,6 +237,7 @@ header .logo img {
 	padding: 25px 0;
 	text-align: center;
 	width: 100%;
+	border: none;
 }
 #contacto .formulario h3 {
 	color: #ff284a;
