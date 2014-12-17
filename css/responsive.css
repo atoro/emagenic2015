@@ -54,6 +54,24 @@
 	.pagos .contenido_pagos .pago .webpay {
 		width: 100%;
 	}
+	.planes .plan1,
+	.planes .plan1responsive,
+	.planes .plan2,
+	.planes .plan2responsive,
+	.planes .plan3,
+	.planes .plan3responsive {
+		width: 50%;
+		float: left;
+	}
+	.planes .plan1 .desenfoque,
+	.planes .plan1responsive .desenfoque,
+	.planes .plan2 .desenfoque,
+	.planes .plan2responsive .desenfoque,
+	.planes .plan3 .desenfoque,
+	.planes .plan3responsive .desenfoque {
+		width: 50%;
+		float: right;
+	}
 	.servicios .servicio {
 		border-bottom: none;
 		height: 350px;
