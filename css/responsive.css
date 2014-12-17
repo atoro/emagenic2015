@@ -5,7 +5,7 @@
 		bottom: 0;
 		z-index: -1;
 	}
-	footer .centro_footer .menu_footer li {
+	footer .centro_footer .menu_footer .lipie {
 		border-bottom: none;
 		display: inline-block;
 		margin: 0 20px;
@@ -121,6 +121,7 @@
 		margin-top: 50px;
 	}
 }
+
 @media only screen and (min-width: 1280px) { 
 
 	#contacto .formulario form {
