@@ -331,6 +331,33 @@ header .logo img {
 .pagos .contenido_pagos .pago .webpay {
 	width: 200px;
 }
+.planes {
+	
+}
+.planes .plan1 {
+	background-attachment: fixed;
+	background-image: url(../imagenes/crear/normal.jpg); 
+	color: white;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+}
+.planes .plan1 .desenfoque {
+	background-attachment: fixed;
+	background-image: url(../imagenes/crear/desenfoque.jpg); 
+	background-size: cover;
+	border: 1px solid transparent;
+	margin: auto; 
+	text-align: center;
+	width: 90%; 
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+}
 .servicios {
 	background: #ff284a;
 	overflow: hidden;
@@ -379,6 +406,12 @@ header .logo img {
 }
 .slide {
 	background-image: url(../imagenes/slide.jpg); 
+}
+.slide_desarrolloweb {
+	background-image: url(../imagenes/slide_desarrolloweb.jpg); 
+}
+.slide,
+.slide_desarrolloweb {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -388,14 +421,16 @@ header .logo img {
   	-o-background-size: cover;
   	-webkit-background-size: cover;
 }
-.slide .texto_slide {
+.slide .texto_slide,
+.slide_desarrolloweb .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
 	width: 90%;
 	margin: 0 auto;
 }
-.slide .texto_slide .baja {
+.slide .texto_slide .baja,
+.slide_desarrolloweb .texto_slide .baja {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -405,7 +440,8 @@ header .logo img {
     display: block;
     width: 80px;
 }
-.slide .texto_slide .baja:hover {
+.slide .texto_slide .baja:hover,
+.slide_desarrolloweb .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -413,7 +449,8 @@ header .logo img {
     transition: all 0.1s ease-in;
     margin: 60px auto 0 auto;
 }
-.slide .texto_slide .comencemos {
+.slide .texto_slide .comencemos,
+.slide_desarrolloweb .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -428,7 +465,8 @@ header .logo img {
     -o-transition: all 0.1s ease-in;
     transition: all 0.1s ease-in;
 }
-.slide .texto_slide .comencemos:hover {
+.slide .texto_slide .comencemos:hover,
+.slide_desarrolloweb .texto_slide .comencemos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -438,23 +476,45 @@ header .logo img {
     -o-transition: all 0.1s ease-in;
     -webkit-transition: all 0.1s ease-in;
 }
-.slide .texto_slide h1 {
+.slide .texto_slide h1,
+.slide_desarrolloweb .texto_slide h1 {
 	font-size: 30px;
 }
-.slide .texto_slide h2 {
+.slide .texto_slide h2,
+.slide_desarrolloweb .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
 }
-.slide .texto_slide h3 {
+.slide .texto_slide h3,
+.slide_desarrolloweb .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
+	line-height: 23px;
 }
-.slide .texto_slide p {
+.slide .texto_slide p,
+.slide_desarrolloweb .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
+}
+.tuplan {
+	width: 100%;
+	background: white;
+	padding: 60px 0;
+}
+.tuplan .contenido_centro {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.tuplan .contenido_centro h3 {
+	font-size: 30px;
+	font-weight: 300;
+}
+.tuplan .contenido_centro p {
+	line-height: 23px;
 }
 .zclientes {
 	position: fixed;
@@ -485,7 +545,7 @@ li a {
 	display:block;
 	height: 60px;
 	line-height: 60px;
-	padding: 0 20px;
+	padding: 0 15px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -526,7 +586,7 @@ input[type=checkbox]:checked ~ #menu {
     display: block;
 }
 
-@media screen and (max-width : 760px) {
+@media screen and (max-width : 1000px) {
 
 	li a {
 		padding: 0;

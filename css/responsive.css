@@ -70,14 +70,16 @@
 	.servicios .servicio p { 
 		width: 80%;
 	}
-	.slide .texto_slide {
+	.slide .texto_slide,
+	.slide_desarrolloweb .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
 		width: 90%;
 		margin: 0 auto;
 	}
-	.slide .texto_slide .comencemos {
+	.slide .texto_slide .comencemos,
+	.slide_desarrolloweb .texto_slide .comencemos {
 		background: #ff284a;
 		border: none;
 		color: white;
@@ -92,7 +94,8 @@
 	    -o-transition: all 0.1s ease-in;
 	    transition: all 0.1s ease-in;
 	}
-	.slide .texto_slide .comencemos:hover {
+	.slide .texto_slide .comencemos:hover,
+	.slide_desarrolloweb .texto_slide .comencemos:hover {
 		background: #1f2326;
 		border-bottom: solid 5px #ff284a;
 		color: #ff284a;
@@ -102,23 +105,31 @@
 	    -o-transition: all 0.1s ease-in;
 	    -webkit-transition: all 0.1s ease-in;
 	}
-	.slide .texto_slide h1 {
+	.slide .texto_slide h1,
+	.slide_desarrolloweb .texto_slide h1 {
 		font-size: 48px;
 	}
-	.slide .texto_slide h2 {
+	.slide .texto_slide h2,
+	.slide_desarrolloweb .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
 	}
-	.slide .texto_slide h3 {
+	.slide .texto_slide h3,
+	.slide_desarrolloweb .texto_slide h3 {
 		font-size: 18px;
-		margin: 5px 0 0 0;
+		margin: 5px auto 0 auto;
 		font-weight: 300;
+		width: 85%;
 	}
-	.slide .texto_slide p {
+	.slide .texto_slide p,
+	.slide_desarrolloweb .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
+	}
+	.tuplan .contenido_centro {
+		width: 80%;
 	}
 }
 
