@@ -1,5 +1,8 @@
 @media only screen and (min-width: 768px) { 
 
+	.portafolio {
+		line-height: 400px;
+	}
 	.portafolio .bloque1,
 	.portafolio .bloque2,
 	.portafolio .bloque3,
@@ -7,11 +10,7 @@
 	.portafolio .bloque5,
 	.portafolio .bloque6,
 	.portafolio .bloque7,
-	.portafolio .bloque8,
-	.portafolio .bloque9,
-	.portafolio .bloque10,
-	.portafolio .bloque11,
-	.portafolio .bloque12 {
+	.portafolio .bloque8 {
 		float: left;
 		height: 300px;
 		width: 50%;
@@ -122,6 +121,9 @@
 		float: left;
 		margin-top: 100px;
 	}
+	.portafolio {
+		line-height: 400px;
+	}
 	.portafolio .bloque1,
 	.portafolio .bloque2,
 	.portafolio .bloque3,
@@ -129,11 +131,7 @@
 	.portafolio .bloque5,
 	.portafolio .bloque6,
 	.portafolio .bloque7,
-	.portafolio .bloque8,
-	.portafolio .bloque9,
-	.portafolio .bloque10,
-	.portafolio .bloque11,
-	.portafolio .bloque12 {
+	.portafolio .bloque8 {
 		float: left;
 		height: 300px;
 		width: 25%;
@@ -278,6 +276,9 @@
 	.planes .plan3responsive .nombre .valor  {
 		font-size: 30px;
 	}
+	.portafolio {
+		line-height: 500px;
+	}
 	.portafolio .bloque1,
 	.portafolio .bloque2,
 	.portafolio .bloque3,
@@ -285,11 +286,7 @@
 	.portafolio .bloque5,
 	.portafolio .bloque6,
 	.portafolio .bloque7,
-	.portafolio .bloque8,
-	.portafolio .bloque9,
-	.portafolio .bloque10,
-	.portafolio .bloque11,
-	.portafolio .bloque12 {
+	.portafolio .bloque8 {
 		height: 400px;
 		width: 25%;
 	}
