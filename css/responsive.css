@@ -1,3 +1,22 @@
+@media only screen and (min-width: 768px) { 
+
+	.portafolio .bloque1,
+	.portafolio .bloque2,
+	.portafolio .bloque3,
+	.portafolio .bloque4,
+	.portafolio .bloque5,
+	.portafolio .bloque6,
+	.portafolio .bloque7,
+	.portafolio .bloque8,
+	.portafolio .bloque9,
+	.portafolio .bloque10,
+	.portafolio .bloque11,
+	.portafolio .bloque12 {
+		float: left;
+		height: 300px;
+		width: 50%;
+	}
+} 
 @media only screen and (min-width: 1000px) { 
 	
 	footer {
@@ -103,6 +122,22 @@
 		float: left;
 		margin-top: 100px;
 	}
+	.portafolio .bloque1,
+	.portafolio .bloque2,
+	.portafolio .bloque3,
+	.portafolio .bloque4,
+	.portafolio .bloque5,
+	.portafolio .bloque6,
+	.portafolio .bloque7,
+	.portafolio .bloque8,
+	.portafolio .bloque9,
+	.portafolio .bloque10,
+	.portafolio .bloque11,
+	.portafolio .bloque12 {
+		float: left;
+		height: 300px;
+		width: 25%;
+	}
 	.servicios .servicio {
 		border-bottom: none;
 		height: 350px;
@@ -123,7 +158,9 @@
 	.slide_desarrolloweb .texto_slide,
 	.slide_plan1 .texto_slide,
 	.slide_plan2 .texto_slide,
-	.slide_plan3 .texto_slide {
+	.slide_plan3 .texto_slide,
+	.slide_frontend .texto_slide,
+	.slide_portafolio .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -161,14 +198,18 @@
 	.slide_desarrolloweb .texto_slide h1,
 	.slide_plan1 .texto_slide h1,
 	.slide_plan2 .texto_slide h1,
-	.slide_plan3 .texto_slide h1 {
+	.slide_plan3 .texto_slide h1,
+	.slide_frontend .texto_slide h1,
+	.slide_portafolio .texto_slide h1 {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
 	.slide_desarrolloweb .texto_slide h2,
 	.slide_plan1 .texto_slide h2,
 	.slide_plan2 .texto_slide h2,
-	.slide_plan3 .texto_slide h2 {
+	.slide_plan3 .texto_slide h2,
+	.slide_frontend .texto_slide h2,
+	.slide_portafolio .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -177,7 +218,9 @@
 	.slide_desarrolloweb .texto_slide h3,
 	.slide_plan1 .texto_slide h3,
 	.slide_plan2 .texto_slide h3,
-	.slide_plan3 .texto_slide h3 {
+	.slide_plan3 .texto_slide h3,
+	.slide_frontend .texto_slide h3,
+	.slide_portafolio .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -187,14 +230,18 @@
 	.slide_desarrolloweb .texto_slide p,
 	.slide_plan1 .texto_slide p,
 	.slide_plan2 .texto_slide p,
-	.slide_plan3 .texto_slide p {
+	.slide_plan3 .texto_slide p,
+	.slide_frontend .texto_slide p,
+	.slide_portafolio .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
 	}
 	.slide_plan1 .texto_slide .vernuestrostrabajos,
 	.slide_plan2 .texto_slide .vernuestrostrabajos,
-	.slide_plan3 .texto_slide .vernuestrostrabajos {
+	.slide_plan3 .texto_slide .vernuestrostrabajos,
+	.slide_frontend .texto_slide .vernuestrostrabajos,
+	.slide_portafolio .texto_slide .vernuestrostrabajos {
 		width: 250px;
 	}
 	.tuplan .contenido_centro {
@@ -230,6 +277,21 @@
 	.planes .plan3 .nombre .valor,
 	.planes .plan3responsive .nombre .valor  {
 		font-size: 30px;
+	}
+	.portafolio .bloque1,
+	.portafolio .bloque2,
+	.portafolio .bloque3,
+	.portafolio .bloque4,
+	.portafolio .bloque5,
+	.portafolio .bloque6,
+	.portafolio .bloque7,
+	.portafolio .bloque8,
+	.portafolio .bloque9,
+	.portafolio .bloque10,
+	.portafolio .bloque11,
+	.portafolio .bloque12 {
+		height: 400px;
+		width: 25%;
 	}
 	.servicios .servicio h2 {
 		font-size: 25px;

@@ -537,6 +537,65 @@ header .logo img {
 	font-size: 25px;
 	padding-bottom: 50px;
 }
+.portafolio .bloque1 {
+	background-image: url(../imagenes/portafolio/1.jpg); 
+}
+.portafolio .bloque2 {
+	background-image: url(../imagenes/portafolio/2.jpg); 
+}
+.portafolio .bloque3 {
+	background-image: url(../imagenes/portafolio/3.jpg); 
+}
+.portafolio .bloque4 {
+	background-image: url(../imagenes/portafolio/4.jpg); 
+}
+.portafolio .bloque5 {
+	background-image: url(../imagenes/portafolio/5.jpg); 
+}
+.portafolio .bloque6 {
+	background-image: url(../imagenes/portafolio/6.jpg); 
+}
+.portafolio .bloque7 {
+	background-image: url(../imagenes/portafolio/7.jpg); 
+}
+.portafolio .bloque8 {
+	background-image: url(../imagenes/portafolio/8.jpg); 
+}
+.portafolio .bloque9 {
+	background-image: url(../imagenes/portafolio/9.jpg); 
+}
+.portafolio .bloque10 {
+	background-image: url(../imagenes/portafolio/10.jpg); 
+}
+.portafolio .bloque11 {
+	background-image: url(../imagenes/portafolio/11.jpg); 
+}
+.portafolio .bloque12 {
+	background-image: url(../imagenes/portafolio/12.jpg); 
+}
+.portafolio {
+	text-align: center;
+}
+.portafolio .bloque1,
+.portafolio .bloque2,
+.portafolio .bloque3,
+.portafolio .bloque4,
+.portafolio .bloque5,
+.portafolio .bloque6,
+.portafolio .bloque7,
+.portafolio .bloque8,
+.portafolio .bloque9,
+.portafolio .bloque10,
+.portafolio .bloque11,
+.portafolio .bloque12 {
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 400px;
+}
 .servicios {
 	background: #ff284a;
 	overflow: hidden;
@@ -589,6 +648,9 @@ header .logo img {
 .slide_desarrolloweb {
 	background-image: url(../imagenes/slide_desarrolloweb.jpg); 
 }
+.slide_frontend {
+	background-image: url(../imagenes/slide_frontend.jpg); 
+}
 .slide_plan1 {
 	background-image: url(../imagenes/slide_plan1.jpg); 
 }
@@ -598,11 +660,16 @@ header .logo img {
 .slide_plan3 {
 	background-image: url(../imagenes/slide_plan3.jpg); 
 }
+.slide_portafolio {
+	background-image: url(../imagenes/slide_portafolio.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
 .slide_plan2,
-.slide_plan3 {
+.slide_plan3,
+.slide_frontend,
+.slide_portafolio {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -616,7 +683,9 @@ header .logo img {
 .slide_desarrolloweb .texto_slide,
 .slide_plan1 .texto_slide,
 .slide_plan2 .texto_slide,
-.slide_plan3 .texto_slide {
+.slide_plan3 .texto_slide,
+.slide_frontend .texto_slide,
+.slide_portafolio .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -627,7 +696,9 @@ header .logo img {
 .slide_desarrolloweb .texto_slide .baja,
 .slide_plan1 .texto_slide .baja,
 .slide_plan2 .texto_slide .baja,
-.slide_plan3 .texto_slide .baja {
+.slide_plan3 .texto_slide .baja,
+.slide_frontend .texto_slide .baja,
+.slide_portafolio .texto_slide .baja {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -641,7 +712,9 @@ header .logo img {
 .slide_desarrolloweb .texto_slide .baja:hover,
 .slide_plan1 .texto_slide .baja:hover,
 .slide_plan2 .texto_slide .baja:hover,
-.slide_plan3 .texto_slide .baja:hover {
+.slide_plan3 .texto_slide .baja:hover,
+.slide_frontend .texto_slide .baja:hover,
+.slide_portafolio .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -680,14 +753,18 @@ header .logo img {
 .slide_desarrolloweb .texto_slide h1,
 .slide_plan1 .texto_slide h1,
 .slide_plan2 .texto_slide h1,
-.slide_plan3 .texto_slide h1 {
+.slide_plan3 .texto_slide h1,
+.slide_frontend .texto_slide h1,
+.slide_portafolio .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
 .slide_desarrolloweb .texto_slide h2,
 .slide_plan1 .texto_slide h2,
 .slide_plan2 .texto_slide h2,
-.slide_plan3 .texto_slide h2 {
+.slide_plan3 .texto_slide h2,
+.slide_frontend .texto_slide h2,
+.slide_portafolio .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -696,7 +773,9 @@ header .logo img {
 .slide_desarrolloweb .texto_slide h3,
 .slide_plan1 .texto_slide h3,
 .slide_plan2 .texto_slide h3,
-.slide_plan3 .texto_slide h3 {
+.slide_plan3 .texto_slide h3,
+.slide_frontend .texto_slide h3,
+.slide_portafolio .texto_slide h3  {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -706,14 +785,18 @@ header .logo img {
 .slide_desarrolloweb .texto_slide p,
 .slide_plan1 .texto_slide p,
 .slide_plan2 .texto_slide p,
-.slide_plan3 .texto_slide p {
+.slide_plan3 .texto_slide p,
+.slide_frontend .texto_slide p,
+.slide_portafolio .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
 }
 .slide_plan1 .texto_slide .vernuestrostrabajos,
 .slide_plan2 .texto_slide .vernuestrostrabajos,
-.slide_plan3 .texto_slide .vernuestrostrabajos {
+.slide_plan3 .texto_slide .vernuestrostrabajos,
+.slide_frontend .texto_slide .vernuestrostrabajos,
+.slide_portafolio .texto_slide .vernuestrostrabajos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -730,7 +813,9 @@ header .logo img {
 }
 .slide_plan1 .texto_slide .vernuestrostrabajos:hover,
 .slide_plan2 .texto_slide .vernuestrostrabajos:hover,
-.slide_plan3 .texto_slide .vernuestrostrabajos:hover {
+.slide_plan3 .texto_slide .vernuestrostrabajos:hover,
+.slide_frontend .texto_slide .vernuestrostrabajos:hover,
+.slide_portafolio .texto_slide .vernuestrostrabajos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
