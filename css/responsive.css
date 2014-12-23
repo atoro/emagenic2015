@@ -159,7 +159,12 @@
 	.slide_plan3 .texto_slide,
 	.slide_frontend .texto_slide,
 	.slide_portafolio .texto_slide,
-	.slide_newsletter .texto_slide {
+	.slide_newsletter .texto_slide,
+	.slide_landingpage .texto_slide,
+	.slide_landingpage1 .texto_slide,
+	.slide_landingpage2 .texto_slide,
+	.slide_landingpage3 .texto_slide,
+	.slide_landingpage4 .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -200,7 +205,12 @@
 	.slide_plan3 .texto_slide h1,
 	.slide_frontend .texto_slide h1,
 	.slide_portafolio .texto_slide h1,
-	.slide_newsletter .texto_slide h1 {
+	.slide_newsletter .texto_slide h1,
+	.slide_landingpage .texto_slide h1,
+	.slide_landingpage1 .texto_slide h1,
+	.slide_landingpage2 .texto_slide h1,
+	.slide_landingpage3 .texto_slide h1,
+	.slide_landingpage4 .texto_slide h1 {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
@@ -210,7 +220,12 @@
 	.slide_plan3 .texto_slide h2,
 	.slide_frontend .texto_slide h2,
 	.slide_portafolio .texto_slide h2,
-	.slide_newsletter .texto_slide h2 {
+	.slide_newsletter .texto_slide h2,
+	.slide_landingpage .texto_slide h2,
+	.slide_landingpage1 .texto_slide h2,
+	.slide_landingpage2 .texto_slide h2,
+	.slide_landingpage3 .texto_slide h2,
+	.slide_landingpage4 .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -222,7 +237,12 @@
 	.slide_plan3 .texto_slide h3,
 	.slide_frontend .texto_slide h3,
 	.slide_portafolio .texto_slide h3,
-	.slide_newsletter .texto_slide h3 {
+	.slide_newsletter .texto_slide h3,
+	.slide_landingpage .texto_slide h3,
+	.slide_landingpage1 .texto_slide h3,
+	.slide_landingpage2 .texto_slide h3,
+	.slide_landingpage3 .texto_slide h3,
+	.slide_landingpage4 .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -235,7 +255,12 @@
 	.slide_plan3 .texto_slide p,
 	.slide_frontend .texto_slide p,
 	.slide_portafolio .texto_slide p,
-	.slide_newsletter .texto_slide p {
+	.slide_newsletter .texto_slide p,
+	.slide_landingpage .texto_slide p,
+	.slide_landingpage1 .texto_slide p,
+	.slide_landingpage2 .texto_slide p,
+	.slide_landingpage3 .texto_slide p,
+	.slide_landingpage4 .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
@@ -245,7 +270,12 @@
 	.slide_plan3 .texto_slide .vernuestrostrabajos,
 	.slide_frontend .texto_slide .vernuestrostrabajos,
 	.slide_portafolio .texto_slide .vernuestrostrabajos,
-	.slide_newsletter .texto_slide .vernuestrostrabajos {
+	.slide_newsletter .texto_slide .vernuestrostrabajos,
+	.slide_landingpage .texto_slide .vernuestrostrabajos,
+	.slide_landingpage1 .texto_slide .vernuestrostrabajos,
+	.slide_landingpage2 .texto_slide .vernuestrostrabajos,
+	.slide_landingpage3 .texto_slide .vernuestrostrabajos,
+	.slide_landingpage4 .texto_slide .vernuestrostrabajos {
 		width: 250px;
 	}
 	.tuplan .contenido_centro {

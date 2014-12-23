@@ -686,6 +686,21 @@ header .logo img {
 .slide_frontend {
 	background-image: url(../imagenes/slide_frontend.jpg); 
 }
+.slide_landingpage {
+	background-image: url(../imagenes/slide_landingpage.jpg); 
+}
+.slide_landingpage1 {
+	background-image: url(../imagenes/slide_landingpage1.jpg); 
+}
+.slide_landingpage2 {
+	background-image: url(../imagenes/slide_landingpage2.jpg); 
+}
+.slide_landingpage3 {
+	background-image: url(../imagenes/slide_landingpage3.jpg); 
+}
+.slide_landingpage4 {
+	background-image: url(../imagenes/slide_landingpage4.jpg); 
+}
 .slide_newsletter {
 	background-image: url(../imagenes/slide_newsletter.jpg); 
 }
@@ -708,7 +723,12 @@ header .logo img {
 .slide_plan3,
 .slide_frontend,
 .slide_portafolio,
-.slide_newsletter {
+.slide_newsletter,
+.slide_landingpage,
+.slide_landingpage1,
+.slide_landingpage2,
+.slide_landingpage3,
+.slide_landingpage4 {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -725,7 +745,12 @@ header .logo img {
 .slide_plan3 .texto_slide,
 .slide_frontend .texto_slide,
 .slide_portafolio .texto_slide,
-.slide_newsletter .texto_slide {
+.slide_newsletter .texto_slide,
+.slide_landingpage .texto_slide,
+.slide_landingpage1 .texto_slide,
+.slide_landingpage2 .texto_slide,
+.slide_landingpage3 .texto_slide,
+.slide_landingpage4 .texto_slide  {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -739,7 +764,12 @@ header .logo img {
 .slide_plan3 .texto_slide .baja,
 .slide_frontend .texto_slide .baja,
 .slide_portafolio .texto_slide .baja,
-.slide_newsletter .texto_slide .baja {
+.slide_newsletter .texto_slide .baja,
+.slide_landingpage .texto_slide .baja,
+.slide_landingpage1 .texto_slide .baja,
+.slide_landingpage2 .texto_slide .baja,
+.slide_landingpage3 .texto_slide .baja,
+.slide_landingpage4 .texto_slide .baja {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -756,7 +786,12 @@ header .logo img {
 .slide_plan3 .texto_slide .baja:hover,
 .slide_frontend .texto_slide .baja:hover,
 .slide_portafolio .texto_slide .baja:hover,
-.slide_newsletter .texto_slide .baja:hover {
+.slide_newsletter .texto_slide .baja:hover,
+.slide_landingpage .texto_slide .baja:hover,
+.slide_landingpage1 .texto_slide .baja:hover,
+.slide_landingpage2 .texto_slide .baja:hover,
+.slide_landingpage3 .texto_slide .baja:hover,
+.slide_landingpage4 .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -798,7 +833,12 @@ header .logo img {
 .slide_plan3 .texto_slide h1,
 .slide_frontend .texto_slide h1,
 .slide_portafolio .texto_slide h1,
-.slide_newsletter .texto_slide h1 {
+.slide_newsletter .texto_slide h1,
+.slide_landingpage .texto_slide h1,
+.slide_landingpage1 .texto_slide h1,
+.slide_landingpage2 .texto_slide h1,
+.slide_landingpage3 .texto_slide h1,
+.slide_landingpage4 .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -808,7 +848,12 @@ header .logo img {
 .slide_plan3 .texto_slide h2,
 .slide_frontend .texto_slide h2,
 .slide_portafolio .texto_slide h2,
-.slide_newsletter .texto_slide h2 {
+.slide_newsletter .texto_slide h2,
+.slide_landingpage .texto_slide h2,
+.slide_landingpage1 .texto_slide h2,
+.slide_landingpage2 .texto_slide h2,
+.slide_landingpage3 .texto_slide h2,
+.slide_landingpage4 .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -820,7 +865,12 @@ header .logo img {
 .slide_plan3 .texto_slide h3,
 .slide_frontend .texto_slide h3,
 .slide_portafolio .texto_slide h3,
-.slide_newsletter .texto_slide h3  {
+.slide_newsletter .texto_slide h3,
+.slide_landingpage .texto_slide h3,
+.slide_landingpage1 .texto_slide h3,
+.slide_landingpage2 .texto_slide h3,
+.slide_landingpage3 .texto_slide h3,
+.slide_landingpage4 .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -833,7 +883,12 @@ header .logo img {
 .slide_plan3 .texto_slide p,
 .slide_frontend .texto_slide p,
 .slide_portafolio .texto_slide p,
-.slide_newsletter .texto_slide p {
+.slide_newsletter .texto_slide p,
+.slide_landingpage .texto_slide p,
+.slide_landingpage1 .texto_slide p,
+.slide_landingpage2 .texto_slide p,
+.slide_landingpage3 .texto_slide p,
+.slide_landingpage4 .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
@@ -843,7 +898,12 @@ header .logo img {
 .slide_plan3 .texto_slide .vernuestrostrabajos,
 .slide_frontend .texto_slide .vernuestrostrabajos,
 .slide_portafolio .texto_slide .vernuestrostrabajos,
-.slide_newsletter .texto_slide .vernuestrostrabajos {
+.slide_newsletter .texto_slide .vernuestrostrabajos,
+.slide_landingpage .texto_slide .vernuestrostrabajos,
+.slide_landingpage1 .texto_slide .vernuestrostrabajos,
+.slide_landingpage2 .texto_slide .vernuestrostrabajos,
+.slide_landingpage3 .texto_slide .vernuestrostrabajos,
+.slide_landingpage4 .texto_slide .vernuestrostrabajos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -863,7 +923,12 @@ header .logo img {
 .slide_plan3 .texto_slide .vernuestrostrabajos:hover,
 .slide_frontend .texto_slide .vernuestrostrabajos:hover,
 .slide_portafolio .texto_slide .vernuestrostrabajos:hover,
-.slide_newsletter .texto_slide .vernuestrostrabajos:hover  {
+.slide_newsletter .texto_slide .vernuestrostrabajos:hover,
+.slide_landingpage .texto_slide .vernuestrostrabajos:hover,
+.slide_landingpage1 .texto_slide .vernuestrostrabajos:hover,
+.slide_landingpage2 .texto_slide .vernuestrostrabajos:hover,
+.slide_landingpage3 .texto_slide .vernuestrostrabajos:hover,
+.slide_landingpage4 .texto_slide .vernuestrostrabajos:hover  {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
