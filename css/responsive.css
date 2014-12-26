@@ -9,7 +9,8 @@
 		float: left;
 		width: 50%;
 	}
-	.carrodecompra .centro_carro .compras .detallecompra {
+	.carrodecompra .centro_carro .compras .detallecompra,
+	.carrodecompra .centro_carro .compras .totalcompra {
 		width: 95%;
 	}
 	.carrodecompra .centro_carro .formulario {
@@ -227,6 +228,26 @@
 	.pagos .contenido_pagos .pago .webpay {
 		width: 100%;
 	}
+	.pagos2 .botonpago1 {
+		margin-top: 67px;
+	}
+	.pagos2 .botonpago2 {
+		margin-top: 66px;
+	}
+	.pagos2 .contenido_pagos {
+		width: 80%;
+	}
+	.pagos2 .contenido_pagos .pago {
+		border-top: none;
+		display: inline-block;
+		margin: 0 3%; 
+		width: 25%;
+	}
+	.pagos2 .contenido_pagos .pago .bancoestado,
+	.pagos2 .contenido_pagos .pago .dineromail,
+	.pagos2 .contenido_pagos .pago .webpay {
+		width: 100%;
+	}
 	.planes .plan1,
 	.planes .plan1responsive,
 	.planes .plan2,
@@ -306,7 +327,14 @@
 	.slide_reseller .texto_slide,
 	.slide_cpanel .texto_slide,
 	.slide_vps .texto_slide,
-	.slide_carro .texto_slide {
+	.slide_carro .texto_slide,
+	.slide_pago .texto_slide,
+	.slide_marketing .texto_slide,
+	.slide_seo .texto_slide,
+	.slide_sem .texto_slide,
+	.slide_socialmedia .texto_slide,
+	.slide_analytics .texto_slide,
+	.slide_webapp .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -319,7 +347,14 @@
 	.slide_reseller .texto_slide .comencemos,
 	.slide_cpanel .texto_slide .comencemos,
 	.slide_vps .texto_slide .comencemos,
-	.slide_carro .texto_slide .comencemos {
+	.slide_carro .texto_slide .comencemos,
+	.slide_pago .texto_slide .comencemos,
+	.slide_marketing .texto_slide .comencemos,
+	.slide_seo .texto_slide .comencemos,
+	.slide_sem .texto_slide .comencemos,
+	.slide_socialmedia .texto_slide .comencemos,
+	.slide_analytics .texto_slide .comencemos,
+	.slide_webapp .texto_slide .comencemos {
 		background: #ff284a;
 		border: none;
 		color: white;
@@ -340,7 +375,14 @@
 	.slide_reseller .texto_slide .comencemos:hover,
 	.slide_cpanel .texto_slide .comencemos:hover,
 	.slide_vps .texto_slide .comencemos:hover,
-	.slide_carro .texto_slide .comencemos:hover {
+	.slide_carro .texto_slide .comencemos:hover,
+	.slide_pago .texto_slide .comencemos:hover,
+	.slide_marketing .texto_slide .comencemos:hover,
+	.slide_seo .texto_slide .comencemos:hover,
+	.slide_sem .texto_slide .comencemos:hover,
+	.slide_socialmedia .texto_slide .comencemos:hover,
+	.slide_analytics .texto_slide .comencemos:hover,
+	.slide_webapp .texto_slide .comencemos:hover {
 		background: #1f2326;
 		border-bottom: solid 5px #ff284a;
 		color: #ff284a;
@@ -367,7 +409,14 @@
 	.slide_reseller .texto_slide h1,
 	.slide_cpanel .texto_slide h1,
 	.slide_vps .texto_slide h1,
-	.slide_carro .texto_slide h1  {
+	.slide_carro .texto_slide h1,
+	.slide_pago .texto_slide h1,
+	.slide_marketing .texto_slide h1,
+	.slide_seo .texto_slide h1,
+	.slide_sem .texto_slide h1,
+	.slide_socialmedia .texto_slide h1,
+	.slide_analytics .texto_slide h1,
+	.slide_webapp .texto_slide h1  {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
@@ -387,7 +436,14 @@
 	.slide_reseller .texto_slide h2,
 	.slide_cpanel .texto_slide h2,
 	.slide_vps .texto_slide h2,
-	.slide_carro .texto_slide h2 {
+	.slide_carro .texto_slide h2,
+	.slide_pago .texto_slide h2,
+	.slide_marketing .texto_slide h2,
+	.slide_seo .texto_slide h2,
+	.slide_sem .texto_slide h2,
+	.slide_socialmedia .texto_slide h2,
+	.slide_analytics .texto_slide h2,
+	.slide_webapp .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -409,7 +465,14 @@
 	.slide_reseller .texto_slide h3,
 	.slide_cpanel .texto_slide h3,
 	.slide_vps .texto_slide h3,
-	.slide_carro .texto_slide h3 {
+	.slide_carro .texto_slide h3,
+	.slide_pago .texto_slide h3,
+	.slide_marketing .texto_slide h3,
+	.slide_seo .texto_slide h3,
+	.slide_sem .texto_slide h3,
+	.slide_socialmedia .texto_slide h3,
+	.slide_analytics .texto_slide h3,
+	.slide_webapp .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -432,7 +495,14 @@
 	.slide_reseller .texto_slide p,
 	.slide_cpanel .texto_slide p,
 	.slide_vps .texto_slide p,
-	.slide_carro .texto_slide p {
+	.slide_carro .texto_slide p,
+	.slide_pago .texto_slide p,
+	.slide_marketing .texto_slide p,
+	.slide_seo .texto_slide p,
+	.slide_sem .texto_slide p,
+	.slide_socialmedia .texto_slide p,
+	.slide_analytics .texto_slide p,
+	.slide_webapp .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
@@ -467,6 +537,11 @@
 	.pagos .contenido_pagos .pago .bancoestado,
 	.pagos .contenido_pagos .pago .dineromail,
 	.pagos .contenido_pagos .pago .webpay {
+		width: 250px;
+	}
+	.pagos2 .contenido_pagos .pago .bancoestado,
+	.pagos2 .contenido_pagos .pago .dineromail,
+	.pagos2 .contenido_pagos .pago .webpay {
 		width: 250px;
 	}
 	.planes .plan1 .nombre h3,

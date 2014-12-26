@@ -159,6 +159,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 999;
 }
 header .carro {
 	width: 60px;
@@ -270,9 +271,20 @@ header .logo img {
 	background: #f5f5f5;
 	border: solid 1px #ccc;
 	margin-bottom: 20px;
+	position: relative;
 }
 .carrodecompra .centro_carro .compras .detallecompra .categoria {
 	padding-left: 20px;
+	margin: 20px 0;
+}
+.carrodecompra .centro_carro .compras .detallecompra .cantidad {
+	width: 30px;
+	padding: 5px;
+	margin-left: 10px;
+}
+.carrodecompra .centro_carro .compras .detallecompra .cantidad:focus {
+	border-color: transparent;
+    outline: transparent;
 }
 .carrodecompra .centro_carro .compras .detallecompra .compra {
 	background: #ff284e; 
@@ -291,6 +303,21 @@ header .logo img {
 .carrodecompra .centro_carro .compras .detallecompra .compra .nombre {
 	margin: 0;
 	padding-left: 20px; 
+}
+.carrodecompra .centro_carro .compras .detallecompra .eliminar {
+	position: absolute;
+	color: #222b31;
+	right: 20px;
+	bottom: 10px;
+	vertical-align: top;
+}
+.carrodecompra .centro_carro .compras .totalcompra {
+	background: #ff284e; 
+	padding: 10px 0;
+	color: white;
+}
+.carrodecompra .centro_carro .compras .totalcompra p {
+	margin-left: 20px;
 }
 .carrodecompra .centro_carro .formulario {
 	background: #f5f5f5;
@@ -515,6 +542,81 @@ header .logo img {
 	font-weight: 300;
 }
 .pagos .contenido_pagos .pago .webpay {
+	width: 200px;
+}
+.pagos2 {
+	background: white;
+	display: block;
+	float: left;
+	padding: 50px 0;
+	width: 100%;
+	margin-top: -5px;
+}
+.pagos2 .botonpago1 {
+	display: block;
+	background: #ff284e;
+	border: none;
+	color: white;
+	width: 100px;
+	padding: 10px 0;
+	margin: 20px auto 0 auto;
+}
+.pagos2 .botonpago2 {
+	display: block;
+	background: #ff284e;
+	border: none;
+	color: white;
+	width: 100px;
+	padding: 10px 0;
+	margin: 20px auto 0 auto;
+}
+.pagos2 .botonpago3 {
+	display: block;
+	background: #ff284e;
+	border: none;
+	color: white;
+	width: 100px;
+	padding: 10px 0;
+	margin: 20px auto 0 auto;
+}
+.pagos2 .botonpago1:focus,
+.pagos2 .botonpago2:focus,
+.pagos2 .botonpago3:focus {
+	border-color: transparent;
+    outline: transparent;
+}
+.pagos2 .contenido_pagos {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+.pagos2 .contenido_pagos h3 { 
+	font-size: 30px;
+	font-weight: 300;
+	margin: 0;
+}
+.pagos2 .contenido_pagos p { 
+	padding: 0;
+}
+.pagos2 .contenido_pagos .pago {
+	border-top: solid 1px #e6e6e6; 
+	display: block;
+	padding: 20px 0;
+	vertical-align: top;
+}
+.pagos2 .contenido_pagos .pago .bancoestado {
+	width: 200px;
+}
+.pagos2 .contenido_pagos .pago .dineromail {
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+.pagos2 .contenido_pagos .pago p {
+	color: #707980;
+	font-weight: 300;
+}
+.pagos2 .contenido_pagos .pago .webpay {
 	width: 200px;
 }
 .planes {
@@ -877,6 +979,27 @@ header .logo img {
 .slide_carro {
 	background-image: url(../imagenes/slide_carro.jpg); 
 }
+.slide_pago {
+	background-image: url(../imagenes/slide_pago.jpg); 
+}
+.slide_marketing {
+	background-image: url(../imagenes/slide_marketing.jpg); 
+}
+.slide_seo {
+	background-image: url(../imagenes/slide_seo.jpg); 
+}
+.slide_sem {
+	background-image: url(../imagenes/slide_sem.jpg); 
+}
+.slide_socialmedia {
+	background-image: url(../imagenes/slide_socialmedia.jpg); 
+}
+.slide_analytics {
+	background-image: url(../imagenes/slide_analytics.jpg); 
+}
+.slide_webapp {
+	background-image: url(../imagenes/slide_webapp.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
@@ -894,7 +1017,14 @@ header .logo img {
 .slide_reseller,
 .slide_cpanel,
 .slide_vps,
-.slide_carro {
+.slide_carro,
+.slide_pago,
+.slide_marketing,
+.slide_seo,
+.slide_sem,
+.slide_socialmedia,
+.slide_analytics,
+.slide_webapp {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -921,7 +1051,14 @@ header .logo img {
 .slide_reseller .texto_slide,
 .slide_cpanel .texto_slide,
 .slide_vps .texto_slide,
-.slide_carro .texto_slide {
+.slide_carro .texto_slide,
+.slide_pago .texto_slide,
+.slide_marketing .texto_slide,
+.slide_seo .texto_slide,
+.slide_sem .texto_slide,
+.slide_socialmedia .texto_slide,
+.slide_analytics .texto_slide,
+.slide_webapp .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -945,7 +1082,14 @@ header .logo img {
 .slide_reseller .texto_slide .baja,
 .slide_cpanel .texto_slide .baja,
 .slide_vps .texto_slide .baja,
-.slide_carro .texto_slide .baja  {
+.slide_carro .texto_slide .baja,
+.slide_pago .texto_slide .baja,
+.slide_marketing .texto_slide .baja,
+.slide_seo .texto_slide .baja,
+.slide_sem .texto_slide .baja,
+.slide_socialmedia .texto_slide .baja,
+.slide_analytics .texto_slide .baja,
+.slide_webapp .texto_slide .baja  {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -972,7 +1116,14 @@ header .logo img {
 .slide_reseller .texto_slide .baja:hover,
 .slide_cpanel .texto_slide .baja:hover,
 .slide_vps .texto_slide .baja:hover,
-.slide_carro .texto_slide .baja:hover {
+.slide_carro .texto_slide .baja:hover,
+.slide_pago .texto_slide .baja:hover,
+.slide_marketing .texto_slide .baja:hover,
+.slide_seo .texto_slide .baja:hover,
+.slide_sem .texto_slide .baja:hover,
+.slide_socialmedia .texto_slide .baja:hover,
+.slide_analytics .texto_slide .baja:hover,
+.slide_webapp .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -986,7 +1137,14 @@ header .logo img {
 .slide_reseller .texto_slide .comencemos,
 .slide_cpanel .texto_slide .comencemos,
 .slide_vps .texto_slide .comencemos,
-.slide_carro .texto_slide .comencemos {
+.slide_carro .texto_slide .comencemos,
+.slide_pago .texto_slide .comencemos,
+.slide_marketing .texto_slide .comencemos,
+.slide_seo .texto_slide .comencemos,
+.slide_sem .texto_slide .comencemos,
+.slide_socialmedia .texto_slide .comencemos,
+.slide_analytics .texto_slide .comencemos,
+.slide_webapp .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -1007,7 +1165,14 @@ header .logo img {
 .slide_reseller .texto_slide .comencemos:hover,
 .slide_cpanel .texto_slide .comencemos:hover,
 .slide_vps .texto_slide .comencemos:hover,
-.slide_carro .texto_slide .comencemos:hover {
+.slide_carro .texto_slide .comencemos:hover,
+.slide_pago .texto_slide .comencemos:hover,
+.slide_marketing .texto_slide .comencemos:hover,
+.slide_seo .texto_slide .comencemos:hover,
+.slide_sem .texto_slide .comencemos:hover,
+.slide_socialmedia .texto_slide .comencemos:hover,
+.slide_analytics .texto_slide .comencemos:hover,
+.slide_webapp .texto_slide .comencemos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -1034,7 +1199,14 @@ header .logo img {
 .slide_reseller .texto_slide h1,
 .slide_cpanel .texto_slide h1,
 .slide_vps .texto_slide h1,
-.slide_carro .texto_slide h1 {
+.slide_carro .texto_slide h1,
+.slide_pago .texto_slide h1,
+.slide_marketing .texto_slide h1,
+.slide_seo .texto_slide h1,
+.slide_sem .texto_slide h1,
+.slide_socialmedia .texto_slide h1,
+.slide_analytics .texto_slide h1,
+.slide_webapp .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -1054,7 +1226,14 @@ header .logo img {
 .slide_reseller .texto_slide h2,
 .slide_cpanel .texto_slide h2,
 .slide_vps .texto_slide h2,
-.slide_carro .texto_slide h2   {
+.slide_carro .texto_slide h2,
+.slide_pago .texto_slide h2,
+.slide_marketing .texto_slide h2,
+.slide_seo .texto_slide h2,
+.slide_sem .texto_slide h2,
+.slide_socialmedia .texto_slide h2,
+.slide_analytics .texto_slide h2,
+.slide_webapp .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -1076,7 +1255,14 @@ header .logo img {
 .slide_reseller .texto_slide h3,
 .slide_cpanel .texto_slide h3,
 .slide_vps .texto_slide h3,
-.slide_carro .texto_slide h3 {
+.slide_carro .texto_slide h3,
+.slide_pago .texto_slide h3,
+.slide_marketing .texto_slide h3,
+.slide_seo .texto_slide h3,
+.slide_sem .texto_slide h3,
+.slide_socialmedia .texto_slide h3,
+.slide_analytics .texto_slide h3,
+.slide_webapp .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -1099,7 +1285,14 @@ header .logo img {
 .slide_reseller .texto_slide p,
 .slide_cpanel .texto_slide p,
 .slide_vps .texto_slide p,
-.slide_carro .texto_slide p {
+.slide_carro .texto_slide p,
+.slide_pago .texto_slide p,
+.slide_marketing .texto_slide p,
+.slide_seo .texto_slide p,
+.slide_sem .texto_slide p,
+.slide_socialmedia .texto_slide p,
+.slide_analytics .texto_slide p,
+.slide_webapp .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
@@ -1159,12 +1352,40 @@ header .logo img {
 	margin: 0 auto;
 	text-align: center;
 }
+.tuplan .contenido_centro .boton {
+	display: block;
+	background: #ff284e;
+	border: none;
+	color: white;
+	width: 200px;
+	padding: 10px 0;
+	margin: 20px auto 0 auto;
+}
+.tuplan .contenido_centro .boton:focus {
+	border-color: transparent;
+    outline: transparent;
+}
 .tuplan .contenido_centro h3 {
 	font-size: 30px;
 	font-weight: 300;
 }
+.tuplan .contenido_centro .h3 {
+	font-size: 30px;
+	font-weight: 300;
+	border-top: solid 1px #ccc;
+	padding-top: 20px;
+}
 .tuplan .contenido_centro p {
 	line-height: 23px;
+}
+.tuplan .contenido_centro .vermasmarketing {
+	background: #ff284a;
+	border: none;
+	color: white;
+	display: block;
+	margin: 20px auto 0 auto;
+	padding: 15px;
+	width: 120px;
 }
 .zclientes {
 	position: fixed;

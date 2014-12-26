@@ -14,14 +14,14 @@
 	<a href="../clientes" class="zclientes">Acceso Clientes</a>
 	<header>
 		<figure class="logo">
-			<a href="http://www.emagenic.cl">
+			<a href="http://www.new.emagenic.cl">
 				<img src="../imagenes/logo.png" alt="logo emagenic">
 			</a>
 		</figure>
 		<label for="show-menu" class="show-menu"><img src="../imagenes/menu.png" alt="icono menu"></label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
-			<li><a href="http://www.emagenic.cl">Inicio</a></li>
+			<li><a href="http://www.new.emagenic.cl">Inicio</a></li>
 			<li><a href="desarrolloweb">Desarrollo Web</a></li>
 			<li><a href="novedades">Novedades</a></li>
 			<li><a href="clientes">Clientes</a></li>
