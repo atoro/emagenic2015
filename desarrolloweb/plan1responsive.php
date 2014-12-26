@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Landing Page - Emagenic Ltda</title>
+	<title>Desarrollo de sitios web Responsive - Plan 1 - Emagenic Ltda</title>
+    <meta name="description" content="Es el plan de sitio web ideal para las pymes, 4 secciones administrables, noticias y zona de contacto, todo responsive y completamente administrable">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_landingpage">
+	<section class="slide_plan1">
 		<div class="texto_slide">
-			<h1>Landing Page</h1>
+			<h1>Plan 1 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,84 +51,35 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Que es una landing page</h3>
-			<p>Una landing page es una pequeña pagina web de una sola sección (sitio de inicio) que esta diseñada para publicitar un producto, servicio, evento, etc. Estas landing page están divididas en secciones, la que contienen información clasificada por características de lo que se quiere publicitar. Muchas veces también incluyen un menú que permite la navegación en esta, subiendo y bajando sin tener que usar el scroll del mouse. Todas nuestras landing page incluyen un formulario de contacto, la idea es que después de que el cliente vea lo que se publicita pueda contactarlo de manera rápida y segura. Finalmente la grafica es muy importante, todos los planes incluyen al menos una imagen y el plan mas avanzado incluye una galería de fotos</p>
+			<h3>El plan 1 responsivo es el plan mas solicitado por los emprendedores que miran a futuro</h3>
+			<p>por que si bien es cierto es un plan 1, el plan mas básico y por lo tanto contiene las secciones justas y necesarias además esta diseñada con tecnología responsiva, es decir, se adapta a todas las resoluciones de los dispositivos de sus clientes, ya sea un celular, Tablet, computador, etc. El plan 1 responsivo promete entregar todas las funciones necesarias para formar parte eficiente en la web, consiguiendo nuevos clientes y entregando la posibilidad de dar a conocer a todo el mundo sus productos y/o servicios.</p>
 		</div>
 	</section>
-	<section class="planes">
-		<a href="landing1.html">
-			<div class="plan1">
-				<div class="nombre">
-					<h3>Landing 1</h3>
-					<p class="valor">$80.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de contenido</p>
-					<p>+ 1 imagen</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+
+	<section class="detalleplan">
+		<div class="web">
+			<div class="bloque">
+				<h3>Secciones de Gama Estándar</h3>
+				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+				Link de interés - Galería de fotos - Galería de vidéos</p>
 			</div>
-		</a>
-		<a href="landing2.html">
-			<div class="plan1responsive">
-				<div class="nombre">
-					<h3>Landing 2</h3>
-					<p class="valor">$100.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 2 Sección de contenido</p>
-					<p>+ 2 imagen</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+			<div class="bloque">
+				<h3>Secciones de Gama Especial</h3>
+				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
 			</div>
-		</a>
-		<a href="landing3.html">
-			<div class="plan2">
-				<div class="nombre">
-					<h3>Landing 3</h3>
-					<p class="valor">$120.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 3 Sección de contenido</p>
-					<p>+ 1 Galería de Imagenes</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+			<div class="bloque">
+				<h3>Clientes Frecuentes</h3>
+				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+				Pymes de comercialización - Bloggers</p>
 			</div>
-		</a>
-		<a href="landing4.html">
-			<div class="plan2responsive">
-				<div class="nombre">
-					<h3>Landing 4</h3>
-					<p class="valor">$140.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de contenido</p>
-					<p>+ 1 imagen</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
+		</div>
+		<div class="valor">
+			<h3>Valor Único: $270.000</h3>
+			<a href="#">AGREGAR AL CARRO</a>
+		</div>
 	</section>
+
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -227,7 +181,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_landingpage').parallax({ "coeff":0.5 });
+	        $('.slide_plan1').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

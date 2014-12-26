@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Landing 1 - Emagenic Ltda</title>
+	<title>Landing page plan 2 - Emagenic Ltda</title>
+    <meta name="description" content="Landing page de 2 secciones, dos imágenes administrable y formulario de contacto que llega a su correo electrónico de forma automatica">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_landingpage1">
+	<section class="slide_landingpage2">
 		<div class="texto_slide">
-			<h1>Sitio Landing page 1</h1>
+			<h1>Sitio Landing page 2</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,10 +51,8 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<p>El landing page 1 es un plan de publicidad basado en un sitio web de una sola sección que contiene un menú de navegación por esta única pagina que permite subir y bajar a las diferentes secciones de esta. <br>
-			<br>
-			Esta pagina cuenta con una sección donde puede explicar de que se trata el productos, servicio o evento que se quiere difundir, complementándola con una imagen y un formulario de contacto que permite a los interesados escribir para solicitar mas información o enviar sus datos para ser contactado.
-			El landong incluye un web hosting de 300 megas por 1 año</p>
+			<p>El landing page 2 es un pequeño sitio web de una sola pagina que contiene dos secciones en donde se puede describir un producto, un servicio, una actividad acompañada de una imagen y en una segunda sección se puede complementar con otra descripción con imagen, un mapa de google o cualquier otro objeto que apoye la descripción de lo que se pretende publicitar.
+			Este landing es manejado por un pequeño menú que facilita la navegación en el y un formulario de contacto</p>
 		</div>
 	</section>
 	<section class="detalleplan">
@@ -62,15 +63,15 @@
 			</div>
 			<div class="bloque">
 				<h3>Quienes Contratan Landing</h3>
-				<p>Empresas - Empredendores - Profesionales - Artistas </p>
+				<p>Pymes - Empredendores con un buen producto - Profesionales - Micro Empresas </p>
 			</div>
 			<div class="bloque">
 				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal</p>
+				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Artista </p>
 			</div>
 		</div>
 		<div class="valor">
-			<h3>Valor Único: $80.000</h3>
+			<h3>Valor Único: $100.000</h3>
 			<a href="#">AGREGAR AL CARRO</a>
 		</div>
 	</section>
@@ -176,7 +177,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_landingpage1').parallax({ "coeff":0.5 });
+	        $('.slide_landingpage2').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

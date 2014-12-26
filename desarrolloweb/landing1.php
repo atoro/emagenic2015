@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo Frontend - Emagenic Ltda</title>
+	<title>Landing page plan 1 - Emagenic Ltda</title>
+    <meta name="description" content="Publicite sus productos o eventos con un landing page, sitio web promocional y este en su versión básica de 1 sección administrable con una imagen">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_frontend">
+	<section class="slide_landingpage1">
 		<div class="texto_slide">
-			<h1>Servicios Frontend</h1>
+			<h1>Sitio Landing page 1</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,12 +51,33 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Desarrollo Frontend</h3>
-			<p>Muchos desarrolladores de aplicaciones web, también conocidos como backend son muy especialistas en sus lenguajes, en seguridad informática y bases de datos pero les falta el toque artístico y el toque de interfaces de usuarios que solo una empresa de diseñadores graficos y frontend puede entregar. <br>
+			<p>El landing page 1 es un plan de publicidad basado en un sitio web de una sola sección que contiene un menú de navegación por esta única pagina que permite subir y bajar a las diferentes secciones de esta. <br>
 			<br>
-			Nosotros desarrollamos una atractiva interfaz para sus aplicaciones y luego la armamos en html5 con toda la tecnología responsiva que css3 puede entregar, de esta manera su sistema no solo es una aplicación completamente funcional, si no que también es atractiva, cómoda de navegar y elástica para que se pueda utilizar desde cualquier dispositivo.</p>
+			Esta pagina cuenta con una sección donde puede explicar de que se trata el productos, servicio o evento que se quiere difundir, complementándola con una imagen y un formulario de contacto que permite a los interesados escribir para solicitar mas información o enviar sus datos para ser contactado.
+			El landong incluye un web hosting de 300 megas por 1 año</p>
 		</div>
 	</section>
+	<section class="detalleplan">
+		<div class="web">
+			<div class="bloque">
+				<h3>Que podria contener el landing</h3>
+				<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+			</div>
+			<div class="bloque">
+				<h3>Quienes Contratan Landing</h3>
+				<p>Empresas - Empredendores - Profesionales - Artistas </p>
+			</div>
+			<div class="bloque">
+				<h3>Tipos de Usos</h3>
+				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal</p>
+			</div>
+		</div>
+		<div class="valor">
+			<h3>Valor Único: $80.000</h3>
+			<a href="#">AGREGAR AL CARRO</a>
+		</div>
+	</section>
+
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -155,7 +179,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_frontend').parallax({ "coeff":0.5 });
+	        $('.slide_landingpage1').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

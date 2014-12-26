@@ -255,6 +255,74 @@ header .logo img {
 	float: left;
 	width: 100%;
 }
+.carrodecompra {
+	padding-bottom: 60px;
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+	display: block;
+}
+.carrodecompra .centro_carro {
+	width: 90%;
+	margin: 0 auto;
+}
+.carrodecompra .centro_carro .compras .detallecompra {
+	background: #f5f5f5;
+	border: solid 1px #ccc;
+	margin-bottom: 20px;
+}
+.carrodecompra .centro_carro .compras .detallecompra .categoria {
+	padding-left: 20px;
+}
+.carrodecompra .centro_carro .compras .detallecompra .compra {
+	background: #ff284e; 
+	padding: 20px 0;
+	color: white;
+	font-size: 18px;
+	position: relative;
+}
+.carrodecompra .centro_carro .compras .detallecompra .compra img {
+	width: 32px;
+	height: 26px;
+	position: absolute;
+	right: 20px;
+	top: 18px;
+}
+.carrodecompra .centro_carro .compras .detallecompra .compra .nombre {
+	margin: 0;
+	padding-left: 20px; 
+}
+.carrodecompra .centro_carro .formulario {
+	background: #f5f5f5;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario form .enviar {
+	background: #ff284a;
+	border: none;
+	color: white;
+	display: block;
+	margin: 20px auto 60px auto;
+	padding: 15px;
+	width: 120px;
+}
+.carrodecompra .centro_carro .formulario form .input {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 80%;
+}
+.carrodecompra .centro_carro .formulario form .input:focus,
+.carrodecompra .centro_carro .formulario form .enviar:focus {
+	border-color: transparent;
+    outline: transparent;
+}
+.carrodecompra .centro_carro .formulario h3 {
+	font-size: 24px;
+	padding: 20px 0;
+	font-weight: 300;
+}
 .crear {
 	background-attachment: fixed;
 	background-image: url(../imagenes/crear/normal.jpg); 
@@ -350,6 +418,62 @@ header .logo img {
 	margin: 10px auto;
 	padding-bottom: 20%;
 	width: 90%;
+}
+
+.hosting {
+	background: white;
+}
+.hosting_movil {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.hosting_movil .grilla_contenido_movil {
+    padding: 20px 10px;
+    background-color: #f5f5f5;
+    border-bottom: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+.hosting_movil .grilla_contenido_movil a {
+    color: white;
+    background-color: #FF284E;
+    width: 100px;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.hosting_movil .grilla_contenido_movil .nombre_movil {
+    border-right: solid 1px #ccc;
+    padding: 0;
+}
+.hosting_movil .grilla_contenido_movil .estado_movil {
+    padding: 0 0 0 10px;
+}
+.hosting_movil .grilla_contenido_movil .nombre_movil,
+.hosting_movil .grilla_contenido_movil .estado_movil {
+    width: 45%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.hosting_movil .grilla_titulo_movil {
+    color: white;
+    background-color: #FF284E;
+    padding: 20px 10px;
+}
+.hosting_movil .plan_movil {
+    color: white;
+    border: solid 1px #222b31;
+    padding: 20px 10px;
+    background-color: #222b31;
+}
+.hosting_movil .sep_movil {
+    padding: 20px 10px;
+    background-color: #ccc;
+}
+#info_hosting {
+	display: none;
 }
 .pagos {
 	background: white;
@@ -490,6 +614,18 @@ header .logo img {
 .planes .plan3responsive .nombre {
 	text-align: center;
 }
+.planes .plan1 .contenido .contratar,
+.planes .plan1responsive .contenido .contratar,
+.planes .plan2 .contenido .contratar,
+.planes .plan2responsive .contenido .contratar,
+.planes .plan3 .contenido .contratar,
+.planes .plan3responsive .contenido .contratar {
+	background: #ff284a;
+	font-weight: 300;
+	width: 120px;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+}
 .planes .plan1 .contenido p,
 .planes .plan1responsive .contenido p,
 .planes .plan2 .contenido p,
@@ -536,6 +672,16 @@ header .logo img {
 	color: #ff284a;
 	font-size: 25px;
 	padding-bottom: 50px;
+}
+.planes .plan1 .nombre strong,
+.planes .plan1responsive .nombre strong,
+.planes .plan2 .nombre strong,
+.planes .plan2responsive .nombre strong,
+.planes .plan3 .nombre strong,
+.planes .plan3responsive .nombre strong  {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
 }
 .portafolio .bloque1 {
 	background-image: url(../imagenes/portafolio/1.jpg); 
@@ -716,6 +862,21 @@ header .logo img {
 .slide_portafolio {
 	background-image: url(../imagenes/slide_portafolio.jpg); 
 }
+.slide_hosting {
+	background-image: url(../imagenes/slide_hosting.jpg); 
+}
+.slide_reseller {
+	background-image: url(../imagenes/slide_reseller.jpg); 
+}
+.slide_cpanel {
+	background-image: url(../imagenes/slide_cpanel.jpg); 
+}
+.slide_vps {
+	background-image: url(../imagenes/slide_vps.jpg); 
+}
+.slide_carro {
+	background-image: url(../imagenes/slide_carro.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
@@ -728,7 +889,12 @@ header .logo img {
 .slide_landingpage1,
 .slide_landingpage2,
 .slide_landingpage3,
-.slide_landingpage4 {
+.slide_landingpage4,
+.slide_hosting,
+.slide_reseller,
+.slide_cpanel,
+.slide_vps,
+.slide_carro {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -750,7 +916,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide,
 .slide_landingpage2 .texto_slide,
 .slide_landingpage3 .texto_slide,
-.slide_landingpage4 .texto_slide  {
+.slide_landingpage4 .texto_slide,
+.slide_hosting .texto_slide,
+.slide_reseller .texto_slide,
+.slide_cpanel .texto_slide,
+.slide_vps .texto_slide,
+.slide_carro .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -769,7 +940,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide .baja,
 .slide_landingpage2 .texto_slide .baja,
 .slide_landingpage3 .texto_slide .baja,
-.slide_landingpage4 .texto_slide .baja {
+.slide_landingpage4 .texto_slide .baja,
+.slide_hosting .texto_slide .baja, 
+.slide_reseller .texto_slide .baja,
+.slide_cpanel .texto_slide .baja,
+.slide_vps .texto_slide .baja,
+.slide_carro .texto_slide .baja  {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -791,7 +967,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide .baja:hover,
 .slide_landingpage2 .texto_slide .baja:hover,
 .slide_landingpage3 .texto_slide .baja:hover,
-.slide_landingpage4 .texto_slide .baja:hover {
+.slide_landingpage4 .texto_slide .baja:hover,
+.slide_hosting .texto_slide .baja:hover,
+.slide_reseller .texto_slide .baja:hover,
+.slide_cpanel .texto_slide .baja:hover,
+.slide_vps .texto_slide .baja:hover,
+.slide_carro .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -800,7 +981,12 @@ header .logo img {
     margin: 60px auto 0 auto;
 }
 .slide .texto_slide .comencemos,
-.slide_desarrolloweb .texto_slide .comencemos {
+.slide_desarrolloweb .texto_slide .comencemos,
+.slide_hosting .texto_slide .comencemos,
+.slide_reseller .texto_slide .comencemos,
+.slide_cpanel .texto_slide .comencemos,
+.slide_vps .texto_slide .comencemos,
+.slide_carro .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -816,7 +1002,12 @@ header .logo img {
     transition: all 0.1s ease-in;
 }
 .slide .texto_slide .comencemos:hover,
-.slide_desarrolloweb .texto_slide .comencemos:hover {
+.slide_desarrolloweb .texto_slide .comencemos:hover,
+.slide_hosting .texto_slide .comencemos:hover,
+.slide_reseller .texto_slide .comencemos:hover,
+.slide_cpanel .texto_slide .comencemos:hover,
+.slide_vps .texto_slide .comencemos:hover,
+.slide_carro .texto_slide .comencemos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -838,7 +1029,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide h1,
 .slide_landingpage2 .texto_slide h1,
 .slide_landingpage3 .texto_slide h1,
-.slide_landingpage4 .texto_slide h1 {
+.slide_landingpage4 .texto_slide h1,
+.slide_hosting .texto_slide h1,
+.slide_reseller .texto_slide h1,
+.slide_cpanel .texto_slide h1,
+.slide_vps .texto_slide h1,
+.slide_carro .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -853,7 +1049,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide h2,
 .slide_landingpage2 .texto_slide h2,
 .slide_landingpage3 .texto_slide h2,
-.slide_landingpage4 .texto_slide h2 {
+.slide_landingpage4 .texto_slide h2,
+.slide_hosting .texto_slide h2,
+.slide_reseller .texto_slide h2,
+.slide_cpanel .texto_slide h2,
+.slide_vps .texto_slide h2,
+.slide_carro .texto_slide h2   {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -870,7 +1071,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide h3,
 .slide_landingpage2 .texto_slide h3,
 .slide_landingpage3 .texto_slide h3,
-.slide_landingpage4 .texto_slide h3 {
+.slide_landingpage4 .texto_slide h3,
+.slide_hosting .texto_slide h3,
+.slide_reseller .texto_slide h3,
+.slide_cpanel .texto_slide h3,
+.slide_vps .texto_slide h3,
+.slide_carro .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -888,7 +1094,12 @@ header .logo img {
 .slide_landingpage1 .texto_slide p,
 .slide_landingpage2 .texto_slide p,
 .slide_landingpage3 .texto_slide p,
-.slide_landingpage4 .texto_slide p {
+.slide_landingpage4 .texto_slide p,
+.slide_hosting .texto_slide p,
+.slide_reseller .texto_slide p,
+.slide_cpanel .texto_slide p,
+.slide_vps .texto_slide p,
+.slide_carro .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
@@ -964,6 +1175,13 @@ header .logo img {
 	text-decoration: none;
 	padding: 10px 20px ;
 }
+
+
+
+
+
+
+
 
 /* COMIENZO MENU */
 

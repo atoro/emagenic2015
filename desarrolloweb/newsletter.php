@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Landing 3 - Emagenic Ltda</title>
+	<title>Newsletter - Emagenic Ltda</title>
+    <meta name="description" content="Envie una noticia o un comunicado a sus clientes con una interfaz gráfica atractiva y moderna, diseñada para atrae la atención de sus clientes">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_landingpage3">
+	<section class="slide_newsletter">
 		<div class="texto_slide">
-			<h1>Sitio Landing page 3</h1>
+			<h1>Newsletter</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,33 +51,14 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<p>El landing page plan 3 es un sitio web de una sola pagina dividida en 3 secciones y un formulario de contacto. Estas secciones tienen multiples propósitos, pueden contener descripciones con una imagen cada una, google map, archivo de descargar y finalmente una galería de imágenes. <br>
+			<h3>Newsletter</h3>
+			<p>Las newsletter son paginas diseñadas para captar la atención de sus clientes a través de un correo electrónico atractivo pero desarrolladas en html 3. Por que HTML 3? <br>
 			<br>
-			Se puede utilizar para publicitar productos, servicios, proyectos inmobiliarios, un eventos o cualquier actividad.
-			Nuestros clientes prefieren este landong page por que su galería de imágenes es administrable, contiene correos electrónicos y su contenido es administrable</p>
+			Los gestores de correos electrónicos no permiten cargar la totalidad de los archivos utilizados en html5, no saben interpretar sus etiquetas por lo tanto debemos utilizar tablas, vincular las imágenes a un servidor web para no tener que adjuntar archivos e incluir todas las instrucciones de colores y diseños en el mismo código de la pagina. <br>
+			<br>
+			A diferencia de otras empresas nosotros no enviamos estas newsletter, solo entregamos un atractivo diseño a medida y como todos nuestros trabajos, sin plantillas compradas, diseños 100% a medida de sus necesidades.</p>
 		</div>
 	</section>
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Tres Imagenes - Un Google Map - Un Archivo descargable - Tres Secciones - Una galería de fotos</p>
-			</div>
-			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Pymes y Microempresas - Inmobiliarias - Profesionales - Inventores de un gran proyecto </p>
-			</div>
-			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Proyecto Inmobiliario </p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $120.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -176,7 +160,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_landingpage3').parallax({ "coeff":0.5 });
+	        $('.slide_newsletter').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

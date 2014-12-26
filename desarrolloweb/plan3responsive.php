@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo de sitios web Plan 2 Responsive - Emagenic Ltda</title>
+	<title>Desarrollo de sitios web Responsive - Plan 3  - Emagenic Ltda</title>
+    <meta name="description" content="El desarrollo de sitio web responsive plan 3 es el plan mas completo, ideal para empresas grandes o pymes con muchos productos y servicios que difundir">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_plan2">
+	<section class="slide_plan3">
 		<div class="texto_slide">
-			<h1>Plan 2 - Responsive</h1>
+			<h1>Plan 3 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,8 +51,8 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>El plan 2 responsive es el segundo paso de los emprendedores, muchos saltan del plan 1, del plan 2 o del plan 1 responsive a este plan ya que es la mescla de salto de cantidad de secciones y aplicación responsive a su sitio web, es decir, pagina elástica, que se adapta a la grafica de su dispositivo.</h3>
-			<p>sitios responsive entregan la posibilidad de que sus clientes accedan a su información desde cualquier parte del mundo y de cualquier dispositivo con la comodidad de no tener que dar zoom para ver su contenido completo. El plan 2 se puede complementar con todos los módulos extras como carros de compras, formularios a medida y otros.</p>
+			<h3>El plan 3, también conocido como el plan profesional esta orientado a grandes organizaciones ya que va desde ocho a doce secciones.</h3>
+			<p>conocido como el plan profesional esta orientado a grandes organizaciones ya que va desde ocho a doce secciones, estas secciones son todas elásticas en la distribución responsiva, es decir se adaptan a su celulare, tablet, computador o cualquier dispositivo del que se visite. El plan 3 responsive esta pensado en las grandes empresas no tan solo por su gran cantidad de secciones si no que por la capacidad del hosting que incluye de regalo por un año, 1 Giga que pueden utilizarse en correos electrónicos o sitio web para almacenar sus fotos, videos y todas las funciones que hace su sitio web exitoso en todos los aspectos.</p>
 		</div>
 	</section>
 
@@ -61,18 +64,17 @@
 				Link de interés - Galería de fotos - Galería de vidéos</p>
 			</div>
 			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
+				<h3>Secciones de Gama Especial</h3>
 				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
 				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
 			</div>
 			<div class="bloque">
 				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
+				<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
 			</div>
 		</div>
 		<div class="valor">
-			<h3>Valor Único: $375.000</h3>
+			<h3>Valor Único: $450.000</h3>
 			<a href="#">AGREGAR AL CARRO</a>
 		</div>
 	</section>
@@ -178,7 +180,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_plan2').parallax({ "coeff":0.5 });
+	        $('.slide_plan3').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

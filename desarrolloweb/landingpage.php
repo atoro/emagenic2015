@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Portafolio - Emagenic Ltda</title>
+	<title>Landing Page - Emagenic Ltda</title>
+    <meta name="description" content="Necesita publicitar un evento, producto o servicio, desarrolle un landing page donde centralizar toda la información y conecte con sus clientes">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_portafolio">
+	<section class="slide_landingpage">
 		<div class="texto_slide">
-			<h1>Nuestros Proyectos</h1>
+			<h1>Landing Page</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,54 +51,83 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Nuestros Proyectos</h3>
-			<p>Gráfica responsive design a pedido, Carro de compra y pago en linea.
-			Plataforma de administración de contenidos, Galería de fotos y videos administrable.
-			Redes sociales activadas y listas para el marketing, Google analytics para medir tráfico.
-			Diseño de interfaz de Usuario UX/UI.</p>
+			<h3>Que es una landing page</h3>
+			<p>Una landing page es una pequeña pagina web de una sola sección (sitio de inicio) que esta diseñada para publicitar un producto, servicio, evento, etc. Estas landing page están divididas en secciones, la que contienen información clasificada por características de lo que se quiere publicitar. Muchas veces también incluyen un menú que permite la navegación en esta, subiendo y bajando sin tener que usar el scroll del mouse. Todas nuestras landing page incluyen un formulario de contacto, la idea es que después de que el cliente vea lo que se publicita pueda contactarlo de manera rápida y segura. Finalmente la grafica es muy importante, todos los planes incluyen al menos una imagen y el plan mas avanzado incluye una galería de fotos</p>
 		</div>
 	</section>
-	<section class="portafolio">
-		<div class="bloque1">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/1.png" alt="logo tknet">
-			</a>
-		</div>
-		<div class="bloque2">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/2.png" alt="logo clinica juan quinteros">
-			</a>
-		</div>
-		<div class="bloque3">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/3.png" alt="logo busca tu propiedad">
-			</a>
-		</div>
-		<div class="bloque4">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/4.png" alt="logo sv ait ltda">
-			</a>
-		</div>
-		<div class="bloque5">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/5.png" alt="logo csa servicios industriales">
-			</a>
-		</div>
-		<div class="bloque6">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/6.png" alt="logo rancagua propiedades">
-			</a>
-		</div>
-		<div class="bloque7">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/7.png" alt="logo obesidadcirugia">
-			</a>
-		</div>
-		<div class="bloque8">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/8.png" alt="logo servi campo">
-			</a>
-		</div>
+	<section class="planes">
+		<a href="landing1.php">
+			<div class="plan1">
+				<div class="nombre">
+					<h3>Landing 1</h3>
+					<p class="valor">$80.000</p>
+				</div>
+				<div class="contenido">
+					<p>Menu navegable</p>
+					<p>+ 1 formulario de contacto</p>
+					<p>+ 1 Sección de contenido</p>
+					<p>+ 1 imagen</p>
+					<p>Hosting Plan 300 - 1 año</p>
+					<figure class="vermas">
+						<img src="../imagenes/vermas.png" alt="icono ver mas">
+					</figure>
+				</div>
+			</div>
+		</a>
+		<a href="landing2.php">
+			<div class="plan1responsive">
+				<div class="nombre">
+					<h3>Landing 2</h3>
+					<p class="valor">$100.000</p>
+				</div>
+				<div class="contenido">
+					<p>Menu navegable</p>
+					<p>+ 1 formulario de contacto</p>
+					<p>+ 2 Sección de contenido</p>
+					<p>+ 2 imagen</p>
+					<p>Hosting Plan 300 - 1 año</p>
+					<figure class="vermas">
+						<img src="../imagenes/vermas.png" alt="icono ver mas">
+					</figure>
+				</div>
+			</div>
+		</a>
+		<a href="landing3.php">
+			<div class="plan2">
+				<div class="nombre">
+					<h3>Landing 3</h3>
+					<p class="valor">$120.000</p>
+				</div>
+				<div class="contenido">
+					<p>Menu navegable</p>
+					<p>+ 1 formulario de contacto</p>
+					<p>+ 3 Sección de contenido</p>
+					<p>+ 1 Galería de Imagenes</p>
+					<p>Hosting Plan 300 - 1 año</p>
+					<figure class="vermas">
+						<img src="../imagenes/vermas.png" alt="icono ver mas">
+					</figure>
+				</div>
+			</div>
+		</a>
+		<a href="landing4.php">
+			<div class="plan2responsive">
+				<div class="nombre">
+					<h3>Landing 4</h3>
+					<p class="valor">$140.000</p>
+				</div>
+				<div class="contenido">
+					<p>Menu navegable</p>
+					<p>+ 1 formulario de contacto</p>
+					<p>+ 4 Sección de contenido</p>
+					<p>+ 1 Galería de Imagenes</p>
+					<p>Hosting Plan 300 - 1 año</p>
+					<figure class="vermas">
+						<img src="../imagenes/vermas.png" alt="icono ver mas">
+					</figure>
+				</div>
+			</div>
+		</a>
 	</section>
 	<section id="contacto">
 		<div class="formulario">
@@ -198,7 +230,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_portafolio').parallax({ "coeff":0.5 });
+	        $('.slide_landingpage').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

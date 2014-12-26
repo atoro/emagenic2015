@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo de sitios web Plan 2 - Emagenic Ltda</title>
+	<title>Carro de Compras - Emagenic Ltda</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,11 +22,9 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="desarrolloweb">Desarrollo Web</a></li>
+			<li><a href="novedades">Novedades</a></li>
+			<li><a href="clientes">Clientes</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
 		<div class="carro">
@@ -35,12 +33,12 @@
 			</div>
 		</div>
 	</header>
-	<section class="slide_plan2">
+	<section class="slide_hosting">
 		<div class="texto_slide">
-			<h1>Plan 2 - Emprede</h1>
-			<h3>Al comenzar con grandes relaciones con nuestros clientes,
-				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<h1>Carro de Compras</h1>
+			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At optio illo impedit eveniet, beatae quam facere pariatur cupiditate nostrum alias deserunt eos labore, expedita maxime delectus ab, exercitationem eligendi vero.</h3>
+			<p>Vamos a Trabajar Juntos</p>
+			<a href="#contacto" class="comencemos">COMENCEMOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,35 +46,10 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>El plan 2 es muy similar al plan 1 pero incorpora de cinco a siete secciones de gama estándar lo que permite crear más contenido funcional o especifico de sus productos, empresa o servicios.</h3>
-			<p>Este plan es preferido por Pymes y algunas micro empresas mas posicionadas o que ya han tenido algún sitio web y desean remodelarlo ya sea por las posibilidades gráficas que ofrece html5 y css3 o por que tiene una idea mas clara de lo que quieren publicar en su sitio. Al igual que los demás también es ampliable al plan 3 y se pueden incorporar secciones de gama especial.</p>
+			<h3>Web Hosting</h3>
+			<p>Para desarrollar cualquier tipo de aplicación web y sistema distribuido debemos conseguir un web hosting o servidor web, este tiene la función de almacenar el sitio, sus bases de datos, imagenes y archivos que conforman la aplicación. Este servidor debe estar operativo y en linea las 24 horas del día, los 365 dias del año y sobre todas las cosas ser muy rápido y estable. En emagenic ofrecemos diferentes planes de web hosting, todos ellos con transferencia ilimitada nacional e internacional, nuestro data center esta alojado en las instalaciones de Hostname en la ciudad de Santiago, protegido tras una puerta blindada de acceso restringido, en una zona con temperatura controlada y con sistemas de respaldo energético que garantizan la conectividad en caso de siniestros. Nuestros clientes que adquieren el desarrollo de sitios web el primer año cuentan con el servicio de web hosting plan 300 gratis, posteriormente deben renovar en cualquiera de estos planes, estos valores son aplicables también cuando un cliente desea un hosting de mas capacidad al desarrollar su sitio o si no es cliente y solo requiere de este servicio.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
-			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
-			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $250.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -178,7 +151,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_plan2').parallax({ "coeff":0.5 });
+	        $('.slide_hosting').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

@@ -1,5 +1,23 @@
 @media only screen and (min-width: 768px) { 
 
+	.carrodecompra {
+		float: left;
+	}
+	.carrodecompra .centro_carro .compras {
+		display: inline-block;
+		vertical-align: top;
+		float: left;
+		width: 50%;
+	}
+	.carrodecompra .centro_carro .compras .detallecompra {
+		width: 95%;
+	}
+	.carrodecompra .centro_carro .formulario {
+		display: inline-block;
+		vertical-align: top;
+		float: left;
+		width: 49%;
+	}
 	.portafolio {
 		line-height: 400px;
 	}
@@ -15,7 +33,108 @@
 		height: 300px;
 		width: 50%;
 	}
+
+	.hosting_movil {
+		display: none;
+	}
+	#info_hosting {
+        display: block;
+        padding: 0 0 70px 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #info_hosting .cabecera {
+        background-color: #FF284E;
+        border: solid 1px #FF284E;
+        color: white;
+        width: 100%;
+    }
+    #info_hosting .cabecera .grilla_titulos {
+        border-right: 1px solid #c31a22;
+        display: inline-block;
+        line-height: 60px;
+        padding-left: 30px;
+        width: 40%;
+        font-size: 14px;
+        vertical-align: top;
+    }
+    #info_hosting .cabecera .grilla_titulos_hosting {
+        border-right: 1px solid #c31a22;
+        display: inline-block;
+        line-height: 60px;
+        text-align: center;
+        width: 10%;
+        font-size: 12px;
+        vertical-align: top; 
+    }
+    #info_hosting .contenido_hosting {
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        width: 100%;
+    }
+    #info_hosting .contenido_hosting .grilla_titulos {
+        border-right: 1px solid #ccc;
+        display: inline-block;
+        line-height: 50px;
+        padding-left: 30px;
+        width: 40%;
+        font-size: 14px;
+        vertical-align: top;
+    }
+    #info_hosting .contenido_hosting .grilla_contenido {
+        border-right: 1px solid #ccc;
+        display: inline-block;
+        line-height: 50px;
+        text-align: center;
+        width: 10%;
+        font-size: 12px;
+        vertical-align: top;
+    }
+    #info_hosting .contenido_hosting2 {
+        background-color: #ccc;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        width: 100%;
+    }
+    #info_hosting .contenido_hosting2 .grilla_titulos2 {
+        display: inline-block;
+        line-height: 50px;
+        padding-left: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #info_hosting .contenido_hosting .grilla_contenido_valor {
+        display: inline-block;
+        line-height: 50px;
+        text-align: center;
+        width: 10%;
+        font-size: 12px;
+    }
+    #info_hosting .contenido_hosting .grilla_contenido_valor a {
+        background: #ff284a;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .contenido_principal .bloque {
+        display: inline-block;
+        width: 17%;
+        margin: 0 10px;
+        vertical-align: top;
+    }
+    .contenido_cloud .bloque_cloud {
+        display: inline-block; 
+        width: 25%;
+        vertical-align: top;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: auto 5px;
+    } 
 } 
+
 @media only screen and (min-width: 1000px) { 
 	
 	footer {
@@ -44,6 +163,24 @@
 		float: left;
 		width: 60%;
 	}
+	#info_hosting .cabecera .grilla_titulos {
+        font-size: 16px;
+    }
+    #info_hosting .contenido_hosting .grilla_contenido { 
+		font-size: 16px;
+    }
+    #info_hosting .contenido_hosting .grilla_titulos { 
+		font-size: 16px;
+    }
+    #info_hosting .contenido_hosting2 .grilla_titulos2 { 
+		font-size: 16px;
+    }
+    #info_hosting .contenido_hosting .grilla_contenido_valor a {
+    	font-size: 16px;
+    }
+    #info_hosting .cabecera .grilla_titulos_hosting { 
+		font-size: 16px;
+    }
 	.crear .web {	
 		margin: 0;
 		width: 80%; 
@@ -164,7 +301,12 @@
 	.slide_landingpage1 .texto_slide,
 	.slide_landingpage2 .texto_slide,
 	.slide_landingpage3 .texto_slide,
-	.slide_landingpage4 .texto_slide {
+	.slide_landingpage4 .texto_slide,
+	.slide_hosting .texto_slide,
+	.slide_reseller .texto_slide,
+	.slide_cpanel .texto_slide,
+	.slide_vps .texto_slide,
+	.slide_carro .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -172,7 +314,12 @@
 		margin: 0 auto;
 	}
 	.slide .texto_slide .comencemos,
-	.slide_desarrolloweb .texto_slide .comencemos {
+	.slide_desarrolloweb .texto_slide .comencemos,
+	.slide_hosting .texto_slide .comencemos,
+	.slide_reseller .texto_slide .comencemos,
+	.slide_cpanel .texto_slide .comencemos,
+	.slide_vps .texto_slide .comencemos,
+	.slide_carro .texto_slide .comencemos {
 		background: #ff284a;
 		border: none;
 		color: white;
@@ -188,7 +335,12 @@
 	    transition: all 0.1s ease-in;
 	}
 	.slide .texto_slide .comencemos:hover,
-	.slide_desarrolloweb .texto_slide .comencemos:hover {
+	.slide_desarrolloweb .texto_slide .comencemos:hover,
+	.slide_hosting .texto_slide .comencemos:hover,
+	.slide_reseller .texto_slide .comencemos:hover,
+	.slide_cpanel .texto_slide .comencemos:hover,
+	.slide_vps .texto_slide .comencemos:hover,
+	.slide_carro .texto_slide .comencemos:hover {
 		background: #1f2326;
 		border-bottom: solid 5px #ff284a;
 		color: #ff284a;
@@ -210,7 +362,12 @@
 	.slide_landingpage1 .texto_slide h1,
 	.slide_landingpage2 .texto_slide h1,
 	.slide_landingpage3 .texto_slide h1,
-	.slide_landingpage4 .texto_slide h1 {
+	.slide_landingpage4 .texto_slide h1,
+	.slide_hosting .texto_slide h1,
+	.slide_reseller .texto_slide h1,
+	.slide_cpanel .texto_slide h1,
+	.slide_vps .texto_slide h1,
+	.slide_carro .texto_slide h1  {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
@@ -225,7 +382,12 @@
 	.slide_landingpage1 .texto_slide h2,
 	.slide_landingpage2 .texto_slide h2,
 	.slide_landingpage3 .texto_slide h2,
-	.slide_landingpage4 .texto_slide h2 {
+	.slide_landingpage4 .texto_slide h2,
+	.slide_hosting .texto_slide h2,
+	.slide_reseller .texto_slide h2,
+	.slide_cpanel .texto_slide h2,
+	.slide_vps .texto_slide h2,
+	.slide_carro .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -242,7 +404,12 @@
 	.slide_landingpage1 .texto_slide h3,
 	.slide_landingpage2 .texto_slide h3,
 	.slide_landingpage3 .texto_slide h3,
-	.slide_landingpage4 .texto_slide h3 {
+	.slide_landingpage4 .texto_slide h3,
+	.slide_hosting .texto_slide h3,
+	.slide_reseller .texto_slide h3,
+	.slide_cpanel .texto_slide h3,
+	.slide_vps .texto_slide h3,
+	.slide_carro .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -260,7 +427,12 @@
 	.slide_landingpage1 .texto_slide p,
 	.slide_landingpage2 .texto_slide p,
 	.slide_landingpage3 .texto_slide p,
-	.slide_landingpage4 .texto_slide p {
+	.slide_landingpage4 .texto_slide p,
+	.slide_hosting .texto_slide p,
+	.slide_reseller .texto_slide p,
+	.slide_cpanel .texto_slide p,
+	.slide_vps .texto_slide p,
+	.slide_carro .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
@@ -275,7 +447,8 @@
 	.slide_landingpage1 .texto_slide .vernuestrostrabajos,
 	.slide_landingpage2 .texto_slide .vernuestrostrabajos,
 	.slide_landingpage3 .texto_slide .vernuestrostrabajos,
-	.slide_landingpage4 .texto_slide .vernuestrostrabajos {
+	.slide_landingpage4 .texto_slide .vernuestrostrabajos,
+	.slide_reseller .texto_slide .vernuestrostrabajos {
 		width: 250px;
 	}
 	.tuplan .contenido_centro {

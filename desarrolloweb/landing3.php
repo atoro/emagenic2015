@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo de sitios web Plan 3 - Emagenic Ltda</title>
+	<title>Landing page plan 3 - Emagenic Ltda</title>
+    <meta name="description" content="Landing page de 3 secciones y una galería de fotos es una forma muy completa de promocionar lo que sea en internet fuera de un sitio web">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_plan3">
+	<section class="slide_landingpage3">
 		<div class="texto_slide">
-			<h1>Plan 3 - Consolida</h1>
+			<h1>Sitio Landing page 3</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,30 +51,29 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>El plan 3, también conocido como el plan profesional esta orientado a grandes organizaciones ya que va desde ocho a doce secciones.</h3>
-			<p>usualmente este plan es contratado por organizaciones que poseen mucho contenido empresarial que no puede ser combinado con otras secciones, por ejemplo quienes somos, misión, visión, organigrama, por lo general en el plan 1 y 2 estas se juntan en una sola. También este plan al ser mas grande necesita mas apoyo en la mantención del contenido por lo que incorporamos 3 meses de plan de mantención web gratis, de esa manera apoyamos a la administración del sitio mientras aprenden a controlar de manera eficiente e independiente el contenido y servidor. Además este plan incorpora un plan de web hosting de 1 gb</p>
+			<p>El landing page plan 3 es un sitio web de una sola pagina dividida en 3 secciones y un formulario de contacto. Estas secciones tienen multiples propósitos, pueden contener descripciones con una imagen cada una, google map, archivo de descargar y finalmente una galería de imágenes. <br>
+			<br>
+			Se puede utilizar para publicitar productos, servicios, proyectos inmobiliarios, un eventos o cualquier actividad.
+			Nuestros clientes prefieren este landong page por que su galería de imágenes es administrable, contiene correos electrónicos y su contenido es administrable</p>
 		</div>
 	</section>
-
 	<section class="detalleplan">
 		<div class="web">
 			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+				<h3>Que podria contener el landing</h3>
+				<p>Descripción del producto o servicio - Tres Imagenes - Un Google Map - Un Archivo descargable - Tres Secciones - Una galería de fotos</p>
 			</div>
 			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				<h3>Quienes Contratan Landing</h3>
+				<p>Pymes y Microempresas - Inmobiliarias - Profesionales - Inventores de un gran proyecto </p>
 			</div>
 			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
+				<h3>Tipos de Usos</h3>
+				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Proyecto Inmobiliario </p>
 			</div>
 		</div>
 		<div class="valor">
-			<h3>Valor Único: $300.000</h3>
+			<h3>Valor Único: $120.000</h3>
 			<a href="#">AGREGAR AL CARRO</a>
 		</div>
 	</section>
@@ -177,7 +179,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_plan3').parallax({ "coeff":0.5 });
+	        $('.slide_landingpage3').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

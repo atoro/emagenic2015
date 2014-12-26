@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Landing 2 - Emagenic Ltda</title>
+	<title>Desarrollo de sitios web Responsive - Plan 2  - Emagenic Ltda</title>
+    <meta name="description" content="Su empresa crece con su sitio web, hasta 7 secciones administrables, completamente posicionables mas sección de noticias y zona de contacto todo responsive">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_landingpage2">
+	<section class="slide_plan2">
 		<div class="texto_slide">
-			<h1>Sitio Landing page 2</h1>
+			<h1>Plan 2 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,27 +51,31 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<p>El landing page 2 es un pequeño sitio web de una sola pagina que contiene dos secciones en donde se puede describir un producto, un servicio, una actividad acompañada de una imagen y en una segunda sección se puede complementar con otra descripción con imagen, un mapa de google o cualquier otro objeto que apoye la descripción de lo que se pretende publicitar.
-			Este landing es manejado por un pequeño menú que facilita la navegación en el y un formulario de contacto</p>
+			<h3>El plan 2 responsive es el segundo paso de los emprendedores, muchos saltan del plan 1, del plan 2 o del plan 1 responsive a este plan ya que es la mescla de salto de cantidad de secciones y aplicación responsive a su sitio web, es decir, pagina elástica, que se adapta a la grafica de su dispositivo.</h3>
+			<p>sitios responsive entregan la posibilidad de que sus clientes accedan a su información desde cualquier parte del mundo y de cualquier dispositivo con la comodidad de no tener que dar zoom para ver su contenido completo. El plan 2 se puede complementar con todos los módulos extras como carros de compras, formularios a medida y otros.</p>
 		</div>
 	</section>
+
 	<section class="detalleplan">
 		<div class="web">
 			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+				<h3>Secciones de Gama Estándar</h3>
+				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+				Link de interés - Galería de fotos - Galería de vidéos</p>
 			</div>
 			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Pymes - Empredendores con un buen producto - Profesionales - Micro Empresas </p>
+				<h3>Secciones de Gama Especial</h3>
+				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
 			</div>
 			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Artista </p>
+				<h3>Clientes Frecuentes</h3>
+				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
 			</div>
 		</div>
 		<div class="valor">
-			<h3>Valor Único: $100.000</h3>
+			<h3>Valor Único: $375.000</h3>
 			<a href="#">AGREGAR AL CARRO</a>
 		</div>
 	</section>
@@ -174,7 +181,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_landingpage2').parallax({ "coeff":0.5 });
+	        $('.slide_plan2').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo de sitios web - Emagenic Ltda</title>
+	<title>Desarrollo de sitios web - Plan 2 - Emagenic Ltda</title>
+    <meta name="description" content="Sitio web con hasta 7 secciones completamente administrables mas sección de noticias y zona de contacto, ideal para empresas e instituciones ">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_desarrolloweb">
+	<section class="slide_plan2">
 		<div class="texto_slide">
-			<h1>Desarrollo de Sitios Web, administrables y Posicionable</h1>
-			<h3>Gráfica responsive design a pedido - Carro de compra y pago en linea - Plataforma de administración de contenidos - Galería de fotos y videos administrable - Redes sociales activadas y listas para el marketing - Google analytics para medir tráfico - Diseño de interfaz de Usuario UX/UI</h3>
-			<p>Vamos a Trabajar Juntos</p>
-			<a href="#contacto" class="comencemos">COMENCEMOS</a>
+			<h1>Plan 2 - Emprede</h1>
+			<h3>Al comenzar con grandes relaciones con nuestros clientes,
+				creamos productos y servicios que transforman sus Empresas.</p>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,132 +51,35 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Elige Tu Plan</h3>
-			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+			<h3>El plan 2 es muy similar al plan 1 pero incorpora de cinco a siete secciones de gama estándar lo que permite crear más contenido funcional o especifico de sus productos, empresa o servicios.</h3>
+			<p>Este plan es preferido por Pymes y algunas micro empresas mas posicionadas o que ya han tenido algún sitio web y desean remodelarlo ya sea por las posibilidades gráficas que ofrece html5 y css3 o por que tiene una idea mas clara de lo que quieren publicar en su sitio. Al igual que los demás también es ampliable al plan 3 y se pueden incorporar secciones de gama especial.</p>
 		</div>
 	</section>
-	<section class="planes">
-		<a href="plan1.html">
-			<div class="plan1">
-				<div class="nombre">
-					<h3>Plan 1</h3>
-					<p class="valor">$180.000</p>
-				</div>
-				<div class="contenido">
-					<p>2 a 4 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+
+	<section class="detalleplan">
+		<div class="web">
+			<div class="bloque">
+				<h3>Secciones de Gama Estándar</h3>
+				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+				Link de interés - Galería de fotos - Galería de vidéos</p>
 			</div>
-		</a>
-		<a href="plan1responsive.html">
-			<div class="plan1responsive">
-				<div class="nombre">
-					<h3>Plan 1 Responsive</h3>
-					<p class="valor">$270.000</p>
-				</div>
-				<div class="contenido">
-					<p>2 a 4 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+			<div class="bloque">
+				<h3>Secciones de Gama Especial</h3>
+				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
 			</div>
-		</a>
-		<a href="plan2.html">
-			<div class="plan2">
-				<div class="nombre">
-					<h3>Plan 2</h3>
-					<p class="valor">$250.000</p>
-				</div>
-				<div class="contenido">
-					<p>5 a 7 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+			<div class="bloque">
+				<h3>Clientes Frecuentes</h3>
+				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
 			</div>
-		</a>
-		<a href="plan2responsive.html">
-			<div class="plan2responsive">
-				<div class="nombre">
-					<h3>Plan 2 Reponsive</h3>
-					<p class="valor">$375.000</p>
-				</div>
-				<div class="contenido">
-					<p>5 a 7 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-		<a href="plan3.html">
-			<div class="plan3">
-				<div class="nombre">
-					<h3>Plan 3</h3>
-					<p class="valor">$300.000</p>
-				</div>
-				<div class="contenido">
-					<p>8 a 12 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-		<a href="plan3responsive.html">
-			<div class="plan3responsive">
-				<div class="nombre">
-					<h3>Plan 3 Responsive</h3>
-					<p class="valor">$450.000</p>
-				</div>
-				<div class="contenido">
-					<p>8 a 12 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
+		</div>
+		<div class="valor">
+			<h3>Valor Único: $250.000</h3>
+			<a href="#">AGREGAR AL CARRO</a>
+		</div>
 	</section>
+
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -275,7 +181,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_desarrolloweb').parallax({ "coeff":0.5 });
+	        $('.slide_plan2').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

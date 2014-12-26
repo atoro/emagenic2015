@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Newsletter - Emagenic Ltda</title>
+	<title>Desarrollo de sitios web - Plan 1 - Emagenic Ltda</title>
+    <meta name="description" content="Sitio web administrable y económico, con innumerables posibilidades de crecer y posicionar su empresa en google, hasta 4 secciones, noticias y contacto">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_newsletter">
+	<section class="slide_plan1">
 		<div class="texto_slide">
-			<h1>Newsletter</h1>
+			<h1>Plan 1 - Inicia</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,14 +51,37 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Newsletter</h3>
-			<p>Las newsletter son paginas diseñadas para captar la atención de sus clientes a través de un correo electrónico atractivo pero desarrolladas en html 3. Por que HTML 3? <br>
-			<br>
-			Los gestores de correos electrónicos no permiten cargar la totalidad de los archivos utilizados en html5, no saben interpretar sus etiquetas por lo tanto debemos utilizar tablas, vincular las imágenes a un servidor web para no tener que adjuntar archivos e incluir todas las instrucciones de colores y diseños en el mismo código de la pagina. <br>
-			<br>
-			A diferencia de otras empresas nosotros no enviamos estas newsletter, solo entregamos un atractivo diseño a medida y como todos nuestros trabajos, sin plantillas compradas, diseños 100% a medida de sus necesidades.</p>
+			<h3>El Plan 1 es el plan preferido de las micro empresas, es un plan económico</h3>
+			<p>Muy practico y con ilimitadas posibilidades de competir por posicionamiento contra las grandes paginas, esto gracias a que incorpora una plataforma de noticias y novedades que le permiten escribir innumerables artículos sobre sus servicios, productos y experiencias de sus clientes. <br>
+			<br>	
+			Este plan incorpora una sección de contacto que le permite a sus clientes enviar consultas las cuales llegan directamente a su correo electrónico empresaria. Además    incorpora 4 secciones a su elección de la gama estándar, la cual se detallara a continuación. Lo mas importante de este plan es que a medida que su negocio o necesidades crece se puede ampliar al plan 2 o 3, o incluso incorporar plataformas de la gama especial.</p>
 		</div>
 	</section>
+
+	<section class="detalleplan">
+		<div class="web">
+			<div class="bloque">
+				<h3>Secciones de Gama Estándar</h3>
+				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+				Link de interés - Galería de fotos - Galería de vidéos</p>
+			</div>
+			<div class="bloque">
+				<h3>Secciones de Gama Estándar</h3>
+				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			</div>
+			<div class="bloque">
+				<h3>Clientes Frecuentes</h3>
+				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+				Pymes de comercialización - Bloggers</p>
+			</div>
+		</div>
+		<div class="valor">
+			<h3>Valor Único: $200.000</h3>
+			<a href="#">AGREGAR AL CARRO</a>
+		</div>
+	</section>
+
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -157,7 +183,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_newsletter').parallax({ "coeff":0.5 });
+	        $('.slide_plan1').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

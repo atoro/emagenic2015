@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Landing 4 - Emagenic Ltda</title>
+	<title>Portafolio web - Emagenic Ltda</title>
+    <meta name="description" content="Conosca todos nuestros trabajos de desarrollo de sitios web en nuestro portafolio, consiga la idea de lo que podria necesitar o solicite un analisis a medida">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
@@ -22,25 +23,27 @@
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="http://www.emagenic.cl">Inicio</a></li>
-			<li><a href="index.html">Desarrollo Web</a></li>
-			<li><a href="portafolio.html">Portafolio</a></li>
-			<li><a href="frontend.html">Frontend</a></li>
-			<li><a href="newsletter.html">Newsletter</a></li>
-			<li><a href="landingpage.html">Landing Page</a></li>
+			<li><a href="index.php">Desarrollo Web</a></li>
+			<li><a href="portafolio.php">Portafolio</a></li>
+			<li><a href="frontend.php">Frontend</a></li>
+			<li><a href="newsletter.php">Newsletter</a></li>
+			<li><a href="landingpage.php">Landing Page</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
-		<div class="carro">
-			<div class="imgcarro">
-				<div class="numero">0</div>
+		<a href="../carrocompras/index.php">
+			<div class="carro">
+				<div class="imgcarro">
+					<div class="numero">0</div>
+				</div>
 			</div>
-		</div>
+		</a>
 	</header>
-	<section class="slide_landingpage4">
+	<section class="slide_portafolio">
 		<div class="texto_slide">
-			<h1>Sitio Landing page 4</h1>
+			<h1>Portafolio web</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.html" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
+			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -48,33 +51,55 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<p>El landing page plan 3 es un sitio web de una sola pagina dividida en 3 secciones y un formulario de contacto. Estas secciones tienen multiples propósitos, pueden contener descripciones con una imagen cada una, google map, archivo de descargar y finalmente una galería de imágenes. <br>
-			<br>
-			Se puede utilizar para publicitar productos, servicios, proyectos inmobiliarios, un eventos o cualquier actividad.
-			Nuestros clientes prefieren este landong page por que su galería de imágenes es administrable, contiene correos electrónicos y su contenido es administrable</p>
+			<h3>Nuestros Proyectos</h3>
+			<p>Gráfica responsive design a pedido, Carro de compra y pago en linea.
+			Plataforma de administración de contenidos, Galería de fotos y videos administrable.
+			Redes sociales activadas y listas para el marketing, Google analytics para medir tráfico.
+			Diseño de interfaz de Usuario UX/UI.</p>
 		</div>
 	</section>
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Tres Imagenes - Un Google Map - Un Archivo descargable - Tres Secciones - Una galería de fotos</p>
-			</div>
-			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Pymes y Microempresas - Inmobiliarias - Profesionales - Inventores de un gran proyecto </p>
-			</div>
-			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Proyecto Inmobiliario </p>
-			</div>
+	<section class="portafolio">
+		<div class="bloque1">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/1.png" alt="logo tknet">
+			</a>
 		</div>
-		<div class="valor">
-			<h3>Valor Único: $140.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
+		<div class="bloque2">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/2.png" alt="logo clinica juan quinteros">
+			</a>
+		</div>
+		<div class="bloque3">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/3.png" alt="logo busca tu propiedad">
+			</a>
+		</div>
+		<div class="bloque4">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/4.png" alt="logo sv ait ltda">
+			</a>
+		</div>
+		<div class="bloque5">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/5.png" alt="logo csa servicios industriales">
+			</a>
+		</div>
+		<div class="bloque6">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/6.png" alt="logo rancagua propiedades">
+			</a>
+		</div>
+		<div class="bloque7">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/7.png" alt="logo obesidadcirugia">
+			</a>
+		</div>
+		<div class="bloque8">
+			<a href="#" target="new">
+				<img src="../imagenes/portafolio/logos/8.png" alt="logo servi campo">
+			</a>
 		</div>
 	</section>
-
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
@@ -176,7 +201,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_landingpage4').parallax({ "coeff":0.5 });
+	        $('.slide_portafolio').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	
