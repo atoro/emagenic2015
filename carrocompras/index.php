@@ -14,14 +14,14 @@
 	<a href="../clientes" class="zclientes">Acceso Clientes</a>
 	<header>
 		<figure class="logo">
-			<a href="http://www.new.emagenic.cl">
+			<a href="http://www.emagenic.cl/new">
 				<img src="../imagenes/logo.png" alt="logo emagenic">
 			</a>
 		</figure>
 		<label for="show-menu" class="show-menu"><img src="../imagenes/menu.png" alt="icono menu"></label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
-			<li><a href="http://www.new.emagenic.cl">Inicio</a></li>
+			<li><a href="http://www.emagenic.cl/new">Inicio</a></li>
 			<li><a href="desarrolloweb">Desarrollo Web</a></li>
 			<li><a href="novedades">Novedades</a></li>
 			<li><a href="clientes">Clientes</a></li>
@@ -33,12 +33,10 @@
 			</div>
 		</div>
 	</header>
-	<section class="slide_hosting">
+	<section class="slide_carro">
 		<div class="texto_slide">
 			<h1>Carro de Compras</h1>
 			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At optio illo impedit eveniet, beatae quam facere pariatur cupiditate nostrum alias deserunt eos labore, expedita maxime delectus ab, exercitationem eligendi vero.</h3>
-			<p>Vamos a Trabajar Juntos</p>
-			<a href="#contacto" class="comencemos">COMENCEMOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -46,8 +44,70 @@
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
-			<h3>Web Hosting</h3>
-			<p>Para desarrollar cualquier tipo de aplicación web y sistema distribuido debemos conseguir un web hosting o servidor web, este tiene la función de almacenar el sitio, sus bases de datos, imagenes y archivos que conforman la aplicación. Este servidor debe estar operativo y en linea las 24 horas del día, los 365 dias del año y sobre todas las cosas ser muy rápido y estable. En emagenic ofrecemos diferentes planes de web hosting, todos ellos con transferencia ilimitada nacional e internacional, nuestro data center esta alojado en las instalaciones de Hostname en la ciudad de Santiago, protegido tras una puerta blindada de acceso restringido, en una zona con temperatura controlada y con sistemas de respaldo energético que garantizan la conectividad en caso de siniestros. Nuestros clientes que adquieren el desarrollo de sitios web el primer año cuentan con el servicio de web hosting plan 300 gratis, posteriormente deben renovar en cualquiera de estos planes, estos valores son aplicables también cuando un cliente desea un hosting de mas capacidad al desarrollar su sitio o si no es cliente y solo requiere de este servicio.</p>
+			<h3>Carro de Compras</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in eius, ipsa maiores voluptate eum aliquam ea doloremque accusantium nulla, ipsam neque iusto quod! Quasi libero aspernatur labore fugit facilis.</p>
+		</div>
+	</section>
+	<section class="carrodecompra">
+		<div class="centro_carro">
+			<div class="compras">
+				<!-- Compra-->
+				<div class="detallecompra">
+					<div class="compra">
+						<p class="nombre">Plan 1 Responsive</p>
+						<img src="../imagenes/carrocompra.png" alt="icono carro compras">
+					</div>
+					<p class="categoria">Cantidad: <input name="Cantidad" class="cantidad" type="text"/></p>
+					<p class="categoria">Valor: $270.000</p>
+					<p class="categoria">Total: $270.000</p>
+					<a href="#" class="eliminar">
+						Eliminar <img src="../webhosting/imagenes/delete.png" alt="icono eliminar">
+					</a>
+				</div>
+				<!-- Compra-->
+				<div class="detallecompra">
+					<div class="compra">
+						<p class="nombre">Plan 1 Responsive</p>
+						<img src="../imagenes/carrocompra.png" alt="icono carro compras">
+					</div>
+					<p class="categoria">Cantidad: <input name="Cantidad" class="cantidad" type="text"/></p>
+					<p class="categoria">Valor: $270.000</p>
+					<p class="categoria">Total: $270.000</p>
+					<a href="#" class="eliminar">
+						Eliminar <img src="../webhosting/imagenes/delete.png" alt="icono eliminar">
+					</a>
+				</div>
+				<!-- Compra-->
+				<div class="detallecompra">
+					<div class="compra">
+						<p class="nombre">Plan 1 Responsive</p>
+						<img src="../imagenes/carrocompra.png" alt="icono carro compras">
+					</div>
+					<p class="categoria">Cantidad: <input name="Cantidad" class="cantidad" type="text"/></p>
+					<p class="categoria">Valor: $270.000</p>
+					<p class="categoria">Total: $270.000</p>
+					<a href="#" class="eliminar">
+						Eliminar <img src="../webhosting/imagenes/delete.png" alt="icono eliminar">
+					</a>
+				</div>
+				<div class="totalcompra">
+					<p>$270.000</p>
+				</div>
+			</div>
+			<div class="formulario">
+				<h3>Formulario de Contacto</h3>
+				<form>
+					<input name="Rut" type="text" class="input" id="Rut" placeholder="Rut"/>
+			        <input name="Nombre" type="text" class="input" id="Nombre" placeholder="Nombre"/>
+			        <input name="Direccion" type="text" class="input" id="Direccion" placeholder="Direccion"/>
+			        <input name="Ciudad" type="text" class="input" id="Ciudad" placeholder="Ciudad"/>
+			        <input name="Comuna" type="text" class="input" id="Comuna" placeholder="Comuna"/>
+			        <input name="Giro" type="text" class="input" id="Giro" placeholder="Giro"/>
+			        <input name="Mail" type="text" class="input" id="Mail" placeholder="E-mail"/>
+			        <input name="Telefono" type="text" class="input" id="Telefono" placeholder="Teléfono"/>  
+			        <input class="enviar" name="Contratar" type="submit" value="Contratar" />
+		    	</form>
+			</div>
 		</div>
 	</section>
 	<section id="contacto">
@@ -151,7 +211,7 @@
 	                });
 	            });
 	        };
-	        $('.slide_hosting').parallax({ "coeff":0.5 });
+	        $('.slide_carro').parallax({ "coeff":0.5 });
 	    })
 	</script>
 	

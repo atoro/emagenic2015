@@ -14,24 +14,26 @@
 	<a href="clientes" class="zclientes">Acceso Clientes</a>
 	<header>
 		<figure class="logo">
-			<a href="http://www.new.emagenic.cl">
+			<a href="http://www.emagenic.cl/new">
 				<img src="imagenes/logo.png" alt="logo emagenic">
 			</a>
 		</figure>
 		<label for="show-menu" class="show-menu"><img src="imagenes/menu.png" alt="icono menu"></label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
-			<li><a href="http://www.new.emagenic.cl">Inicio</a></li>
+			<li><a href="http://www.emagenic.cl/new">Inicio</a></li>
 			<li><a href="desarrolloweb">Desarrollo Web</a></li>
 			<li><a href="clientes">Clientes</a></li>
 			<li><a href="http://emagenic.blogspot.com/" target="new">Blog</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
+		<a href="carrocompras">
 		<div class="carro">
 			<div class="imgcarro">
 				<div class="numero">0</div>
 			</div>
 		</div>
+		</a>
 	</header>
 	<section class="slide">
 		<div class="texto_slide">

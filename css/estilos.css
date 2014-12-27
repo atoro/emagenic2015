@@ -1000,6 +1000,18 @@ header .logo img {
 .slide_webapp {
 	background-image: url(../imagenes/slide_webapp.jpg); 
 }
+.slide_erp {
+	background-image: url(../imagenes/slide_erp.jpg); 
+}
+.slide_carrodecompras {
+	background-image: url(../imagenes/slide_carrodecompras.jpg); 
+}
+.slide_elearning {
+	background-image: url(../imagenes/slide_elearning.jpg); 
+}
+.slide_basededatos {
+	background-image: url(../imagenes/slide_basededatos.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
@@ -1024,7 +1036,11 @@ header .logo img {
 .slide_sem,
 .slide_socialmedia,
 .slide_analytics,
-.slide_webapp {
+.slide_webapp,
+.slide_erp,
+.slide_carrodecompras,
+.slide_elearning,
+.slide_basededatos {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -1058,7 +1074,11 @@ header .logo img {
 .slide_sem .texto_slide,
 .slide_socialmedia .texto_slide,
 .slide_analytics .texto_slide,
-.slide_webapp .texto_slide {
+.slide_webapp .texto_slide,
+.slide_erp .texto_slide,
+.slide_carrodecompras .texto_slide,
+.slide_elearning .texto_slide,
+.slide_basededatos .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -1089,7 +1109,11 @@ header .logo img {
 .slide_sem .texto_slide .baja,
 .slide_socialmedia .texto_slide .baja,
 .slide_analytics .texto_slide .baja,
-.slide_webapp .texto_slide .baja  {
+.slide_webapp .texto_slide .baja,
+.slide_erp .texto_slide .baja,
+.slide_carrodecompras .texto_slide .baja,
+.slide_elearning .texto_slide .baja,
+.slide_basededatos .texto_slide .baja  {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1123,7 +1147,11 @@ header .logo img {
 .slide_sem .texto_slide .baja:hover,
 .slide_socialmedia .texto_slide .baja:hover,
 .slide_analytics .texto_slide .baja:hover,
-.slide_webapp .texto_slide .baja:hover {
+.slide_webapp .texto_slide .baja:hover,
+.slide_erp .texto_slide .baja:hover,
+.slide_carrodecompras .texto_slide .baja:hover,
+.slide_elearning .texto_slide .baja:hover,
+.slide_basededatos .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1144,7 +1172,11 @@ header .logo img {
 .slide_sem .texto_slide .comencemos,
 .slide_socialmedia .texto_slide .comencemos,
 .slide_analytics .texto_slide .comencemos,
-.slide_webapp .texto_slide .comencemos {
+.slide_webapp .texto_slide .comencemos,
+.slide_erp .texto_slide .comencemos,
+.slide_carrodecompras .texto_slide .comencemos,
+.slide_elearning .texto_slide .comencemos,
+.slide_basededatos .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -1172,7 +1204,11 @@ header .logo img {
 .slide_sem .texto_slide .comencemos:hover,
 .slide_socialmedia .texto_slide .comencemos:hover,
 .slide_analytics .texto_slide .comencemos:hover,
-.slide_webapp .texto_slide .comencemos:hover {
+.slide_webapp .texto_slide .comencemos:hover,
+.slide_erp .texto_slide .comencemos:hover,
+.slide_carrodecompras .texto_slide .comencemos:hover,
+.slide_elearning .texto_slide .comencemos:hover,
+.slide_basededatos .texto_slide .comencemos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -1206,7 +1242,11 @@ header .logo img {
 .slide_sem .texto_slide h1,
 .slide_socialmedia .texto_slide h1,
 .slide_analytics .texto_slide h1,
-.slide_webapp .texto_slide h1 {
+.slide_webapp .texto_slide h1,
+.slide_erp .texto_slide h1,
+.slide_carrodecompras .texto_slide h1,
+.slide_elearning .texto_slide h1,
+.slide_basededatos .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -1233,7 +1273,11 @@ header .logo img {
 .slide_sem .texto_slide h2,
 .slide_socialmedia .texto_slide h2,
 .slide_analytics .texto_slide h2,
-.slide_webapp .texto_slide h2 {
+.slide_webapp .texto_slide h2,
+.slide_erp .texto_slide h2,
+.slide_carrodecompras .texto_slide h2,
+.slide_elearning .texto_slide h2,
+.slide_basededatos .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -1262,7 +1306,11 @@ header .logo img {
 .slide_sem .texto_slide h3,
 .slide_socialmedia .texto_slide h3,
 .slide_analytics .texto_slide h3,
-.slide_webapp .texto_slide h3 {
+.slide_webapp .texto_slide h3,
+.slide_erp .texto_slide h3,
+.slide_carrodecompras .texto_slide h3,
+.slide_elearning .texto_slide h3,
+.slide_basededatos .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -1292,7 +1340,11 @@ header .logo img {
 .slide_sem .texto_slide p,
 .slide_socialmedia .texto_slide p,
 .slide_analytics .texto_slide p,
-.slide_webapp .texto_slide p {
+.slide_webapp .texto_slide p,
+.slide_erp .texto_slide p,
+.slide_carrodecompras .texto_slide p,
+.slide_elearning .texto_slide p,
+.slide_basededatos .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
