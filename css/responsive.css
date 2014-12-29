@@ -338,7 +338,11 @@
 	.slide_erp .texto_slide,
 	.slide_carrodecompras .texto_slide,
 	.slide_elearning .texto_slide,
-	.slide_basededatos .texto_slide {
+	.slide_basededatos .texto_slide,
+	.slide_disenografico .texto_slide,
+	.slide_impresion .texto_slide,
+	.slide_imagencorporativa .texto_slide,
+	.slide_diseno .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -362,7 +366,11 @@
 	.slide_erp .texto_slide .comencemos,
 	.slide_carrodecompras .texto_slide .comencemos,
 	.slide_elearning .texto_slide .comencemos,
-	.slide_basededatos .texto_slide .comencemos {
+	.slide_basededatos .texto_slide .comencemos,
+	.slide_disenografico .texto_slide .comencemos,
+	.slide_impresion .texto_slide .comencemos,
+	.slide_imagencorporativa .texto_slide .comencemos,
+	.slide_diseno .texto_slide .comencemos {
 		background: #ff284a;
 		border: none;
 		color: white;
@@ -394,7 +402,11 @@
 	.slide_erp .texto_slide .comencemos:hover,
 	.slide_carrodecompras .texto_slide .comencemos:hover,
 	.slide_elearning .texto_slide .comencemos:hover,
-	.slide_basededatos .texto_slide .comencemos:hover {
+	.slide_basededatos .texto_slide .comencemos:hover,
+	.slide_disenografico .texto_slide .comencemos:hover,
+	.slide_impresion .texto_slide .comencemos:hover,
+	.slide_imagencorporativa .texto_slide .comencemos:hover,
+	.slide_diseno .texto_slide .comencemos:hover {
 		background: #1f2326;
 		border-bottom: solid 5px #ff284a;
 		color: #ff284a;
@@ -432,7 +444,11 @@
 	.slide_erp .texto_slide h1,
 	.slide_carrodecompras .texto_slide h1,
 	.slide_elearning .texto_slide h1,
-	.slide_basededatos .texto_slide h1 {
+	.slide_basededatos .texto_slide h1,
+	.slide_disenografico .texto_slide h1,
+	.slide_impresion .texto_slide h1,
+	.slide_imagencorporativa .texto_slide h1,
+	.slide_diseno .texto_slide h1 {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
@@ -463,7 +479,11 @@
 	.slide_erp .texto_slide h2,
 	.slide_carrodecompras .texto_slide h2,
 	.slide_elearning .texto_slide h2,
-	.slide_basededatos .texto_slide h2 {
+	.slide_basededatos .texto_slide h2,
+	.slide_disenografico .texto_slide h2,
+	.slide_impresion .texto_slide h2,
+	.slide_imagencorporativa .texto_slide h2,
+	.slide_diseno .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -496,7 +516,11 @@
 	.slide_erp .texto_slide h3,
 	.slide_carrodecompras .texto_slide h3,
 	.slide_elearning .texto_slide h3,
-	.slide_basededatos .texto_slide h3 {
+	.slide_basededatos .texto_slide h3,
+	.slide_disenografico .texto_slide h3,
+	.slide_impresion .texto_slide h3,
+	.slide_imagencorporativa .texto_slide h3,
+	.slide_diseno .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -530,7 +554,11 @@
 	.slide_erp .texto_slide p,
 	.slide_carrodecompras .texto_slide p,
 	.slide_elearning .texto_slide p,
-	.slide_basededatos .texto_slide p {
+	.slide_basededatos .texto_slide p,
+	.slide_disenografico .texto_slide p,
+	.slide_impresion .texto_slide p,
+	.slide_imagencorporativa .texto_slide p,
+	.slide_diseno .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;

@@ -256,6 +256,19 @@ header .logo img {
 	float: left;
 	width: 100%;
 }
+.boton {
+	display: block;
+	background: #ff284e;
+	border: none;
+	color: white;
+	width: 200px;
+	padding: 10px 0;
+	margin: 20px auto 0 auto;
+}
+.boton:focus {
+	border-color: transparent;
+    outline: transparent;
+}
 .carrodecompra {
 	padding-bottom: 60px;
 	width: 100%;
@@ -1012,6 +1025,18 @@ header .logo img {
 .slide_basededatos {
 	background-image: url(../imagenes/slide_basededatos.jpg); 
 }
+.slide_disenografico {
+	background-image: url(../imagenes/slide_disenografico.jpg); 
+}
+.slide_impresion {
+	background-image: url(../imagenes/slide_impresion.jpg); 
+}
+.slide_imagencorporativa {
+	background-image: url(../imagenes/slide_imagencorporativa.jpg); 
+}
+.slide_diseno {
+	background-image: url(../imagenes/slide_diseno.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
@@ -1040,7 +1065,11 @@ header .logo img {
 .slide_erp,
 .slide_carrodecompras,
 .slide_elearning,
-.slide_basededatos {
+.slide_basededatos,
+.slide_disenografico,
+.slide_impresion,
+.slide_imagencorporativa,
+.slide_diseno {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -1078,7 +1107,11 @@ header .logo img {
 .slide_erp .texto_slide,
 .slide_carrodecompras .texto_slide,
 .slide_elearning .texto_slide,
-.slide_basededatos .texto_slide {
+.slide_basededatos .texto_slide,
+.slide_disenografico .texto_slide,
+.slide_impresion .texto_slide,
+.slide_imagencorporativa .texto_slide,
+.slide_diseno .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -1113,7 +1146,11 @@ header .logo img {
 .slide_erp .texto_slide .baja,
 .slide_carrodecompras .texto_slide .baja,
 .slide_elearning .texto_slide .baja,
-.slide_basededatos .texto_slide .baja  {
+.slide_basededatos .texto_slide .baja,
+.slide_disenografico .texto_slide .baja,
+.slide_impresion .texto_slide .baja,
+.slide_imagencorporativa .texto_slide .baja,
+.slide_diseno .texto_slide .baja  {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1151,7 +1188,11 @@ header .logo img {
 .slide_erp .texto_slide .baja:hover,
 .slide_carrodecompras .texto_slide .baja:hover,
 .slide_elearning .texto_slide .baja:hover,
-.slide_basededatos .texto_slide .baja:hover {
+.slide_basededatos .texto_slide .baja:hover,
+.slide_disenografico .texto_slide .baja:hover,
+.slide_impresion .texto_slide .baja:hover,
+.slide_imagencorporativa .texto_slide .baja:hover,
+.slide_diseno .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1176,7 +1217,11 @@ header .logo img {
 .slide_erp .texto_slide .comencemos,
 .slide_carrodecompras .texto_slide .comencemos,
 .slide_elearning .texto_slide .comencemos,
-.slide_basededatos .texto_slide .comencemos {
+.slide_basededatos .texto_slide .comencemos,
+.slide_disenografico .texto_slide .comencemos,
+.slide_impresion .texto_slide .comencemos,
+.slide_imagencorporativa .texto_slide .comencemos,
+.slide_diseno .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -1208,7 +1253,11 @@ header .logo img {
 .slide_erp .texto_slide .comencemos:hover,
 .slide_carrodecompras .texto_slide .comencemos:hover,
 .slide_elearning .texto_slide .comencemos:hover,
-.slide_basededatos .texto_slide .comencemos:hover {
+.slide_basededatos .texto_slide .comencemos:hover,
+.slide_disenografico .texto_slide .comencemos:hover,
+.slide_impresion .texto_slide .comencemos:hover,
+.slide_imagencorporativa .texto_slide .comencemos:hover,
+.slide_diseno .texto_slide .comencemos:hover  {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -1246,7 +1295,11 @@ header .logo img {
 .slide_erp .texto_slide h1,
 .slide_carrodecompras .texto_slide h1,
 .slide_elearning .texto_slide h1,
-.slide_basededatos .texto_slide h1 {
+.slide_basededatos .texto_slide h1,
+.slide_disenografico .texto_slide h1,
+.slide_impresion .texto_slide h1,
+.slide_imagencorporativa .texto_slide h1,
+.slide_diseno .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -1277,7 +1330,11 @@ header .logo img {
 .slide_erp .texto_slide h2,
 .slide_carrodecompras .texto_slide h2,
 .slide_elearning .texto_slide h2,
-.slide_basededatos .texto_slide h2 {
+.slide_basededatos .texto_slide h2,
+.slide_disenografico .texto_slide h2,
+.slide_impresion .texto_slide h2,
+.slide_imagencorporativa .texto_slide h2,
+.slide_diseno .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -1310,7 +1367,11 @@ header .logo img {
 .slide_erp .texto_slide h3,
 .slide_carrodecompras .texto_slide h3,
 .slide_elearning .texto_slide h3,
-.slide_basededatos .texto_slide h3 {
+.slide_basededatos .texto_slide h3,
+.slide_disenografico .texto_slide h3,
+.slide_impresion .texto_slide h3,
+.slide_imagencorporativa .texto_slide h3,
+.slide_diseno .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -1344,7 +1405,11 @@ header .logo img {
 .slide_erp .texto_slide p,
 .slide_carrodecompras .texto_slide p,
 .slide_elearning .texto_slide p,
-.slide_basededatos .texto_slide p {
+.slide_basededatos .texto_slide p,
+.slide_disenografico .texto_slide p,
+.slide_impresion .texto_slide p,
+.slide_imagencorporativa .texto_slide p,
+.slide_diseno .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
