@@ -54,7 +54,7 @@
 			Un logotipo muchas veces esta desde el inicio hasta el consagramiento en una empresa, debe ser el fiel reflejo de la visión de esta y solo se cambia si la organización cambia de rumbo.</p>
 		</div>
 	</section>
-	<section class="planes">
+	<section class="planes_imagen">
 		<a href="erp.html">
 			<div class="plan1">
 				<div class="nombre">
@@ -243,7 +243,7 @@
 	             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 	             if ($target.length) {
 	                 var targetOffset = $target.offset().top;
-	                 $('html,body').animate({scrollTop: targetOffset}, 1500);
+	                  $('html,body').animate({scrollTop: targetOffset - 60}, 1500);
 	                 return false;
 	            }
 	       }

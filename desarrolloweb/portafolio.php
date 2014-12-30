@@ -43,7 +43,6 @@
 			<h1>Portafolio web</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
 			<a href="#" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
@@ -215,7 +214,7 @@
 	             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 	             if ($target.length) {
 	                 var targetOffset = $target.offset().top;
-	                 $('html,body').animate({scrollTop: targetOffset}, 1500);
+	                  $('html,body').animate({scrollTop: targetOffset - 60}, 1500);
 	                 return false;
 	            }
 	       }

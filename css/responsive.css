@@ -279,6 +279,84 @@
 		float: left;
 		margin-top: 100px;
 	}
+	.planes_landing .plan1,
+	.planes_landing .plan1responsive,
+	.planes_landing .plan2,
+	.planes_landing .plan2responsive {
+		width: 50%;
+		float: left;
+		height: 400px;
+		display: block;
+	}
+	.planes_landing .plan1 .contenido,
+	.planes_landing .plan1responsive .contenido,
+	.planes_landing .plan2 .contenido,
+	.planes_landing .plan2responsive .contenido,
+	.planes_landing .plan3 .contenido {
+		width: 50%;
+		float: right;
+		margin-top: 80px;
+	}
+	.planes_landing .plan1 .nombre,
+	.planes_landing .plan1responsive .nombre,
+	.planes_landing .plan2 .nombre,
+	.planes_landing .plan2responsive .nombre {
+		width: 50%;
+		float: left;
+		margin-top: 100px;
+	}
+	.planes_imagen .plan1,
+	.planes_imagen .plan1responsive,
+	.planes_imagen .plan2,
+	.planes_imagen .plan2responsive {
+		width: 50%;
+		float: left;
+		height: 400px;
+		display: block;
+	}
+	.planes_imagen .plan1 .contenido,
+	.planes_imagen .plan1responsive .contenido,
+	.planes_imagen .plan2 .contenido,
+	.planes_imagen .plan2responsive .contenido,
+	.planes_imagen .plan3 .contenido {
+		width: 50%;
+		float: right;
+		margin-top: 80px;
+	}
+	.planes_imagen .plan1 .nombre,
+	.planes_imagen .plan1responsive .nombre,
+	.planes_imagen .plan2 .nombre,
+	.planes_imagen .plan2responsive .nombre {
+		width: 50%;
+		float: left;
+		margin-top: 100px;
+	}
+	.planes_webapp .plan1,
+	.planes_webapp .plan1responsive,
+	.planes_webapp .plan2,
+	.planes_webapp .plan2responsive {
+		width: 50%;
+		float: left;
+		height: 400px;
+		display: block;
+	}
+	.planes_webapp .plan1 .contenido,
+	.planes_webapp .plan1responsive .contenido,
+	.planes_webapp .plan2 .contenido,
+	.planes_webapp .plan2responsive .contenido,
+	.planes_webapp .plan3 .contenido {
+		width: 50%;
+		float: right;
+		margin-top: 80px;
+	}
+	.planes_webapp .plan1 .nombre,
+	.planes_webapp .plan1responsive .nombre,
+	.planes_webapp .plan2 .nombre,
+	.planes_webapp .plan2responsive .nombre {
+		width: 50%;
+		float: left;
+		margin-top: 100px;
+	}
 	.portafolio {
 		line-height: 400px;
 	}
@@ -293,6 +371,11 @@
 		float: left;
 		height: 300px;
 		width: 25%;
+	}
+	.sep {
+		height: 420px;
+		width: 100%;
+		float: left;
 	}
 	.servicios .servicio {
 		border-bottom: none;
@@ -342,7 +425,13 @@
 	.slide_disenografico .texto_slide,
 	.slide_impresion .texto_slide,
 	.slide_imagencorporativa .texto_slide,
-	.slide_diseno .texto_slide {
+	.slide_diseno .texto_slide,
+	.slide_clientes .texto_slide,
+	.slide_notificarpago .texto_slide,
+	.slide_soporte .texto_slide,
+	.slide_preguntas .texto_slide,
+	.slide_ofertas .texto_slide,
+	.slide_novedades .texto_slide {
 		text-align: center;
 		color: white;
 		padding-top: 200px;
@@ -370,7 +459,13 @@
 	.slide_disenografico .texto_slide .comencemos,
 	.slide_impresion .texto_slide .comencemos,
 	.slide_imagencorporativa .texto_slide .comencemos,
-	.slide_diseno .texto_slide .comencemos {
+	.slide_diseno .texto_slide .comencemos,
+	.slide_clientes .texto_slide .comencemos,
+	.slide_notificarpago .texto_slide .comencemos,
+	.slide_soporte .texto_slide .comencemos,
+	.slide_preguntas .texto_slide .comencemos,
+	.slide_ofertas .texto_slide .comencemos,
+	.slide_novedades .texto_slide .comencemos {
 		background: #ff284a;
 		border: none;
 		color: white;
@@ -406,7 +501,13 @@
 	.slide_disenografico .texto_slide .comencemos:hover,
 	.slide_impresion .texto_slide .comencemos:hover,
 	.slide_imagencorporativa .texto_slide .comencemos:hover,
-	.slide_diseno .texto_slide .comencemos:hover {
+	.slide_diseno .texto_slide .comencemos:hover,
+	.slide_clientes .texto_slide .comencemos:hover,
+	.slide_notificarpago .texto_slide .comencemos:hover,
+	.slide_soporte .texto_slide .comencemos:hover,
+	.slide_preguntas .texto_slide .comencemos:hover,
+	.slide_ofertas .texto_slide .comencemos:hover,
+	.slide_novedades .texto_slide .comencemos:hover {
 		background: #1f2326;
 		border-bottom: solid 5px #ff284a;
 		color: #ff284a;
@@ -448,7 +549,13 @@
 	.slide_disenografico .texto_slide h1,
 	.slide_impresion .texto_slide h1,
 	.slide_imagencorporativa .texto_slide h1,
-	.slide_diseno .texto_slide h1 {
+	.slide_diseno .texto_slide h1,
+	.slide_clientes .texto_slide h1,
+	.slide_notificarpago .texto_slide h1,
+	.slide_soporte .texto_slide h1,
+	.slide_preguntas .texto_slide h1,
+	.slide_ofertas .texto_slide h1,
+	.slide_novedades .texto_slide h1 {
 		font-size: 48px;
 	}
 	.slide .texto_slide h2,
@@ -483,7 +590,13 @@
 	.slide_disenografico .texto_slide h2,
 	.slide_impresion .texto_slide h2,
 	.slide_imagencorporativa .texto_slide h2,
-	.slide_diseno .texto_slide h2 {
+	.slide_diseno .texto_slide h2,
+	.slide_clientes .texto_slide h2,
+	.slide_notificarpago .texto_slide h2,
+	.slide_soporte .texto_slide h2,
+	.slide_preguntas .texto_slide h2,
+	.slide_ofertas .texto_slide h2,
+	.slide_novedades .texto_slide h2 {
 		font-size: 20px;
 		margin: 0;
 		font-weight: 400;
@@ -520,7 +633,13 @@
 	.slide_disenografico .texto_slide h3,
 	.slide_impresion .texto_slide h3,
 	.slide_imagencorporativa .texto_slide h3,
-	.slide_diseno .texto_slide h3 {
+	.slide_diseno .texto_slide h3,
+	.slide_clientes .texto_slide h3,
+	.slide_notificarpago .texto_slide h3,
+	.slide_soporte .texto_slide h3,
+	.slide_preguntas .texto_slide h3,
+	.slide_ofertas .texto_slide h3,
+	.slide_novedades .texto_slide h3 {
 		font-size: 18px;
 		margin: 5px auto 0 auto;
 		font-weight: 300;
@@ -558,7 +677,13 @@
 	.slide_disenografico .texto_slide p,
 	.slide_impresion .texto_slide p,
 	.slide_imagencorporativa .texto_slide p,
-	.slide_diseno .texto_slide p {
+	.slide_diseno .texto_slide p,
+	.slide_clientes .texto_slide p,
+	.slide_notificarpago .texto_slide p,
+	.slide_soporte .texto_slide p,
+	.slide_preguntas .texto_slide p,
+	.slide_ofertas .texto_slide p,
+	.slide_novedades .texto_slide p {
 		font-weight: 300;
 		font-size: 30px;
 		margin-top: 50px;
@@ -614,6 +739,42 @@
 	.planes .plan2responsive .nombre .valor,
 	.planes .plan3 .nombre .valor,
 	.planes .plan3responsive .nombre .valor  {
+		font-size: 30px;
+	}
+	.planes_landing .plan1 .nombre h3,
+	.planes_landing .plan1responsive .nombre h3,
+	.planes_landing .plan2 .nombre h3,
+	.planes_landing .plan2responsive .nombre h3 {
+		font-size: 30px;
+	}
+	.planes_landing .plan1 .nombre .valor,
+	.planes_landing .plan1responsive .nombre .valor,
+	.planes_landing .plan2 .nombre .valor,
+	.planes_landing .plan2responsive .nombre .valor  {
+		font-size: 30px;
+	}
+	.planes_imagen .plan1 .nombre h3,
+	.planes_imagen .plan1responsive .nombre h3,
+	.planes_imagen .plan2 .nombre h3,
+	.planes_imagen .plan2responsive .nombre h3 {
+		font-size: 30px;
+	}
+	.planes_imagen .plan1 .nombre .valor,
+	.planes_imagen .plan1responsive .nombre .valor,
+	.planes_imagen .plan2 .nombre .valor,
+	.planes_imagen .plan2responsive .nombre .valor  {
+		font-size: 30px;
+	}
+	.planes_webapp .plan1 .nombre h3,
+	.planes_webapp .plan1responsive .nombre h3,
+	.planes_webapp .plan2 .nombre h3,
+	.planes_webapp .plan2responsive .nombre h3 {
+		font-size: 30px;
+	}
+	.planes_webapp .plan1 .nombre .valor,
+	.planes_webapp .plan1responsive .nombre .valor,
+	.planes_webapp .plan2 .nombre .valor,
+	.planes_webapp .plan2responsive .nombre .valor  {
 		font-size: 30px;
 	}
 	.portafolio {

@@ -55,7 +55,7 @@
 			<p>Una landing page es una pequeña pagina web de una sola sección (sitio de inicio) que esta diseñada para publicitar un producto, servicio, evento, etc. Estas landing page están divididas en secciones, la que contienen información clasificada por características de lo que se quiere publicitar. Muchas veces también incluyen un menú que permite la navegación en esta, subiendo y bajando sin tener que usar el scroll del mouse. Todas nuestras landing page incluyen un formulario de contacto, la idea es que después de que el cliente vea lo que se publicita pueda contactarlo de manera rápida y segura. Finalmente la grafica es muy importante, todos los planes incluyen al menos una imagen y el plan mas avanzado incluye una galería de fotos</p>
 		</div>
 	</section>
-	<section class="planes">
+	<section class="planes_landing">
 		<a href="landing1.php">
 			<div class="plan1">
 				<div class="nombre">
@@ -244,7 +244,7 @@
 	             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 	             if ($target.length) {
 	                 var targetOffset = $target.offset().top;
-	                 $('html,body').animate({scrollTop: targetOffset}, 1500);
+	                  $('html,body').animate({scrollTop: targetOffset - 60}, 1500);
 	                 return false;
 	            }
 	       }

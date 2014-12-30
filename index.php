@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Desarrollo de páginas web en Rancagua- Emagenic -  Desarrollo de sitios web</title>
+	<title>Desarrollo de páginas web en Rancagua - Emagenic - Diseño de sitios web</title>
+    <meta name="description" content="Desarrollamos sitios web a medida, sin plantillas ni programas que vuelven su diseño pesado. Nuestro fuerte es html5, css3 y php">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/estilos.css">
@@ -37,8 +38,8 @@
 	</header>
 	<section class="slide">
 		<div class="texto_slide">
-			<h1>Desarrollamos Sitios Web en Rancagua</h1>
-			<h2>Desarrollo de Sitios Web, a medida, en HTML5 y sin Plantillas desde Rancagua para Chile y el Mundo.</h2>
+			<h1>Desarrollo de Sitios Web</h1>
+			<h2>Desarrollamos sitios web, a medida, en HTML5 y sin Plantillas desde Rancagua para Chile y el Mundo.</h2>
 			<h3>Contenido Autoadministrable y seguro para garantizar la presecia de su empresa en la web</h3>
 			<p>Vamos a Trabajar Juntos</p>
 			<a href="#contacto" class="comencemos">COMENCEMOS</a>
@@ -59,18 +60,18 @@
 		</a>
 		<a class="servicio" href="disenografico">
 			<h2>Diseño Gráfico</h2>
-			<p>La imagen corporativa y todo 
-			lo que la compone debe 
-			ser diseñada por profesionales.</p>
+			<p>Imagen corporativa y todo 
+			lo que la compone  
+		    diseñada por profesionales.</p>
 			<figure class="vermas">
 				<img src="imagenes/vermas.png" alt="icono ver mas">
 			</figure>
 		</a>
 		<a class="servicio" href="webhosting">
 			<h2>Web Hosting</h2>
-			<p>Un hosting seguro y confiable 
+			<p>Hosting seguro y confiable 
 			es la clave para la estabilidad 
-			del sitio, aplicaciones y correos.</p>
+			de todo.</p>
 			<figure class="vermas">
 				<img src="imagenes/vermas.png" alt="icono ver mas">
 			</figure>
@@ -79,7 +80,7 @@
 			<h2>Marketing Online</h2>
 			<p>Posicionamiento orgánico, 
 			campaña AdWords y 
-			redes sociales</p>
+			social media</p>
 			<figure class="vermas">
 				<img src="imagenes/vermas.png" alt="icono ver mas">
 			</figure>
@@ -97,11 +98,11 @@
 	<section class="crear bounce">
 		<article class="web">
 			<h2>Crear una Página Web</h2>
-			<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo. Estamos ubicados en la sexta region, pero contamos con un sistema de venta y soporte nacional que nos permite atender cualquier requerimiento de otras regiones. <br>
+			<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo. Estamos ubicados en la sexta region, pero contamos con un sistema de venta y soporte  que nos permite atender cualquier requerimiento de otras regiones. <br>
 			<br>
-			Muchas personas ofrecen el desarrollo de su página web en un par de horas por un costo muy bajo, pero yo les digo, ¿Cuánto tiempo ha trabajado en la creación de su empresa?, ¿Cuánto trabajo y esfuerzo ha invertido en esta para que alguien haga su presentación en internet en tan sólo un par de horas? La verdad es que esto es un poco más complejo. <br> 
+			Muchas empresas ofrecen el desarrollo de su página web en un par de horas por un costo muy bajo, pero yo les digo, ¿Cuánto tiempo ha trabajado en la creación de su empresa?, ¿Cuánto trabajo y esfuerzo ha invertido en esta para que alguien haga su presentación en internet en tan sólo un par de horas? La verdad es que esto segun nosotros debe mas atención. <br> 
 			<br>
-			Imagine que como usted, existen muchas empresas que están tratando de mejorar sus ventas y están dando a conocer sus producto a través del desarrollo de su página web; quien cautive mejor a los clientes y aparezca en mejor posición en google será quien obtenga los mejores resultados de venta. Es importante recordar, que el mercado es frío y carece de sentimientos, por lo que la estrategia es la clave del éxito. <br> 
+			Imagine que como usted, existen muchas empresas que están tratando de mejorar sus ventas y están dando a conocer sus producto a través del desarrollo de su página web, quien cautive mejor a los clientes y aparezca en mejor posición en google será quien obtenga los mejores resultados de venta. Es importante recordar, que el mercado es frío y carece de sentimientos, por lo que la estrategia es la clave del éxito. <br> 
 			<br>
 			Como empresa con años en el rubro, le ofrecemos entre otros servicios, hacer un análisis exhaustivo de sus productos y de su mercado, creando la mejor estrategia desde el punto de vista de la experiencia de usuario y “usabilidad”, ofreciendo el desarrollo de una página web posicionable en buscadores, que sea de fácil uso y navegación, en donde la presentación de su sitio, optimice la conversión de sus clientes.</p>
 		</article>
@@ -221,7 +222,7 @@
 	             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 	             if ($target.length) {
 	                 var targetOffset = $target.offset().top;
-	                 $('html,body').animate({scrollTop: targetOffset}, 1500);
+	                  $('html,body').animate({scrollTop: targetOffset - 60}, 1500);
 	                 return false;
 	            }
 	       }

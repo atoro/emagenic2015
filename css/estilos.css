@@ -363,6 +363,161 @@ header .logo img {
 	padding: 20px 0;
 	font-weight: 300;
 }
+.carrodecompra .centro_carro .formulario {
+	background: #f5f5f5;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario form .enviar {
+	background: #ff284a;
+	border: none;
+	color: white;
+	display: block;
+	margin: 20px auto 60px auto;
+	padding: 15px;
+	width: 120px;
+}
+.carrodecompra .centro_carro .formulario form .input {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 80%;
+}
+.carrodecompra .centro_carro .formulario form .input:focus,
+.carrodecompra .centro_carro .formulario form .enviar:focus,
+.carrodecompra .centro_carro .formulario form .mensaje:focus,
+.carrodecompra .centro_carro .formulario form select:focus  {
+	border-color: transparent;
+    outline: transparent;
+}
+.carrodecompra .centro_carro .formulario form .mensaje {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	height: 80px;
+	width: 80%;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario form .pago_input2 {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.carrodecompra .centro_carro .formulario form select {
+	padding: 30px;
+   	font-size: 16px;
+   	border: 0;
+   	border-radius: 3px;
+   	height: 50px;
+   	-webkit-transition: all 0.4s;
+   	-moz-transition: all 0.4s;
+   	transition: all 0.4s;
+   	border: solid 1px #ccc;
+   	width: 80%
+
+}
+.carrodecompra .centro_carro .formulario h3 {
+	font-size: 24px;
+	padding: 20px 0;
+	font-weight: 300;
+}
+
+
+.carrodecompra .centro_carro .formulario2 {
+	background: #f5f5f5;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario2 form .enviar {
+	background: #ff284a;
+	border: none;
+	color: white;
+	display: block;
+	margin: 20px auto 60px auto;
+	padding: 15px;
+	width: 120px;
+}
+.carrodecompra .centro_carro .formulario2 form .input {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 80%;
+}
+.carrodecompra .centro_carro .formulario2 form .input:focus,
+.carrodecompra .centro_carro .formulario2 form .enviar:focus {
+	border-color: transparent;
+    outline: transparent;
+}
+.carrodecompra .centro_carro .formulario2 h3 {
+	font-size: 24px;
+	padding: 20px 0;
+	font-weight: 300;
+}
+.carrodecompra .centro_carro .formulario2 {
+	background: #f5f5f5;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario2 form .enviar {
+	background: #ff284a;
+	border: none;
+	color: white;
+	display: block;
+	margin: 20px auto 60px auto;
+	padding: 15px;
+	width: 120px;
+}
+.carrodecompra .centro_carro .formulario2 form .input {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 80%;
+}
+.carrodecompra .centro_carro .formulario2 form .input:focus,
+.carrodecompra .centro_carro .formulario2 form .enviar:focus,
+.carrodecompra .centro_carro .formulario2 form .mensaje:focus,
+.carrodecompra .centro_carro .formulario2 form select:focus  {
+	border-color: transparent;
+    outline: transparent;
+}
+.carrodecompra .centro_carro .formulario2 form .mensaje {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+	height: 80px;
+	width: 80%;
+	border: solid 1px #ccc;
+}
+.carrodecompra .centro_carro .formulario2 form .pago_input2 {
+	display: block;
+	margin: 0 auto 25px auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.carrodecompra .centro_carro .formulario2 form select {
+	padding: 30px;
+   	font-size: 16px;
+   	border: 0;
+   	border-radius: 3px;
+   	height: 50px;
+   	-webkit-transition: all 0.4s;
+   	-moz-transition: all 0.4s;
+   	transition: all 0.4s;
+   	border: solid 1px #ccc;
+   	width: 80%
+
+}
+.carrodecompra .centro_carro .formulario2 h3 {
+	font-size: 24px;
+	padding: 20px 0;
+	font-weight: 300;
+}
 .crear {
 	background-attachment: fixed;
 	background-image: url(../imagenes/crear/normal.jpg); 
@@ -559,8 +714,6 @@ header .logo img {
 }
 .pagos2 {
 	background: white;
-	display: block;
-	float: left;
 	padding: 50px 0;
 	width: 100%;
 	margin-top: -5px;
@@ -794,6 +947,390 @@ header .logo img {
 .planes .plan2responsive .nombre strong,
 .planes .plan3 .nombre strong,
 .planes .plan3responsive .nombre strong  {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+.planes_landing {
+	background: #fff;
+	overflow: hidden; 
+}
+.planes_landing .plan1,
+.planes_landing .plan1responsive,
+.planes_landing .plan2,
+.planes_landing .plan2responsive {
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 500px;
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_landing .plan1:hover,
+.planes_landing .plan1responsive:hover,
+.planes_landing .plan2:hover,
+.planes_landing .plan2responsive:hover {
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_landing .plan1 {
+	background-image: url(../imagenes/landing/landing1.jpg); 
+	color: white;
+}
+.planes_landing .plan1:hover {
+	background-image: url(../imagenes/landing/landing1_desenfoque.jpg); 
+	color: white;
+}
+.planes_landing .plan1responsive {
+	background-image: url(../imagenes/landing/landing2.jpg); 
+	color: white;
+}
+.planes_landing .plan1responsive:hover {
+	background-image: url(../imagenes/landing/landing2_desenfoque.jpg); 
+	color: white;
+}
+.planes_landing .plan2 {
+	background-image: url(../imagenes/landing/landing3.jpg); 
+	color: white;
+}
+.planes_landing .plan2:hover {
+	background-image: url(../imagenes/landing/landing3_desenfoque.jpg); 
+	color: white;
+}
+.planes_landing .plan2responsive {
+	background-image: url(../imagenes/landing/landing4.jpg); 
+	color: white;
+}
+.planes_landing .plan2responsive:hover {
+	background-image: url(../imagenes/landing/landing4_desenfoque.jpg); 
+	color: white;
+}
+.planes_landing .plan1 .contenido,
+.planes_landing .plan1 .nombre,
+.planes_landing .plan1responsive .contenido,
+.planes_landing .plan1responsive .nombre,
+.planes_landing .plan2 .contenido,
+.planes_landing .plan2 .nombre,
+.planes_landing .plan2responsive .contenido,
+.planes_landing .plan2responsive .nombre {
+	text-align: center;
+}
+.planes_landing .plan1 .contenido .contratar,
+.planes_landing .plan1responsive .contenido .contratar,
+.planes_landing .plan2 .contenido .contratar,
+.planes_landing .plan2responsive .contenido .contratar {
+	background: #ff284a;
+	font-weight: 300;
+	width: 120px;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+}
+.planes_landing .plan1 .contenido p,
+.planes_landing .plan1responsive .contenido p,
+.planes_landing .plan2 .contenido p,
+.planes_landing .plan2responsive .contenido p {
+	margin: 10px 0;
+	font-weight: 300;
+}
+.planes_landing .plan1 .contenido .vermas,
+.planes_landing .plan1 .contenido .vermas img,
+.planes_landing .plan1responsive .contenido .vermas,
+.planes_landing .plan1responsive .contenido .vermas img,
+.planes_landing .plan2 .contenido .vermas,
+.planes_landing .plan2 .contenido .vermas img,
+.planes_landing .plan2responsive .contenido .vermas,
+.planes_landing .plan2responsive .contenido .vermas img {
+	height: 30px;
+	margin: 0 auto 2% auto;
+	width: 33px;
+}
+.planes_landing .plan1 .nombre h3,
+.planes_landing .plan1responsive .nombre h3,
+.planes_landing .plan2 .nombre h3,
+.planes_landing .plan2responsive .nombre h3 {
+	margin: 0;
+	padding-top: 50px;
+	font-size: 25px;
+	font-weight: 300;
+}
+.planes_landing .plan1 .nombre .valor,
+.planes_landing .plan1responsive .nombre .valor,
+.planes_landing .plan2 .nombre .valor,
+.planes_landing .plan2responsive .nombre .valor {
+	margin: 0;
+	color: #ff284a;
+	font-size: 25px;
+	padding-bottom: 50px;
+}
+.planes_landing .plan1 .nombre strong,
+.planes_landing .plan1responsive .nombre strong,
+.planes_landing .plan2 .nombre strong,
+.planes_landing .plan2responsive .nombre strong  {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+.planes_imagen {
+	background: #fff;
+	overflow: hidden; 
+}
+.planes_imagen .plan1,
+.planes_imagen .plan1responsive,
+.planes_imagen .plan2,
+.planes_imagen .plan2responsive {
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 500px;
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_imagen .plan1:hover,
+.planes_imagen .plan1responsive:hover,
+.planes_imagen .plan2:hover,
+.planes_imagen .plan2responsive:hover {
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_imagen .plan1 {
+	background-image: url(../imagenes/corporativo/corporativo1.jpg); 
+	color: white;
+}
+.planes_imagen .plan1:hover {
+	background-image: url(../imagenes/corporativo/corporativo1_on.jpg); 
+	color: white;
+}
+.planes_imagen .plan1responsive {
+	background-image: url(../imagenes/corporativo/corporativo2.jpg); 
+	color: white;
+}
+.planes_imagen .plan1responsive:hover {
+	background-image: url(../imagenes/corporativo/corporativo2_on.jpg); 
+	color: white;
+}
+.planes_imagen .plan2 {
+	background-image: url(../imagenes/corporativo/corporativo3.jpg); 
+	color: white;
+}
+.planes_imagen .plan2:hover {
+	background-image: url(../imagenes/corporativo/corporativo3_on.jpg); 
+	color: white;
+}
+.planes_imagen .plan2responsive {
+	background-image: url(../imagenes/corporativo/corporativo4.jpg); 
+	color: white;
+}
+.planes_imagen .plan2responsive:hover {
+	background-image: url(../imagenes/corporativo/corporativo4_on.jpg); 
+	color: white;
+}
+.planes_imagen .plan1 .contenido,
+.planes_imagen .plan1 .nombre,
+.planes_imagen .plan1responsive .contenido,
+.planes_imagen .plan1responsive .nombre,
+.planes_imagen .plan2 .contenido,
+.planes_imagen .plan2 .nombre,
+.planes_imagen .plan2responsive .contenido,
+.planes_imagen .plan2responsive .nombre {
+	text-align: center;
+}
+.planes_imagen .plan1 .contenido .contratar,
+.planes_imagen .plan1responsive .contenido .contratar,
+.planes_imagen .plan2 .contenido .contratar,
+.planes_imagen .plan2responsive .contenido .contratar {
+	background: #ff284a;
+	font-weight: 300;
+	width: 120px;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+}
+.planes_imagen .plan1 .contenido p,
+.planes_imagen .plan1responsive .contenido p,
+.planes_imagen .plan2 .contenido p,
+.planes_imagen .plan2responsive .contenido p {
+	margin: 10px 0;
+	font-weight: 300;
+}
+.planes_imagen .plan1 .contenido .vermas,
+.planes_imagen .plan1 .contenido .vermas img,
+.planes_imagen .plan1responsive .contenido .vermas,
+.planes_imagen .plan1responsive .contenido .vermas img,
+.planes_imagen .plan2 .contenido .vermas,
+.planes_imagen .plan2 .contenido .vermas img,
+.planes_imagen .plan2responsive .contenido .vermas,
+.planes_imagen .plan2responsive .contenido .vermas img {
+	height: 30px;
+	margin: 0 auto 2% auto;
+	width: 33px;
+}
+.planes_imagen .plan1 .nombre h3,
+.planes_imagen .plan1responsive .nombre h3,
+.planes_imagen .plan2 .nombre h3,
+.planes_imagen .plan2responsive .nombre h3 {
+	margin: 0;
+	padding-top: 50px;
+	font-size: 25px;
+	font-weight: 300;
+}
+.planes_imagen .plan1 .nombre .valor,
+.planes_imagen .plan1responsive .nombre .valor,
+.planes_imagen .plan2 .nombre .valor,
+.planes_imagen .plan2responsive .nombre .valor {
+	margin: 0;
+	color: #ff284a;
+	font-size: 25px;
+	padding-bottom: 50px;
+}
+.planes_imagen .plan1 .nombre strong,
+.planes_imagen .plan1responsive .nombre strong,
+.planes_imagen .plan2 .nombre strong,
+.planes_imagen .plan2responsive .nombre strong  {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+.planes_webapp {
+	background: #fff;
+	overflow: hidden; 
+}
+.planes_webapp .plan1,
+.planes_webapp .plan1responsive,
+.planes_webapp .plan2,
+.planes_webapp .plan2responsive {
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	-webkit-background-size: cover;
+  	background-position: center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 500px;
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_webapp .plan1:hover,
+.planes_webapp .plan1responsive:hover,
+.planes_webapp .plan2:hover,
+.planes_webapp .plan2responsive:hover {
+  	transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+}
+.planes_webapp .plan1 {
+	background-image: url(../imagenes/app/app1.jpg); 
+	color: white;
+}
+.planes_webapp .plan1:hover {
+	background-image: url(../imagenes/app/app1_on.jpg); 
+	color: white;
+}
+.planes_webapp .plan1responsive {
+	background-image: url(../imagenes/app/app2.jpg); 
+	color: white;
+}
+.planes_webapp .plan1responsive:hover {
+	background-image: url(../imagenes/app/app2_on.jpg); 
+	color: white;
+}
+.planes_webapp .plan2 {
+	background-image: url(../imagenes/app/app3.jpg); 
+	color: white;
+}
+.planes_webapp .plan2:hover {
+	background-image: url(../imagenes/app/app3_on.jpg); 
+	color: white;
+}
+.planes_webapp .plan2responsive {
+	background-image: url(../imagenes/app/app4.jpg); 
+	color: white;
+}
+.planes_webapp .plan2responsive:hover {
+	background-image: url(../imagenes/app/app4_on.jpg); 
+	color: white;
+}
+.planes_webapp .plan1 .contenido,
+.planes_webapp .plan1 .nombre,
+.planes_webapp .plan1responsive .contenido,
+.planes_webapp .plan1responsive .nombre,
+.planes_webapp .plan2 .contenido,
+.planes_webapp .plan2 .nombre,
+.planes_webapp .plan2responsive .contenido,
+.planes_webapp .plan2responsive .nombre {
+	text-align: center;
+}
+.planes_webapp .plan1 .contenido .contratar,
+.planes_webapp .plan1responsive .contenido .contratar,
+.planes_webapp .plan2 .contenido .contratar,
+.planes_webapp .plan2responsive .contenido .contratar {
+	background: #ff284a;
+	font-weight: 300;
+	width: 120px;
+	margin: 40px auto 0 auto;
+	padding: 10px;
+}
+.planes_webapp .plan1 .contenido p,
+.planes_webapp .plan1responsive .contenido p,
+.planes_webapp .plan2 .contenido p,
+.planes_webapp .plan2responsive .contenido p {
+	margin: 10px 0;
+	font-weight: 300;
+}
+.planes_webapp .plan1 .contenido .vermas,
+.planes_webapp .plan1 .contenido .vermas img,
+.planes_webapp .plan1responsive .contenido .vermas,
+.planes_webapp .plan1responsive .contenido .vermas img,
+.planes_webapp .plan2 .contenido .vermas,
+.planes_webapp .plan2 .contenido .vermas img,
+.planes_webapp .plan2responsive .contenido .vermas,
+.planes_webapp .plan2responsive .contenido .vermas img {
+	height: 30px;
+	margin: 0 auto 2% auto;
+	width: 33px;
+}
+.planes_webapp .plan1 .nombre h3,
+.planes_webapp .plan1responsive .nombre h3,
+.planes_webapp .plan2 .nombre h3,
+.planes_webapp .plan2responsive .nombre h3 {
+	margin: 0;
+	padding-top: 50px;
+	font-size: 25px;
+	font-weight: 300;
+}
+.planes_webapp .plan1 .nombre .valor,
+.planes_webapp .plan1responsive .nombre .valor,
+.planes_webapp .plan2 .nombre .valor,
+.planes_webapp .plan2responsive .nombre .valor {
+	margin: 0;
+	color: #ff284a;
+	font-size: 25px;
+	padding-bottom: 50px;
+}
+.planes_webapp .plan1 .nombre strong,
+.planes_webapp .plan1responsive .nombre strong,
+.planes_webapp .plan2 .nombre strong,
+.planes_webapp .plan2responsive .nombre strong  {
 	color: white;
 	font-size: 14px;
 	font-weight: 300;
@@ -1037,6 +1574,24 @@ header .logo img {
 .slide_diseno {
 	background-image: url(../imagenes/slide_diseno.jpg); 
 }
+.slide_clientes {
+	background-image: url(../imagenes/slide_clientes.jpg); 
+}
+.slide_notificarpago {
+	background-image: url(../imagenes/slide_notificarpago.jpg); 
+}
+.slide_soporte {
+	background-image: url(../imagenes/slide_soporte.jpg); 
+}
+.slide_preguntas {
+	background-image: url(../imagenes/slide_preguntas.jpg); 
+}
+.slide_ofertas {
+	background-image: url(../imagenes/slide_ofertas.jpg); 
+}
+.slide_novedades {
+	background-image: url(../imagenes/slide_novedades.jpg); 
+}
 .slide,
 .slide_desarrolloweb,
 .slide_plan1,
@@ -1069,7 +1624,13 @@ header .logo img {
 .slide_disenografico,
 .slide_impresion,
 .slide_imagencorporativa,
-.slide_diseno {
+.slide_diseno,
+.slide_clientes,
+.slide_notificarpago,
+.slide_soporte,
+.slide_preguntas,
+.slide_ofertas,
+.slide_novedades {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
@@ -1111,7 +1672,13 @@ header .logo img {
 .slide_disenografico .texto_slide,
 .slide_impresion .texto_slide,
 .slide_imagencorporativa .texto_slide,
-.slide_diseno .texto_slide {
+.slide_diseno .texto_slide,
+.slide_clientes .texto_slide,
+.slide_notificarpago .texto_slide,
+.slide_soporte .texto_slide,
+.slide_preguntas .texto_slide,
+.slide_ofertas .texto_slide,
+.slide_novedades .texto_slide {
 	text-align: center;
 	color: white;
 	padding-top: 25%;
@@ -1150,7 +1717,13 @@ header .logo img {
 .slide_disenografico .texto_slide .baja,
 .slide_impresion .texto_slide .baja,
 .slide_imagencorporativa .texto_slide .baja,
-.slide_diseno .texto_slide .baja  {
+.slide_diseno .texto_slide .baja,
+.slide_clientes .texto_slide .baja,
+.slide_notificarpago .texto_slide .baja,
+.slide_soporte .texto_slide .baja,
+.slide_preguntas .texto_slide .baja,
+.slide_ofertas .texto_slide .baja,
+.slide_novedades .texto_slide .baja {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1192,7 +1765,13 @@ header .logo img {
 .slide_disenografico .texto_slide .baja:hover,
 .slide_impresion .texto_slide .baja:hover,
 .slide_imagencorporativa .texto_slide .baja:hover,
-.slide_diseno .texto_slide .baja:hover {
+.slide_diseno .texto_slide .baja:hover,
+.slide_clientes .texto_slide .baja:hover,
+.slide_notificarpago .texto_slide .baja:hover,
+.slide_soporte .texto_slide .baja:hover,
+.slide_preguntas .texto_slide .baja:hover,
+.slide_ofertas .texto_slide .baja:hover,
+.slide_novedades .texto_slide .baja:hover {
 	-webkit-transition: all 0.1s ease-in;
     -moz-transition: all 0.1s ease-in;
     -ms-transition: all 0.1s ease-in;
@@ -1221,7 +1800,13 @@ header .logo img {
 .slide_disenografico .texto_slide .comencemos,
 .slide_impresion .texto_slide .comencemos,
 .slide_imagencorporativa .texto_slide .comencemos,
-.slide_diseno .texto_slide .comencemos {
+.slide_diseno .texto_slide .comencemos,
+.slide_clientes .texto_slide .comencemos,
+.slide_notificarpago .texto_slide .comencemos,
+.slide_soporte .texto_slide .comencemos,
+.slide_preguntas .texto_slide .comencemos,
+.slide_ofertas .texto_slide .comencemos,
+.slide_novedades .texto_slide .comencemos {
 	background: #ff284a;
 	border: none;
 	color: white;
@@ -1257,7 +1842,13 @@ header .logo img {
 .slide_disenografico .texto_slide .comencemos:hover,
 .slide_impresion .texto_slide .comencemos:hover,
 .slide_imagencorporativa .texto_slide .comencemos:hover,
-.slide_diseno .texto_slide .comencemos:hover  {
+.slide_diseno .texto_slide .comencemos:hover,
+.slide_clientes .texto_slide .comencemos:hover,
+.slide_notificarpago .texto_slide .comencemos:hover,
+.slide_soporte .texto_slide .comencemos:hover,
+.slide_preguntas .texto_slide .comencemos:hover,
+.slide_ofertas .texto_slide .comencemos:hover,
+.slide_novedades .texto_slide .comencemos:hover {
 	background: #1f2326;
 	border-bottom: solid 5px #ff284a;
 	color: #ff284a;
@@ -1299,7 +1890,13 @@ header .logo img {
 .slide_disenografico .texto_slide h1,
 .slide_impresion .texto_slide h1,
 .slide_imagencorporativa .texto_slide h1,
-.slide_diseno .texto_slide h1 {
+.slide_diseno .texto_slide h1,
+.slide_clientes .texto_slide h1,
+.slide_notificarpago .texto_slide h1,
+.slide_soporte .texto_slide h1,
+.slide_preguntas .texto_slide h1,
+.slide_ofertas .texto_slide h1,
+.slide_novedades .texto_slide h1 {
 	font-size: 30px;
 }
 .slide .texto_slide h2,
@@ -1334,7 +1931,13 @@ header .logo img {
 .slide_disenografico .texto_slide h2,
 .slide_impresion .texto_slide h2,
 .slide_imagencorporativa .texto_slide h2,
-.slide_diseno .texto_slide h2 {
+.slide_diseno .texto_slide h2,
+.slide_clientes .texto_slide h2,
+.slide_notificarpago .texto_slide h2,
+.slide_soporte .texto_slide h2,
+.slide_preguntas .texto_slide h2,
+.slide_ofertas .texto_slide h2,
+.slide_novedades .texto_slide h2 {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 400;
@@ -1371,7 +1974,13 @@ header .logo img {
 .slide_disenografico .texto_slide h3,
 .slide_impresion .texto_slide h3,
 .slide_imagencorporativa .texto_slide h3,
-.slide_diseno .texto_slide h3 {
+.slide_diseno .texto_slide h3,
+.slide_clientes .texto_slide h3,
+.slide_notificarpago .texto_slide h3,
+.slide_soporte .texto_slide h3,
+.slide_preguntas .texto_slide h3,
+.slide_ofertas .texto_slide h3,
+.slide_novedades .texto_slide h3 {
 	font-size: 16px;
 	margin: 20px 0 0 0;
 	font-weight: 300;
@@ -1409,7 +2018,13 @@ header .logo img {
 .slide_disenografico .texto_slide p,
 .slide_impresion .texto_slide p,
 .slide_imagencorporativa .texto_slide p,
-.slide_diseno .texto_slide p {
+.slide_diseno .texto_slide p,
+.slide_clientes .texto_slide p,
+.slide_notificarpago .texto_slide p,
+.slide_soporte .texto_slide p,
+.slide_preguntas .texto_slide p,
+.slide_ofertas .texto_slide p,
+.slide_novedades .texto_slide p {
 	font-weight: 300;
 	font-size: 20px;
 	margin-top: 50px;
@@ -1482,6 +2097,20 @@ header .logo img {
 	border-color: transparent;
     outline: transparent;
 }
+.tuplan .contenido_centro .contenedorvideo {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.tuplan .contenido_centro .contenedorvideo iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 .tuplan .contenido_centro h3 {
 	font-size: 30px;
 	font-weight: 300;
@@ -1512,6 +2141,7 @@ header .logo img {
 	color: white;
 	text-decoration: none;
 	padding: 10px 20px ;
+	z-index: 99999999999999999;
 }
 
 
