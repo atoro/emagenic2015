@@ -41,142 +41,142 @@
 	<section class="slide_desarrolloweb">
 		<div class="texto_slide">
 			<h1>Desarrollo de Sitios Web, administrables y Posicionable</h1>
-			<h3>Gráfica responsive design a pedido - Carro de compra y pago en linea - Plataforma de administración de contenidos - Galería de fotos y videos administrable - Redes sociales activadas y listas para el marketing - Google analytics para medir tráfico - Diseño de interfaz de Usuario UX/UI</h3>
+			<h3>Al comenzar con grandes relaciones con nuestros clientes,
+				creamos productos y servicios que transforman sus Empresas.</h3>
 			<p>Vamos a Trabajar Juntos</p>
-			<a href="#contacto" class="comencemos">COMENCEMOS</a>
-			<a href="#" class="baja">
-				<img src="../imagenes/bajar.png" alt="icono bajar">
-			</a>
+			<a href="#planes" class="comencemos">ELIJA SU PLAN</a>
 		</div>
 	</section>
 	<section class="tuplan">
 		<div class="contenido_centro">
 			<h3>Elige Tu Plan</h3>
-			<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+			<p>Gráfica responsive design a pedido - Carro de compra y pago en linea - Plataforma de administración de contenidos - Galería de fotos y videos administrable - Redes sociales activadas y listas para el marketing - Google analytics para medir tráfico - Diseño de interfaz de Usuario UX/UI</p>
 		</div>
 	</section>
-	<section class="planes">
-		<a href="plan1.php">
-			<div class="plan1">
-				<div class="nombre">
-					<h3>Plan 1</h3>
-					<p class="valor">$180.000</p>
+	<div id="planes">
+		<section class="planes">
+			<a href="plan1.php">
+				<div class="plan1">
+					<div class="nombre">
+						<h3>Plan 1</h3>
+						<p class="valor">$180.000</p>
+					</div>
+					<div class="contenido">
+						<p>2 a 4 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-				<div class="contenido">
-					<p>2 a 4 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
+			</a>
+			<a href="plan1responsive.php">
+				<div class="plan1responsive">
+					<div class="nombre">
+						<h3>Plan 1 Responsive</h3>
+						<p class="valor">$270.000</p>
+					</div>
+					<div class="contenido">
+						<p>2 a 4 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-			</div>
-		</a>
-		<a href="plan1responsive.php">
-			<div class="plan1responsive">
-				<div class="nombre">
-					<h3>Plan 1 Responsive</h3>
-					<p class="valor">$270.000</p>
+			</a>
+			<a href="plan2.php">
+				<div class="plan2">
+					<div class="nombre">
+						<h3>Plan 2</h3>
+						<p class="valor">$250.000</p>
+					</div>
+					<div class="contenido">
+						<p>5 a 7 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 600 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-				<div class="contenido">
-					<p>2 a 4 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
+			</a>
+			<a href="plan2responsive.php">
+				<div class="plan2responsive">
+					<div class="nombre">
+						<h3>Plan 2 Reponsive</h3>
+						<p class="valor">$375.000</p>
+					</div>
+					<div class="contenido">
+						<p>5 a 7 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 600 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-			</div>
-		</a>
-		<a href="plan2.php">
-			<div class="plan2">
-				<div class="nombre">
-					<h3>Plan 2</h3>
-					<p class="valor">$250.000</p>
+			</a>
+			<a href="plan3.php">
+				<div class="plan3">
+					<div class="nombre">
+						<h3>Plan 3</h3>
+						<p class="valor">$300.000</p>
+					</div>
+					<div class="contenido">
+						<p>8 a 12 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 600 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-				<div class="contenido">
-					<p>5 a 7 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
+			</a>
+			<a href="plan3responsive.php">
+				<div class="plan3responsive">
+					<div class="nombre">
+						<h3>Plan 3 Responsive</h3>
+						<p class="valor">$450.000</p>
+					</div>
+					<div class="contenido">
+						<p>8 a 12 secciones administrables</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de Noticias</p>
+						<p>+ Slideshow</p>
+						<p>Hosting Plan 600 - 1 año</p>
+						<p>Compatible con celulares</p>
+						<p>HTML5, CSS3 Y PHP</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-			</div>
-		</a>
-		<a href="plan2responsive.php">
-			<div class="plan2responsive">
-				<div class="nombre">
-					<h3>Plan 2 Reponsive</h3>
-					<p class="valor">$375.000</p>
-				</div>
-				<div class="contenido">
-					<p>5 a 7 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-		<a href="plan3.php">
-			<div class="plan3">
-				<div class="nombre">
-					<h3>Plan 3</h3>
-					<p class="valor">$300.000</p>
-				</div>
-				<div class="contenido">
-					<p>8 a 12 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-		<a href="plan3responsive.php">
-			<div class="plan3responsive">
-				<div class="nombre">
-					<h3>Plan 3 Responsive</h3>
-					<p class="valor">$450.000</p>
-				</div>
-				<div class="contenido">
-					<p>8 a 12 secciones administrables</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de Noticias</p>
-					<p>+ Slideshow</p>
-					<p>Hosting Plan 600 - 1 año</p>
-					<p>Compatible con celulares</p>
-					<p>HTML5, CSS3 Y PHP</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-	</section>
+			</a>
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

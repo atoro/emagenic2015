@@ -43,8 +43,7 @@
 			<h1>Plan 3 - Consolida</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -55,30 +54,30 @@
 			<p>usualmente este plan es contratado por organizaciones que poseen mucho contenido empresarial que no puede ser combinado con otras secciones, por ejemplo quienes somos, misión, visión, organigrama, por lo general en el plan 1 y 2 estas se juntan en una sola. También este plan al ser mas grande necesita mas apoyo en la mantención del contenido por lo que incorporamos 3 meses de plan de mantención web gratis, de esa manera apoyamos a la administración del sitio mientras aprenden a controlar de manera eficiente e independiente el contenido y servidor. Además este plan incorpora un plan de web hosting de 1 gb</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Especial</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $300.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $300.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

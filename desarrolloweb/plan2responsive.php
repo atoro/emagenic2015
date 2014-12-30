@@ -43,8 +43,7 @@
 			<h1>Plan 2 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -55,31 +54,31 @@
 			<p>sitios responsive entregan la posibilidad de que sus clientes accedan a su información desde cualquier parte del mundo y de cualquier dispositivo con la comodidad de no tener que dar zoom para ver su contenido completo. El plan 2 se puede complementar con todos los módulos extras como carros de compras, formularios a medida y otros.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+					Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Especial</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $375.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $375.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

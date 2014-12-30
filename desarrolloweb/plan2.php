@@ -43,8 +43,7 @@
 			<h1>Plan 2 - Emprede</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -55,31 +54,31 @@
 			<p>Este plan es preferido por Pymes y algunas micro empresas mas posicionadas o que ya han tenido algún sitio web y desean remodelarlo ya sea por las posibilidades gráficas que ofrece html5 y css3 o por que tiene una idea mas clara de lo que quieren publicar en su sitio. Al igual que los demás también es ampliable al plan 3 y se pueden incorporar secciones de gama especial.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+					Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Especial</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $250.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $250.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

@@ -133,7 +133,7 @@
         margin-right: 5px;
         margin-left: 5px;
         padding: auto 5px;
-    } 
+    }
 } 
 
 @media only screen and (min-width: 1000px) { 
@@ -392,6 +392,7 @@
 	}
 	.servicios .servicio p { 
 		width: 80%;
+		height: 140px;
 	}
 	.slide .texto_slide,
 	.slide_desarrolloweb .texto_slide,
@@ -705,6 +706,11 @@
 	.tuplan .contenido_centro {
 		width: 80%;
 	}
+	.tuplan .contenido_centro .img2{
+	width: 30%;
+	margin: 2% auto;
+	text-align: center;
+	}
 }
 
 @media only screen and (min-width: 1280px) { 
@@ -793,5 +799,14 @@
 	}
 	.servicios .servicio h2 {
 		font-size: 25px;
+	}
+	.servicios .servicio p { 
+		width: 80%;
+		height: 110px;
+	}
+	.tuplan .contenido_centro .img2{
+	width: 20%;
+	margin: 2% auto;
+	text-align: center;
 	}
 } 

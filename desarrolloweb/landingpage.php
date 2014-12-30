@@ -43,92 +43,96 @@
 			<h1>Landing Page</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#planes" class="vernuestrostrabajos">VER PLANES</a>
+			<a href="#landing" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<h3>Que es una landing page</h3>
-			<p>Una landing page es una pequeña pagina web de una sola sección (sitio de inicio) que esta diseñada para publicitar un producto, servicio, evento, etc. Estas landing page están divididas en secciones, la que contienen información clasificada por características de lo que se quiere publicitar. Muchas veces también incluyen un menú que permite la navegación en esta, subiendo y bajando sin tener que usar el scroll del mouse. Todas nuestras landing page incluyen un formulario de contacto, la idea es que después de que el cliente vea lo que se publicita pueda contactarlo de manera rápida y segura. Finalmente la grafica es muy importante, todos los planes incluyen al menos una imagen y el plan mas avanzado incluye una galería de fotos</p>
-		</div>
-	</section>
-	<section class="planes_landing">
-		<a href="landing1.php">
-			<div class="plan1">
-				<div class="nombre">
-					<h3>Landing 1</h3>
-					<p class="valor">$80.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 1 Sección de contenido</p>
-					<p>+ 1 imagen</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
+	<div id="landing">
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<h3>Que es una landing page</h3>
+				<p>Una landing page es una pequeña pagina web de una sola sección (sitio de inicio) que esta diseñada para publicitar un producto, servicio, evento, etc. Estas landing page están divididas en secciones, la que contienen información clasificada por características de lo que se quiere publicitar. Muchas veces también incluyen un menú que permite la navegación en esta, subiendo y bajando sin tener que usar el scroll del mouse. Todas nuestras landing page incluyen un formulario de contacto, la idea es que después de que el cliente vea lo que se publicita pueda contactarlo de manera rápida y segura. Finalmente la grafica es muy importante, todos los planes incluyen al menos una imagen y el plan mas avanzado incluye una galería de fotos</p>
 			</div>
-		</a>
-		<a href="landing2.php">
-			<div class="plan1responsive">
-				<div class="nombre">
-					<h3>Landing 2</h3>
-					<p class="valor">$100.000</p>
+		</section>
+	</div>
+	<div id="planes">
+		<section class="planes_landing">
+			<a href="landing1.php">
+				<div class="plan1">
+					<div class="nombre">
+						<h3>Landing 1</h3>
+						<p class="valor">$80.000</p>
+					</div>
+					<div class="contenido">
+						<p>Menu navegable</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 1 Sección de contenido</p>
+						<p>+ 1 imagen</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 2 Sección de contenido</p>
-					<p>+ 2 imagen</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
+			</a>
+			<a href="landing2.php">
+				<div class="plan1responsive">
+					<div class="nombre">
+						<h3>Landing 2</h3>
+						<p class="valor">$100.000</p>
+					</div>
+					<div class="contenido">
+						<p>Menu navegable</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 2 Sección de contenido</p>
+						<p>+ 2 imagen</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-			</div>
-		</a>
-		<a href="landing3.php">
-			<div class="plan2">
-				<div class="nombre">
-					<h3>Landing 3</h3>
-					<p class="valor">$120.000</p>
+			</a>
+			<a href="landing3.php">
+				<div class="plan2">
+					<div class="nombre">
+						<h3>Landing 3</h3>
+						<p class="valor">$120.000</p>
+					</div>
+					<div class="contenido">
+						<p>Menu navegable</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 3 Sección de contenido</p>
+						<p>+ 1 Galería de Imagenes</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 3 Sección de contenido</p>
-					<p>+ 1 Galería de Imagenes</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
+			</a>
+			<a href="landing4.php">
+				<div class="plan2responsive">
+					<div class="nombre">
+						<h3>Landing 4</h3>
+						<p class="valor">$140.000</p>
+					</div>
+					<div class="contenido">
+						<p>Menu navegable</p>
+						<p>+ 1 formulario de contacto</p>
+						<p>+ 4 Sección de contenido</p>
+						<p>+ 1 Galería de Imagenes</p>
+						<p>Hosting Plan 300 - 1 año</p>
+						<figure class="vermas">
+							<img src="../imagenes/vermas.png" alt="icono ver mas">
+						</figure>
+					</div>
 				</div>
-			</div>
-		</a>
-		<a href="landing4.php">
-			<div class="plan2responsive">
-				<div class="nombre">
-					<h3>Landing 4</h3>
-					<p class="valor">$140.000</p>
-				</div>
-				<div class="contenido">
-					<p>Menu navegable</p>
-					<p>+ 1 formulario de contacto</p>
-					<p>+ 4 Sección de contenido</p>
-					<p>+ 1 Galería de Imagenes</p>
-					<p>Hosting Plan 300 - 1 año</p>
-					<figure class="vermas">
-						<img src="../imagenes/vermas.png" alt="icono ver mas">
-					</figure>
-				</div>
-			</div>
-		</a>
-	</section>
+			</a>
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

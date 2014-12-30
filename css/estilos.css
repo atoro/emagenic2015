@@ -1325,7 +1325,16 @@ header .logo img {
 	margin: 0;
 	color: #ff284a;
 	font-size: 25px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
+}
+.planes_webapp .plan1 .nombre .valor2,
+.planes_webapp .plan1responsive .nombre .valor2,
+.planes_webapp .plan2 .nombre .valor2,
+.planes_webapp .plan2responsive .nombre .valor2 {
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	padding-bottom: 40px;
 }
 .planes_webapp .plan1 .nombre strong,
 .planes_webapp .plan1responsive .nombre strong,
@@ -2084,6 +2093,14 @@ header .logo img {
 	margin: 0 auto;
 	text-align: center;
 }
+.tuplan .contenido_centro .img2{
+	width: 50%;
+	margin: 2% auto;
+	text-align: center;
+}
+.tuplan .contenido_centro .img2 img{
+	width: 100%;
+}
 .tuplan .contenido_centro .boton {
 	display: block;
 	background: #ff284e;
@@ -2120,6 +2137,13 @@ header .logo img {
 	font-weight: 300;
 	border-top: solid 1px #ccc;
 	padding-top: 20px;
+}
+.tuplan .contenido_centro .img {
+	width: 50%;
+	margin: auto;
+}
+.tuplan .contenido_centro .img img {
+	width: 100%;
 }
 .tuplan .contenido_centro p {
 	line-height: 23px;

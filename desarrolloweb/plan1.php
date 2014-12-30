@@ -41,10 +41,13 @@
 	<section class="slide_plan1">
 		<div class="texto_slide">
 			<h1>Plan 1 - Inicia</h1>
-			<h3>Al comenzar con grandes relaciones con nuestros clientes,
-				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<h3>
+            Muy practico y con ilimitadas posibilidades de competir por posicionamiento contra las grandes paginas, esto gracias a que incorpora una plataforma de noticias y novedades que le permiten escribir innumerables artículos sobre sus servicios, productos y experiencias de sus clientes.
+            
+            
+            </p>
+			
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -52,35 +55,36 @@
 	<section class="tuplan">
 		<div class="contenido_centro">
 			<h3>El Plan 1 es el plan preferido de las micro empresas, es un plan económico</h3>
-			<p>Muy practico y con ilimitadas posibilidades de competir por posicionamiento contra las grandes paginas, esto gracias a que incorpora una plataforma de noticias y novedades que le permiten escribir innumerables artículos sobre sus servicios, productos y experiencias de sus clientes. <br>
+			<p>
 			<br>	
 			Este plan incorpora una sección de contacto que le permite a sus clientes enviar consultas las cuales llegan directamente a su correo electrónico empresaria. Además    incorpora 4 secciones a su elección de la gama estándar, la cual se detallara a continuación. Lo mas importante de este plan es que a medida que su negocio o necesidades crece se puede ampliar al plan 2 o 3, o incluso incorporar plataformas de la gama especial.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+					Pymes de comercialización - Bloggers</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $200.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $200.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
+		</section>
+	</div>
 
 	<section id="contacto">
 		<div class="formulario">

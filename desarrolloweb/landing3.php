@@ -43,41 +43,43 @@
 			<h1>Sitio Landing page 3</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			
+			<a href="#contenido" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<p>El landing page plan 3 es un sitio web de una sola pagina dividida en 3 secciones y un formulario de contacto. Estas secciones tienen multiples propósitos, pueden contener descripciones con una imagen cada una, google map, archivo de descargar y finalmente una galería de imágenes. <br>
-			<br>
-			Se puede utilizar para publicitar productos, servicios, proyectos inmobiliarios, un eventos o cualquier actividad.
-			Nuestros clientes prefieren este landong page por que su galería de imágenes es administrable, contiene correos electrónicos y su contenido es administrable</p>
-		</div>
-	</section>
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Tres Imagenes - Un Google Map - Un Archivo descargable - Tres Secciones - Una galería de fotos</p>
+	
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<p>El landing page plan 3 es un sitio web de una sola pagina dividida en 3 secciones y un formulario de contacto. Estas secciones tienen multiples propósitos, pueden contener descripciones con una imagen cada una, google map, archivo de descargar y finalmente una galería de imágenes. <br>
+				<br>
+				Se puede utilizar para publicitar productos, servicios, proyectos inmobiliarios, un eventos o cualquier actividad.
+				Nuestros clientes prefieren este landong page por que su galería de imágenes es administrable, contiene correos electrónicos y su contenido es administrable</p>
 			</div>
-			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Pymes y Microempresas - Inmobiliarias - Profesionales - Inventores de un gran proyecto </p>
+		</section>
+	<div id="contenido">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Que podria contener el landing</h3>
+					<p>Descripción del producto o servicio - Tres Imagenes - Un Google Map - Un Archivo descargable - Tres Secciones - Una galería de fotos</p>
+				</div>
+				<div class="bloque">
+					<h3>Quienes Contratan Landing</h3>
+					<p>Pymes y Microempresas - Inmobiliarias - Profesionales - Inventores de un gran proyecto </p>
+				</div>
+				<div class="bloque">
+					<h3>Tipos de Usos</h3>
+					<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Proyecto Inmobiliario </p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Proyecto Inmobiliario </p>
+			<div class="valor">
+				<h3>Valor Único: $120.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $120.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

@@ -43,20 +43,22 @@
 			<h1>Servicios Frontend</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			
+			<a href="#frontend" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<h3>Desarrollo Frontend</h3>
-			<p>Muchos desarrolladores de aplicaciones web, también conocidos como backend son muy especialistas en sus lenguajes, en seguridad informática y bases de datos pero les falta el toque artístico y el toque de interfaces de usuarios que solo una empresa de diseñadores graficos y frontend puede entregar. <br>
-			<br>
-			Nosotros desarrollamos una atractiva interfaz para sus aplicaciones y luego la armamos en html5 con toda la tecnología responsiva que css3 puede entregar, de esta manera su sistema no solo es una aplicación completamente funcional, si no que también es atractiva, cómoda de navegar y elástica para que se pueda utilizar desde cualquier dispositivo.</p>
-		</div>
-	</section>
+	<div id="frontend">
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<h3>Desarrollo Frontend</h3>
+				<p>Muchos desarrolladores de aplicaciones web, también conocidos como backend son muy especialistas en sus lenguajes, en seguridad informática y bases de datos pero les falta el toque artístico y el toque de interfaces de usuarios que solo una empresa de diseñadores graficos y frontend puede entregar. <br>
+				<br>
+				Nosotros desarrollamos una atractiva interfaz para sus aplicaciones y luego la armamos en html5 con toda la tecnología responsiva que css3 puede entregar, de esta manera su sistema no solo es una aplicación completamente funcional, si no que también es atractiva, cómoda de navegar y elástica para que se pueda utilizar desde cualquier dispositivo.</p>
+			</div>
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

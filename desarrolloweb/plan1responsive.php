@@ -43,8 +43,7 @@
 			<h1>Plan 1 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -52,34 +51,34 @@
 	<section class="tuplan">
 		<div class="contenido_centro">
 			<h3>El plan 1 responsivo es el plan mas solicitado por los emprendedores que miran a futuro</h3>
-			<p>por que si bien es cierto es un plan 1, el plan mas básico y por lo tanto contiene las secciones justas y necesarias además esta diseñada con tecnología responsiva, es decir, se adapta a todas las resoluciones de los dispositivos de sus clientes, ya sea un celular, Tablet, computador, etc. El plan 1 responsivo promete entregar todas las funciones necesarias para formar parte eficiente en la web, consiguiendo nuevos clientes y entregando la posibilidad de dar a conocer a todo el mundo sus productos y/o servicios.</p>
+			<p>Por que si bien es cierto es un plan 1, el plan mas básico y por lo tanto contiene las secciones justas y necesarias además esta diseñada con tecnología responsiva, es decir, se adapta a todas las resoluciones de los dispositivos de sus clientes, ya sea un celular, Tablet, computador, etc. El plan 1 responsivo promete entregar todas las funciones necesarias para formar parte eficiente en la web, consiguiendo nuevos clientes y entregando la posibilidad de dar a conocer a todo el mundo sus productos y/o servicios.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
+					Pymes de comercialización - Bloggers</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Especial</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $270.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Micro empresas - Organizaciones deportivas - Pymes de Servicios
-				Pymes de comercialización - Bloggers</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $270.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	<div id="detalleplan">
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

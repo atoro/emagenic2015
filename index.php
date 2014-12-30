@@ -25,7 +25,7 @@
 			<li><a href="http://www.emagenic.cl/new">Inicio</a></li>
 			<li><a href="desarrolloweb">Desarrollo Web</a></li>
 			<li><a href="clientes">Clientes</a></li>
-			<li><a href="http://emagenic.blogspot.com/" target="new">Blog</a></li>
+			<li><a href="novedades">Novedades</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
 		<a href="carrocompras">
@@ -37,64 +37,66 @@
 		</a>
 	</header>
 	<section class="slide">
-		<div class="texto_slide">
+	  <div class="texto_slide">
 			<h1>Desarrollo de Sitios Web</h1>
 			<h2>Desarrollamos sitios web, a medida, en HTML5 y sin Plantillas desde Rancagua para Chile y el Mundo.</h2>
 			<h3>Contenido Autoadministrable y seguro para garantizar la presecia de su empresa en la web</h3>
-			<p>Vamos a Trabajar Juntos</p>
-			<a href="#contacto" class="comencemos">COMENCEMOS</a>
-			<a href="#" class="baja">
-				<img src="imagenes/bajar.png" alt="icono bajar">
-			</a>
+		<p>Vamos a Trabajar Juntos</p>
+		  <a href="#servicios" class="comencemos">COMENCEMOS</a>
+		  <a href="#contacto" class="baja">
+			  <img src="imagenes/bajar.png" alt="icono bajar">
+		  </a>
 		</div>
 	</section>
-	<section class="servicios">
-		<a class="servicio" href="desarrolloweb">
-			<h2>Desarrollo Web</h2>
-			<p>Desarrollo de sitios web 
-			a medida para su exito 
-			empresarial y posicionamiento</p>
-			<figure class="vermas">
-				<img src="imagenes/vermas.png" alt="icono ver mas">
-			</figure>
-		</a>
-		<a class="servicio" href="disenografico">
-			<h2>Diseño Gráfico</h2>
-			<p>Imagen corporativa y todo 
-			lo que la compone  
-		    diseñada por profesionales.</p>
-			<figure class="vermas">
-				<img src="imagenes/vermas.png" alt="icono ver mas">
-			</figure>
-		</a>
-		<a class="servicio" href="webhosting">
-			<h2>Web Hosting</h2>
-			<p>Hosting seguro y confiable 
-			es la clave para la estabilidad 
-			de todo.</p>
-			<figure class="vermas">
-				<img src="imagenes/vermas.png" alt="icono ver mas">
-			</figure>
-		</a>
-		<a class="servicio" href="marketingonline">
-			<h2>Marketing Online</h2>
-			<p>Posicionamiento orgánico, 
-			campaña AdWords y 
-			social media</p>
-			<figure class="vermas">
-				<img src="imagenes/vermas.png" alt="icono ver mas">
-			</figure>
-		</a>
-		<a class="servicio" href="webapp">
-			<h2>Web App</h2>
-			<p>Necesita acceder a información 
-			desde sus móviles, 
-			desarrollemos una a medida.</p>
-			<figure class="vermas">
-				<img src="imagenes/vermas.png" alt="icono ver mas">
-			</figure>
-		</a>
-	</section>
+	<div id="servicios">
+		<section class="servicios">
+			<a class="servicio" href="desarrolloweb">
+				<h2>Desarrollo Web</h2>
+				<p>Desarrollo de sitios web 
+				a medida para su exito 
+				empresarial y posicionamiento</p>
+				<figure class="vermas">
+					<img src="imagenes/vermas.png" alt="icono ver mas">
+				</figure>
+			</a>
+			<a class="servicio" href="disenografico">
+				<h2>Diseño Gráfico</h2>
+				<p>Imagen corporativa y todo 
+				lo que la compone  
+			    diseñada por profesionales.</p>
+				<figure class="vermas">
+					<img src="imagenes/vermas.png" alt="icono ver mas">
+				</figure>
+			</a>
+			<a class="servicio" href="webhosting">
+				<h2>Web Hosting</h2>
+				<p>Hosting seguro y confiable 
+				es la clave para la estabilidad 
+				de todo.</p>
+				<figure class="vermas">
+					<img src="imagenes/vermas.png" alt="icono ver mas">
+				</figure>
+			</a>
+			<a class="servicio" href="marketingonline">
+				<h2>Marketing Online</h2>
+				<p>Posicionamiento orgánico, 
+				campaña AdWords y 
+				social media</p>
+				<figure class="vermas">
+					<img src="imagenes/vermas.png" alt="icono ver mas">
+				</figure>
+			</a>
+			<a class="servicio" href="webapp">
+				<h2>Web App</h2>
+				<p>Necesita acceder a información 
+				desde sus móviles, 
+				desarrollemos una a medida.</p>
+				<figure class="vermas">
+					<img src="imagenes/vermas.png" alt="icono ver mas">
+				</figure>
+			</a>
+		</section>
+	</div>
 	<section class="crear bounce">
 		<article class="web">
 			<h2>Crear una Página Web</h2>

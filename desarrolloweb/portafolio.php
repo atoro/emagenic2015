@@ -43,7 +43,7 @@
 			<h1>Portafolio web</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="#" class="baja">
+			<a href="#portafolio" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -57,48 +57,50 @@
 			Diseño de interfaz de Usuario UX/UI.</p>
 		</div>
 	</section>
-	<section class="portafolio">
-		<div class="bloque1">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/1.png" alt="logo tknet">
-			</a>
-		</div>
-		<div class="bloque2">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/2.png" alt="logo clinica juan quinteros">
-			</a>
-		</div>
-		<div class="bloque3">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/3.png" alt="logo busca tu propiedad">
-			</a>
-		</div>
-		<div class="bloque4">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/4.png" alt="logo sv ait ltda">
-			</a>
-		</div>
-		<div class="bloque5">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/5.png" alt="logo csa servicios industriales">
-			</a>
-		</div>
-		<div class="bloque6">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/6.png" alt="logo rancagua propiedades">
-			</a>
-		</div>
-		<div class="bloque7">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/7.png" alt="logo obesidadcirugia">
-			</a>
-		</div>
-		<div class="bloque8">
-			<a href="#" target="new">
-				<img src="../imagenes/portafolio/logos/8.png" alt="logo servi campo">
-			</a>
-		</div>
-	</section>
+	<div id="portafolio">
+		<section class="portafolio">
+			<div class="bloque1">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/1.png" alt="logo tknet">
+				</a>
+			</div>
+			<div class="bloque2">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/2.png" alt="logo clinica juan quinteros">
+				</a>
+			</div>
+			<div class="bloque3">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/3.png" alt="logo busca tu propiedad">
+				</a>
+			</div>
+			<div class="bloque4">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/4.png" alt="logo sv ait ltda">
+				</a>
+			</div>
+			<div class="bloque5">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/5.png" alt="logo csa servicios industriales">
+				</a>
+			</div>
+			<div class="bloque6">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/6.png" alt="logo rancagua propiedades">
+				</a>
+			</div>
+			<div class="bloque7">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/7.png" alt="logo obesidadcirugia">
+				</a>
+			</div>
+			<div class="bloque8">
+				<a href="#" target="new">
+					<img src="../imagenes/portafolio/logos/8.png" alt="logo servi campo">
+				</a>
+			</div>
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

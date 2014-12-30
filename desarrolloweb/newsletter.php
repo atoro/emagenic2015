@@ -43,22 +43,24 @@
 			<h1>Newsletter</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			
+			<a href="#newsletter" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<h3>Newsletter</h3>
-			<p>Las newsletter son paginas diseñadas para captar la atención de sus clientes a través de un correo electrónico atractivo pero desarrolladas en html 3. Por que HTML 3? <br>
-			<br>
-			Los gestores de correos electrónicos no permiten cargar la totalidad de los archivos utilizados en html5, no saben interpretar sus etiquetas por lo tanto debemos utilizar tablas, vincular las imágenes a un servidor web para no tener que adjuntar archivos e incluir todas las instrucciones de colores y diseños en el mismo código de la pagina. <br>
-			<br>
-			A diferencia de otras empresas nosotros no enviamos estas newsletter, solo entregamos un atractivo diseño a medida y como todos nuestros trabajos, sin plantillas compradas, diseños 100% a medida de sus necesidades.</p>
-		</div>
-	</section>
+	<div id="newsletter">
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<h3>Newsletter</h3>
+				<p>Las newsletter son paginas diseñadas para captar la atención de sus clientes a través de un correo electrónico atractivo pero desarrolladas en html 3. Por que HTML 3? <br>
+				<br>
+				Los gestores de correos electrónicos no permiten cargar la totalidad de los archivos utilizados en html5, no saben interpretar sus etiquetas por lo tanto debemos utilizar tablas, vincular las imágenes a un servidor web para no tener que adjuntar archivos e incluir todas las instrucciones de colores y diseños en el mismo código de la pagina. <br>
+				<br>
+				A diferencia de otras empresas nosotros no enviamos estas newsletter, solo entregamos un atractivo diseño a medida y como todos nuestros trabajos, sin plantillas compradas, diseños 100% a medida de sus necesidades.</p>
+			</div>
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

@@ -43,8 +43,7 @@
 			<h1>Plan 3 - Responsive</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#detalleplan" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
@@ -55,30 +54,30 @@
 			<p>conocido como el plan profesional esta orientado a grandes organizaciones ya que va desde ocho a doce secciones, estas secciones son todas elásticas en la distribución responsiva, es decir se adaptan a su celulare, tablet, computador o cualquier dispositivo del que se visite. El plan 3 responsive esta pensado en las grandes empresas no tan solo por su gran cantidad de secciones si no que por la capacidad del hosting que incluye de regalo por un año, 1 Giga que pueden utilizarse en correos electrónicos o sitio web para almacenar sus fotos, videos y todas las funciones que hace su sitio web exitoso en todos los aspectos.</p>
 		</div>
 	</section>
-
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Secciones de Gama Estándar</h3>
-				<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
-				Link de interés - Galería de fotos - Galería de vidéos</p>
+	<div id="detalleplan">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Secciones de Gama Estándar</h3>
+					<p>Inicio - Quienes somos - Servicios - Productos - Ubicación con mapa de google
+					Link de interés - Galería de fotos - Galería de vidéos</p>
+				</div>
+				<div class="bloque">
+					<h3>Secciones de Gama Alta</h3>
+					<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
+					Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+				</div>
+				<div class="bloque">
+					<h3>Clientes Frecuentes</h3>
+					<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Secciones de Gama Especial</h3>
-				<p>Carro de compras - Formulario de orden de compras - Solicitud de cotización
-				Sistema de compra y venta - Plataforma de estudio: a pedido</p>
+			<div class="valor">
+				<h3>Valor Único: $450.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-			<div class="bloque">
-				<h3>Clientes Frecuentes</h3>
-				<p>Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
-			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $450.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

@@ -43,39 +43,41 @@
 			<h1>Sitio Landing page 2</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			
+			<a href="#contenido" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<p>El landing page 2 es un pequeño sitio web de una sola pagina que contiene dos secciones en donde se puede describir un producto, un servicio, una actividad acompañada de una imagen y en una segunda sección se puede complementar con otra descripción con imagen, un mapa de google o cualquier otro objeto que apoye la descripción de lo que se pretende publicitar.
-			Este landing es manejado por un pequeño menú que facilita la navegación en el y un formulario de contacto</p>
-		</div>
-	</section>
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+	
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<p>El landing page 2 es un pequeño sitio web de una sola pagina que contiene dos secciones en donde se puede describir un producto, un servicio, una actividad acompañada de una imagen y en una segunda sección se puede complementar con otra descripción con imagen, un mapa de google o cualquier otro objeto que apoye la descripción de lo que se pretende publicitar.
+				Este landing es manejado por un pequeño menú que facilita la navegación en el y un formulario de contacto</p>
 			</div>
-			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Pymes - Empredendores con un buen producto - Profesionales - Micro Empresas </p>
+		</section>
+	<div id="contenido">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Que podria contener el landing</h3>
+					<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+				</div>
+				<div class="bloque">
+					<h3>Quienes Contratan Landing</h3>
+					<p>Pymes - Empredendores con un buen producto - Profesionales - Micro Empresas </p>
+				</div>
+				<div class="bloque">
+					<h3>Tipos de Usos</h3>
+					<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Artista </p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal - Publicitar un Artista </p>
+			<div class="valor">
+				<h3>Valor Único: $100.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $100.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>

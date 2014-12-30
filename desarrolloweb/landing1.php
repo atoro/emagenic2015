@@ -43,41 +43,41 @@
 			<h1>Sitio Landing page 1</h1>
 			<h3>Al comenzar con grandes relaciones con nuestros clientes,
 				creamos productos y servicios que transforman sus Empresas.</p>
-			<a href="portafolio.php" class="vernuestrostrabajos">VER NUESTROS TRABAJOS</a>
-			<a href="#" class="baja">
+			<a href="#contenido" class="baja">
 				<img src="../imagenes/bajar.png" alt="icono bajar">
 			</a>
 		</div>
 	</section>
-	<section class="tuplan">
-		<div class="contenido_centro">
-			<p>El landing page 1 es un plan de publicidad basado en un sitio web de una sola sección que contiene un menú de navegación por esta única pagina que permite subir y bajar a las diferentes secciones de esta. <br>
-			<br>
-			Esta pagina cuenta con una sección donde puede explicar de que se trata el productos, servicio o evento que se quiere difundir, complementándola con una imagen y un formulario de contacto que permite a los interesados escribir para solicitar mas información o enviar sus datos para ser contactado.
-			El landong incluye un web hosting de 300 megas por 1 año</p>
-		</div>
-	</section>
-	<section class="detalleplan">
-		<div class="web">
-			<div class="bloque">
-				<h3>Que podria contener el landing</h3>
-				<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+		<section class="tuplan">
+			<div class="contenido_centro">
+				<p>El landing page 1 es un plan de publicidad basado en un sitio web de una sola sección que contiene un menú de navegación por esta única pagina que permite subir y bajar a las diferentes secciones de esta. <br>
+				<br>
+				Esta pagina cuenta con una sección donde puede explicar de que se trata el productos, servicio o evento que se quiere difundir, complementándola con una imagen y un formulario de contacto que permite a los interesados escribir para solicitar mas información o enviar sus datos para ser contactado.
+				El landong incluye un web hosting de 300 megas por 1 año</p>
 			</div>
-			<div class="bloque">
-				<h3>Quienes Contratan Landing</h3>
-				<p>Empresas - Empredendores - Profesionales - Artistas </p>
+		</section>
+	<div id="contenido">
+		<section class="detalleplan">
+			<div class="web">
+				<div class="bloque">
+					<h3>Que podria contener el landing</h3>
+					<p>Descripción del producto o servicio - Una Imagen - Un Google Map - Un Archivo descargable - Una Sección</p>
+				</div>
+				<div class="bloque">
+					<h3>Quienes Contratan Landing</h3>
+					<p>Empresas - Empredendores - Profesionales - Artistas </p>
+				</div>
+				<div class="bloque">
+					<h3>Tipos de Usos</h3>
+					<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal</p>
+				</div>
 			</div>
-			<div class="bloque">
-				<h3>Tipos de Usos</h3>
-				<p>Publicitar un evento - Publicitar un producto - Publicitar un servicio - Publicitar una nueva sucursal</p>
+			<div class="valor">
+				<h3>Valor Único: $80.000</h3>
+				<a href="#">AGREGAR AL CARRO</a>
 			</div>
-		</div>
-		<div class="valor">
-			<h3>Valor Único: $80.000</h3>
-			<a href="#">AGREGAR AL CARRO</a>
-		</div>
-	</section>
-
+		</section>
+	</div>
 	<section id="contacto">
 		<div class="formulario">
 			<h3>Contactános</h3>
